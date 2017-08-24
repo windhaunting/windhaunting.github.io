@@ -1,0 +1,50 @@
+.link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	line-height:15px;
+}
+.whitetext {
+	font-family: BankGothic Lt BT;
+	font-size: 14px;
+	color: #ffffff;
+	line-height:15px;
+	font-weight:bold;
+	margin-top:5px;
+}
+.topblue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #3B54A8;
+	font-weight:bold;
+	line-height:25px;
+	
+}
+.bluetxt {
+	font-family: BankGothic Lt BT;
+	font-size: 16px;
+	color: #28418B;
+	line-height:15px;
+	font-weight:bold;
+	
+}
+.whitebig {
+	font-family: BankGothic Lt BT;
+	font-size: 22px;
+	color: #ffffff;
+	line-height:15px;
+	font-weight:bold;
+}
+.orange {
+	font-family: Vivacious;
+	font-size: 20px;
+	color: #FF9E03;
+	line-height:15px;
+	font-weight:bold;
+}
