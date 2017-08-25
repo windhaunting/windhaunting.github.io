@@ -27,7 +27,7 @@ ul {padding:0;margin:0 0 0 17px;list-style: square url(images/bullet.gif);}
 }
 
 /*** Layout ****/
-#wrapper {margin : 0 auto;width : 1200px;border-left : 1px solid #f0e9eb;border-right : 1px solid #f0e9eb; font-size: 12pt;line-height: 130%;}
+#wrapper {margin : 0 auto;width : 1000px;border-left : 1px solid #f0e9eb;border-right : 1px solid #f0e9eb; font-size: 12pt;line-height: 130%;}
 #header {margin : 0 1px;}
 #bg {height : 36px;background : url(images/bg.gif) repeat-x;}
 

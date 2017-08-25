@@ -1,15 +1,16 @@
 /*** Global Settings ****/
 body {
-	color : #333333;
+	color : #EEFEFF;
 	margin : 0;
 	padding : 0;
 	background:#BCD0B7;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-style: normal;
-	line-height: 20px;
+	line-height: 1.6em;
 	font-weight: normal;
 	font-variant: normal;
+	text-decoration: blink;
 }
 p { margin : 0;padding : 0;}
 a:visited, a:link {color : #a43b55;text-decoration : underline;background:none;}
@@ -21,12 +22,12 @@ ul {padding:0;margin:0 0 0 17px;list-style: square url(images/bullet.gif);}
 .box {
 	border : 0px none #f0e9eb;
 	padding : 0px;
-	background-color: #FFFFCC;
-	height: 20px;
+	width: 200px;
+	background-color: #EEFFEF;
 }
 
-/*** Layout width : 1200px; ****/
-#wrapper {margin : 0 auto;border-left : 1px solid #f0e9eb;border-right : 1px solid #f0e9eb; font-size: 12pt;line-height: 130%;}
+/*** Layout ****/
+#wrapper {margin : 0 auto;width : 900px;border-left : 1px solid #f0e9eb;border-right : 1px solid #f0e9eb; font-size: 12pt;line-height: 130%;}
 #header {margin : 0 1px;}
 #bg {height : 36px;background : url(images/bg.gif) repeat-x;}
 
@@ -34,6 +35,8 @@ ul {padding:0;margin:0 0 0 17px;list-style: square url(images/bullet.gif);}
 
 #nav a:visited, #nav a:link {text-decoration : none;color : #f6dde3;}
 #nav a:hover {text-decoration : underline;color : #f6dde3;}
+#navLeft {background: none; padding : 1px 2px;text-align :left;}
+#navLeft a:link {text-decoration : none; color: #f6dde3;}
 
 #main-content {margin : 0 auto;}
 #logo {margin-bottom : 45px;}
