@@ -35,7 +35,7 @@ ul {padding:0;margin:0 0 0 17px;list-style: square url(images/bullet.gif);}
 #nav a:visited, #nav a:link {text-decoration : none;color : #f6dde3;}
 #nav a:hover {text-decoration : underline;color : #f6dde3;}
 #navLeft a:link {text-decoration : none; color : #f6dde3;}
-#navLeft a:hover {text-decoration : underline;color : #f6dde3;}
+#navLeft {background : #7a2e40;padding : 10px 20px;text-align : left;color : #f6dde3;}
 
 #main-content {margin : 0 auto;}
 #logo {margin-bottom : 45px;}
