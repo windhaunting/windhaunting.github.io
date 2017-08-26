@@ -12,9 +12,7 @@ body {
 	font-variant: normal;
 	text-decoration: blink;
 }
-th {
-color: #000000;
-}
+
 p { margin : 0;padding : 0;}
 a:visited, a:link {color : #a43b55;text-decoration : underline;background:none;}
 a:hover {color : #a43b55;text-decoration : none;background:none;}
