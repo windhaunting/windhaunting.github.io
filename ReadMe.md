@@ -1,8 +1,4 @@
 
-
-
-
-
 ```html
 <h2>Fubao Wu's website</h2>
 
