@@ -1,3 +1,3 @@
 Fubao Wu's website
 
-see (<a href= "https://windhaunting.github.io/> </a>)
+see (https://windhaunting.github.io)
