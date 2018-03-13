@@ -97,6 +97,12 @@ img {
     width: calc(100% - 300px);    
 }
 
+
+tr.noBorder td {
+  border: 0;
+}
+
+
 /*** SideBAR ***/
 #main-image {text-align : center;}
 .sidebar {width : 218px;margin : 0 auto;padding : 10px 25px;}
