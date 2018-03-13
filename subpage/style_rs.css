@@ -58,6 +58,10 @@ ul {padding:0;margin:0 0 0 17px;list-style: square url(images/bullet.gif);}
     margin-right:5px;
 }
 
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
 /*** SideBAR ***/
 #main-image {text-align : center;}
 .sidebar {width : 218px;margin : 0 auto;padding : 10px 25px;}
