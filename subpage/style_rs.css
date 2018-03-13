@@ -89,12 +89,12 @@ researchContent width: 855px;
 img {
     display: inline-block;
     vertical-align: middle;
-    width: 500px;
+    width: 300px;
 }
 .text {
     display: inline-block;
     vertical-align: middle;
-    width: calc(100% - 500px);    
+    width: calc(100% - 300px);    
 }
 
 /*** SideBAR ***/
