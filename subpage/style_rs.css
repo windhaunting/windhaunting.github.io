@@ -64,21 +64,25 @@ researchContent width: 855px;
 }
 
 
-.clearfix {
-    *zoom:1 /* for IE */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
+.cf:after {
     clear: both;
 }
-
-.clearfix {
+.cf > div
+{
+ display:table-cell;
+    vertical-align:top;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
     *zoom: 1;
 }
 
