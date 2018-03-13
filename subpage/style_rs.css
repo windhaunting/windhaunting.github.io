@@ -58,6 +58,12 @@ ul {padding:0;margin:0 0 0 17px;list-style: square url(images/bullet.gif);}
     margin-right:5px;
 }
 
+researchContent width: 855px;
+  margin:0 auto;
+#text-align: center;
+}
+
+
 .clearfix {
     *zoom:1 /* for IE */
 }
