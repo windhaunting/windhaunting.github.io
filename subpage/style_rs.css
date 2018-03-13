@@ -50,6 +50,28 @@ ul {padding:0;margin:0 0 0 17px;list-style: square url(images/bullet.gif);}
 	margin:0 0 .8em 1em;
 }
 
+
+.STYLE2 {font-size: 24px;
+	font-weight: bold;
+	color : #a43b55;
+}
+
+.STYLE21 {font-size: 24px;
+	font-weight: bold;
+}
+
+.STYLE3 {font-size: 18px; 
+	font-weight: bold;}
+body {
+	background-color: #FFFFFF;
+}
+.STYLE4 {font-size: 14px}
+.STYLE5 {font-size: 13px}
+.STYLE6 {font-size: 12px}
+.STYLE7 {font-size: 11px}
+
+
+
 /* tell the container's children to float left: */
 .float-my-children > * {
     float:left;
