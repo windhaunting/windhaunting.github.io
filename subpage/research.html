@@ -155,29 +155,23 @@ to any desirable location.
    <tr class="noBorder">
    <td>
    <p class="STYLE3"></p>
-   <p><span class="STYLE3"><strong> Indoor Way-finding Using Bluetooth Low Energy Beacons </strong></span></p>
+   <p><span class="STYLE3"><strong> Smart Home--Multi tiered Architecture </strong></span></p>
    <br />
    <p class="STYLE4">
-With the new advancement in technologies and with pervasive use of smart phones, we are observing a new paradigm of way
-finding and navigation. Most of the new smart phones has the ability
-to receive the GPS signals and use them for localization. GPS based
-localization and navigation is simply replacing the old fashion map based
-navigation which was used for long time. The only problem with this new
-approach is that it can not be used inside the buildings. In this work,
-we implemented a localization and wayfinding application in in Java for
-android based smart phones and tablets which is used for navigation
-inside the buildings. The localization is based on the data collected from
-some bluetooth low energy tags which are well placed in the first floor
-of Marcus building. The system catches the signals coming from all
-the beacons in its range and estimates the distance to each of them.
-Using the distance from the three nearest tags we could find our location
-related to the location of those tags and by knowing the absolute location
-of those tags we could find our location. After finding our location, we
-could use a simple navigation algorithm for navigate through the building
-to any desirable location.
+Multi tiered Architecture:  <br>
+We implemented the database in the back end tier and all the sensors and gateway are assumed to be in front end tier.
+All the sensors and devices either push events to gateway or pull events from sensors and devices.
+Gate way is made to communicate with the database to populate the database with all the push and pull events from sensors and devices at a particular time stamp. Gateway can query the database and get the current status of a device or sensor and can report the particular machine.
+Database is Synchronized to avoid multiple threads accessing at same time.  < br>
+Replication and fault tolerant Architecture: <br>
+The Gateway is made fault tolerant by adding an replication of data base that can take
+care of all the devices and sensors when failures occur. Gateway and its replication can
+also share load between them by sharing the sensors and devices which they can co-
+ordinate. A Cache is present between database and gateway to improve performance.
+
 </p>
-   <p>&nbsp; More details <a href="docs/indoorNavigation.pdf" target="_blank"> here </a> </p>
-   <p>&nbsp; <a href="https://github.com/windhaunting/navigation_android" target="_blank"> Github </a> </p>
+   <p>&nbsp; More details <a href="docs/OSProject_phase1.pdf" target="_blank"> [1] &nbsp; <a href="docs/OSProject_phase2.pdf" target="_blank"> [2] &nbsp; <a href="docs/OSProject_phase3.pdf" target="_blank"> [3]  </a> </p>
+   <p>&nbsp; <a href="https://github.com/windhaunting/SmartHome-I" target="_blank"> Github </a> </p>
 <br><br><br><br><br>
  </td>
  <td>
