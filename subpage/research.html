@@ -47,10 +47,23 @@ Research &nbsp;|&nbsp;
 <tr class="noBorder">
 <td>
    <p><span class="STYLE3"> <strong>Graph query with hierarchical inheritance relations </strong></span></p>
-   <p>&nbsp;</p>   
-   Ongoing...
-   <p>&nbsp;</p>   
-   <p>&nbsp;</p>   
+ <br>
+Graph query, pattern mining and knowledge discovery become challenging on large-scale heterogeneous information networks (HINs).
+State-of-the-art techniques involving path propagation mainly focus on
+the inference on nodes labels and neighborhood structures. However,
+entity links in the real world also contain rich hierarchical inheritance
+relations. For example, the vulnerability of a product version is likely
+to be inherited from its older version. Taking advantage of the hierarchical inheritances can potentially improve the quality of query results.
+Motivated by this, we explore hierarchical inheritance relations between
+entities and formulate the problem of graph query on HINs with hierarchical inheritance relations. We propose a graph query search algorithm
+by decomposing the query graph into multiple star queries and apply a
+star query algorithm to each star query. Then further candidates from
+each star query result are constructed for a final graph query result. To
+efficiently obtain the graph query result from a large-scale HIN, we design
+bound-based pruning technique by using uniform cost search to prune
+search spaces. We implement our algorithm in GraphX to test the effectiveness and efficiency on synthetic and real-world datasets. Compared
+with two common graph query algorithms, our algorithm can effectively
+obtain more accurate results and competitive performances. 
  </td>
  <td>
   </td>
