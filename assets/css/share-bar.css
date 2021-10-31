@@ -9,12 +9,8 @@
     font-weight: 500;
 }
 
-/* All buttons */   
-.share-buttons {
-}
-
 /* Each button */
-.share-button {
+.share-buttons {
     margin: 0px;
     margin-bottom: 10px;
     margin-right: 3px;
