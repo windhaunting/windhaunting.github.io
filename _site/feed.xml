@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-30T22:31:00-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Fubao Wu</title><subtitle>&quot;&quot;
-</subtitle><entry><title type="html">This is Just Another Post</title><link href="http://localhost:4000/2017/03/24/another-post" rel="alternate" type="text/html" title="This is Just Another Post" /><published>2017-03-24T13:30:13-04:00</published><updated>2017-03-24T13:30:13-04:00</updated><id>http://localhost:4000/2017/03/24/another-post</id><content type="html" xml:base="http://localhost:4000/2017/03/24/another-post">&lt;p&gt;I have some text.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-30T23:17:33-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Fubao Wu</title><subtitle>&quot;&quot;
+</subtitle><entry><title type="html">This is Just Another Post_copy</title><link href="http://localhost:4000/2017/03/24/another-post-copy" rel="alternate" type="text/html" title="This is Just Another Post_copy" /><published>2017-03-24T13:30:13-04:00</published><updated>2017-03-24T13:30:13-04:00</updated><id>http://localhost:4000/2017/03/24/another-post%20copy</id><content type="html" xml:base="http://localhost:4000/2017/03/24/another-post-copy">&lt;p&gt;I have some text.&lt;/p&gt;
+
+&lt;p&gt;I want some &lt;em&gt;italics&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I want some &lt;strong&gt;bold&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;this-is-heading-1&quot;&gt;this is heading 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;this-is-heading-2&quot;&gt;this is heading 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;this-is-heading-3&quot;&gt;this is heading 3&lt;/h3&gt;
+
+&lt;p&gt;you want a list?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;first&lt;/li&gt;
+  &lt;li&gt;second&lt;/li&gt;
+  &lt;li&gt;third&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;you want an ordered list?&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;whatever&lt;/li&gt;
+  &lt;li&gt;whatever&lt;/li&gt;
+  &lt;li&gt;whatever&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="default" /><category term="test" /><summary type="html">I have some text.</summary></entry><entry><title type="html">This is Just Another Post</title><link href="http://localhost:4000/2017/03/24/another-post" rel="alternate" type="text/html" title="This is Just Another Post" /><published>2017-03-24T13:30:13-04:00</published><updated>2017-03-24T13:30:13-04:00</updated><id>http://localhost:4000/2017/03/24/another-post</id><content type="html" xml:base="http://localhost:4000/2017/03/24/another-post">&lt;p&gt;I have some text.&lt;/p&gt;
 
 &lt;p&gt;I want some &lt;em&gt;italics&lt;/em&gt;.&lt;/p&gt;
 
