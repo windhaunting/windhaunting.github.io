@@ -1,1 +1,1 @@
-## Personal profile and blog
+## Personal portfolio and blog
