@@ -25,11 +25,11 @@ paginate: 5
 # MatJek specific configurations
 github_profile: "https://github.com/windhaunting"
 user: "windhaunting"
-user_email: "john@doe.com"
+user_email: "fubaowu AT umass DOT edu"
 contact_url: "https://goo.gl/tVljbV"
-google_tracking_id: "UA-96359860-1"
-google_site_verification: "UA-96359860-1"
-disqus_shortname: "matjek"
+#google_tracking_id: ""
+#google_site_verification: ""
+disqus_shortname: "Fubao"
 
 # Build settings
 markdown: kramdown
