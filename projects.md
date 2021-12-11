@@ -30,6 +30,6 @@ Outfit Recommendation based on Styles [Link](./assets/docs/final_version_Outfit_
 
 Indoor Way-finding Using Bluetooth Low Energy Beacons [Link](./assets/docs/indoorNavigation.pdf)
 
-EleNa: Elevation-based Navigation 
+EleNa: Elevation-based Navigation [Link]()(./assets/docs/Final-report-EleNa-Elevation-based-Navigation.pdf)
 
 Smart Home--Multi tiered Architecture [Link1](./assets/docs/OSProject_phase1.pdf) [Link2](./assets/docs/OSProject_phase2.pdf) [Link3](./assets/docs/OSProject_phase3.pdf)
