@@ -3,7 +3,7 @@ layout: post
 title:  "First volunteering machine learning end-to-end project"
 date:   2017-03-25 01:30:13 +0800
 categories: default
-tags: test
+tags: Machine-learning
 ---
 
 It is my great fortune to work on Omdena ‘s AI project with Poikilingo. The problem was to build a recommender system that helps the study of bilingual children, including immigrant and refugee children that adapts to the level of the children as they progress in the app, ensuring a personalized learning experience for each individual child.
