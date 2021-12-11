@@ -24,6 +24,8 @@ paginate: 5
 
 # MatJek specific configurations
 github_profile: "https://github.com/windhaunting"
+linked_profile: "https://www.linkedin.com/in/fubaowu/"
+kaggle_profile: "https://www.kaggle.com/windhaunting"
 user: "windhaunting"
 user_email: "fubaowu AT umass DOT edu"
 contact_url: "https://goo.gl/tVljbV"
@@ -44,3 +46,7 @@ exclude:
 sass:
   style: compressed
 future: true
+
+
+
+# run the command "bundle exec jekyll serve" to generate post on the terminal
