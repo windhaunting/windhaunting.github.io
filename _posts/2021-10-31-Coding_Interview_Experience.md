@@ -3,7 +3,7 @@ layout: post
 title:  "What to do when you're stuck for a coding problem"
 date:   2021-10-31 18:50:00 +0800
 categories: default
-tags: Coding, Interview
+tags: [Coding, Interview]
 ---
 
 Sometimes if we have encountered a problem that is not obvious to the solution, what to do at this time?
