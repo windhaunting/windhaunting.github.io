@@ -6,7 +6,7 @@ js: ["https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.
 ---
 
 <br />
-### Research Project
+### Research Projects
 
 Configuration Adaptation for Video Analytics through Movement Tracking [Link](./assets/docs/GLOBECOM_Video_Analytics.pdf)
 
@@ -20,7 +20,7 @@ Lifestyle-based Personalized Query in Drug Networks [Link](./assets/docs/Lifesty
 
 <br />
 <br />
-### Course Project
+### Course Projects
 
 Group Fairness for Learning Representation on Coupled Variational Autoencoder [Link](./assets/docs/COMPSCI689_project_FubaoWu.pdf)
 
