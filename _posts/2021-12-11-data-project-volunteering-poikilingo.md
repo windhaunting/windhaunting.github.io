@@ -6,7 +6,7 @@ categories: default
 tags: Machine-learning
 ---
 
-It is my great fortune to work on Omdena ‘s AI project with Poikilingo. The problem was to build a recommender system that helps the study of bilingual children, including immigrant and refugee children that adapts to the level of the children as they progress in the app, ensuring a personalized learning experience for each individual child.
+It is my great fortune to work on Omdena's AI project with Poikilingo. The problem was to build a recommender system that helps the study of bilingual children, including immigrant and refugee children that adapts to the level of the children as they progress in the app, ensuring a personalized learning experience for each individual child.
 
 I have contributed the task of developed content-based recommender system model. I proposed the moving average-based sequence recommendation algorithm which has been widely recognized. Except from this, I have been involved in the complete machine learning system process from design, data retrieval, data simulation, data processing, modeling, development and visualization. I also enjoyed the great cooperation of awesome people on achieving the great project together. On this project I worked with a great，enthusiastic, recreative team.
 
