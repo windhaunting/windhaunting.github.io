@@ -47,6 +47,7 @@ Here I am testing the fully homomorphic encryption scheme based on Microsoft SEA
 After installing tenseal library, we could use it operate to encrypt 1D vector, 2D tensors.
 
 Here it shows the encryption on the vector operation. 
+
 {% highlight python %} 
 # !pip install tenseal
 f1 = [2.0]
