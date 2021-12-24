@@ -2,7 +2,7 @@
 layout: post
 title:  "A Concise Introduction to Fully homomorphic encryption"
 # published: false
-mathjax: true
+# mathjax: true
 date:   2021-12-24 18:30:13 -0400
 categories: default
 tags: Encryption
