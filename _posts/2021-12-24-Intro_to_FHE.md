@@ -50,6 +50,24 @@ Here it shows the encryption on the vector operation.
 
 {% highlight python %} 
 # !pip install tenseal
+# define FHE context 
+def context():
+    # Create TenSEAL context
+    bits_scale = 26
+
+    context = ts.context(
+        ts.SCHEME_TYPE.CKKS,
+        poly_modulus_degree=2**13,
+        coeff_mod_bit_sizes=[31, bits_scale, bits_scale, 31]
+    )
+    # set the scale
+    context.global_scale = pow(2, bits_scale)
+
+    # galois keys are required to do ciphertext rotations
+    context.generate_galois_keys()
+    return context
+
+context = context()
 f1 = [2.0]
 f2 = [3.0]
 encr1 = ts.ckks_vector(context, f1)
