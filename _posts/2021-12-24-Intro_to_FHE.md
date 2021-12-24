@@ -5,7 +5,7 @@ title:  "A Concise Introduction to Fully homomorphic encryption"
 # mathjax: true
 date:   2021-12-24 18:30:13 -0400
 categories: default
-tags: Encryption
+tags: [Homomorphic Encryption, Privacy Preserving]
 ---
 
 Recently, I have been working on the privacy preserving on machine learning. Fully homomorphic encryption is one of the promising ways to do privacy preserving.
