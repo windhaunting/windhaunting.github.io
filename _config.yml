@@ -47,6 +47,9 @@ sass:
   style: compressed
 future: true
 
+# Build settings
+  markdown: kramdown
+
 
 
 # run the command "bundle exec jekyll serve" to generate post on the terminal

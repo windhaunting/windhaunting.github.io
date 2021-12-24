@@ -2,6 +2,7 @@
 layout: post
 title:  "A Concise Introduction to Fully homomorphic encryption"
 # published: false
+usemathjax: true
 date:   2021-12-24 18:30:13 +0800
 categories: default
 tags: Encryption
@@ -15,20 +16,20 @@ Fully homomorphic encryption (FHE) is a scheme to keep the encrypted data and op
 
 It is kind of complementary to the secure multiparty computation.
 
-Mathematically, there are basic operation op stands for "+" , "-" and "*". 
-Assume there exist two variable $`a`$ and $`b`$,
+Mathematically, We define a basic operation $$op$$ standing for "+" , "-" and "*". 
+Assume there exist two variables $$a$$ and $$b$$, we have,
 
-$$ Encrypt(a) op Encrypt(b) = Encrypt(a op b) $$
+$$Encrypt(a) \,op  \, Encrypt(b) = Encrypt(a  \,op \, b)$$
 
 #####  Advantage: 
 
-— The data stays encrypted at all times; suitable for cloud computation
+— The data stays encrypted at all times, which is suitable for cloud computation
 
 — There is no need to mask or drop any features in order to preserve the privacy of data.
 
 #####  Disadvantage:
 
-Computation heavy and infeaible for commercial usage.
+The computation is heavy and infeaible for commercial usage.
 
 #####  Use case:
 
@@ -36,7 +37,7 @@ Computation heavy and infeaible for commercial usage.
 
 #####  Libraries:
 
-There are several  open source library now. Each library has it’s own API.
+There are several  open source library now. Each library has it’s own APIs.
 
 Examples are [HElib](https://github.com/homenc/HElib),  Microsoft [SEAL](https://github.com/microsoft/SEAL)  and [Google FHE](https://github.com/google/fully-homomorphic-encryption).
 
@@ -44,7 +45,7 @@ Examples are [HElib](https://github.com/homenc/HElib),  Microsoft [SEAL](https:/
 
 Here I am testing the fully homomorphic encryption scheme based on Microsoft SEAL library with a python interface ([TenSEAL](https://github.com/OpenMined/TenSEAL))
 
-After installing tenseal library, we could use it operate to encrypt 1D vector, 2D tensors.
+After installing the tenseal library, we could use it to operate on 1D vectors, 2D tensors.
 
 Here it shows the encryption on the vector operation. 
 
