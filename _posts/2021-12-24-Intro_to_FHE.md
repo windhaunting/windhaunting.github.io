@@ -7,11 +7,11 @@ categories: default
 tags: Encryption
 ---
 
-Recently, I have working on the privacy preserving on machine learning. Fully homomorphic encryption is one of the promising magic to do privacy preserving.
+Recently, I have working on the privacy preserving on machine learning. Fully homomorphic encryption is one of the promising ways to do privacy preserving.
 
 ##### What is Fully homomorphic encryption?
 
-Fully homomorphic encryption (FHE) is a scheme to keep the encrypted data and operate on the encrypted data without decrypting it.  Data providers might just provide encrypted data to service providers and the service providers run their service on their cloud/platform with the encrypted data all the way along and return the result to data providers.  Then data providers decrypt the result on their side. It is useful for privacy preserving scenario such as medical  record data, personal data and other sensitive data.
+Fully homomorphic encryption (FHE) is a scheme to keep the encrypted data and operate on the encrypted data without decrypting it.  Data providers might just provide encrypted data to service providers and the service providers run their service on their cloud/platform with the encrypted data all the way along and return the result to data providers.  Then data providers decrypt the result on their side. It is useful for privacy preserving scenario such as medical record data, personal data and other sensitive data.
 
 It is kind of complementary to the secure multiparty computation.
 
@@ -24,7 +24,7 @@ $$ Encrypt(a) op Encrypt(b) = Encrypt(a op b) $$
 
 — The data stays encrypted at all times; suitable for cloud computation
 
-— is no need to mask or drop any features in order to preserve the privacy of dat
+— There is no need to mask or drop any features in order to preserve the privacy of data.
 
 #####  Disadvantage:
 
@@ -32,7 +32,7 @@ Computation heavy and infeaible for commercial usage.
 
 #####  Use case:
 
- Although the heavy computation, this might be suitable for inference with the pretrained machine learning model.  Also, there are some research on simple image classification with high accuracy, such as the [handwiritten recognition](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/CryptonetsTechReport.pdf), which indicate seems promising.
+ Although it involves heavy computation currently, this seems suitable for the machine learning inference with a pretrained machine learning model.  Also, there are some research on simple image classification with high accuracy, such as the [handwiritten recognition](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/CryptonetsTechReport.pdf), which indicate seems promising.
 
 #####  Libraries:
 
@@ -42,11 +42,11 @@ Examples are [HElib](https://github.com/homenc/HElib),  Microsoft [SEAL](https:/
 
 #####  Test
 
-Here I am testing the fully homomorphic encryption scheme based on Microsoft SEAL library with python interface ([TenSEAL](https://github.com/OpenMined/TenSEAL))
+Here I am testing the fully homomorphic encryption scheme based on Microsoft SEAL library with a python interface ([TenSEAL](https://github.com/OpenMined/TenSEAL))
 
-After using pip install tenseal library, we could use it operate to encrypt 1D vector, 2D tensors.
+After installing tenseal library, we could use it operate to encrypt 1D vector, 2D tensors.
 
-
+Here it shows the encryption on the vector operation. 
 {% highlight python %} 
 
 f1 = [2.0]
