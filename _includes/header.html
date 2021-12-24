@@ -71,15 +71,10 @@
         <li><a class="waves-effect" href="{{site.baseurl}}/contact"><i class="material-icons">email</i>Contact</a></li>
       </ul>
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFNHQ0EV3Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      <!--{% if jekyll.environment == 'production' %} -->
+      {% include analytics.html %}
+      <!-- {% endif %} -->
 
-      gtag('config', 'G-HFNHQ0EV3Z');
-    </script>
   
     </header>
     <main>
