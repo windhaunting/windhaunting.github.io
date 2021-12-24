@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Concise Intro to Fully homomorphic encryption"
+title:  "A Concise Introduction to Fully homomorphic encryption"
 # published: false
 date:   2021-12-24 18:30:13 +0800
 categories: default
