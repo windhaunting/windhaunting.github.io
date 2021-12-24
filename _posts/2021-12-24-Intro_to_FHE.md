@@ -11,12 +11,12 @@ Recently, I have working on the privacy preserving on machine learning. Fully ho
 
 ##### What is Fully homomorphic encryption?
 
-Fully homomorphic encryption (FHE) is a scheme to keep the encrypted data and operate on the encrypted data without decrypting it.  Data providers might just provide encrypted data to service providers and the service providers run their service on their cloud/platform with the encrypted data all the way along and return the result to data providers.  Then data providers decrypt the result on their side. It is useful for privacy preserving scenario such as medical record data, personal data and other sensitive data.
+Fully homomorphic encryption (FHE) is a scheme to keep the encrypted data and operate on the encrypted data without decrypting it.  Data providers might just provide encrypted data to service providers. The service providers run their services on their cloud/platform with the encrypted data all the way along and return the results to data providers.  Then data providers decrypt the result on their sides. It is useful for privacy preserving scenario such as medical record data, personal data and other sensitive data.
 
 It is kind of complementary to the secure multiparty computation.
 
 Mathematically, there are basic operation op stands for "+" , "-" and "*". 
-Assume there exist two variable $a$ and $b$,
+Assume there exist two variable $`a`$ and $b$,
 
 $$ Encrypt(a) op Encrypt(b) = Encrypt(a op b) $$
 
