@@ -69,10 +69,11 @@ def context():
     return context
 
 context = context()
-f1 = [2.0]
-f2 = [3.0]
-encr1 = ts.ckks_vector(context, f1)
-encr2 = ts.ckks_vector(context, f2)
+# define two vectors
+a = [2.0]
+b = [3.0]
+encr1 = ts.ckks_vector(context, a)
+encr2 = ts.ckks_vector(context, b)
 
 print('encr1: ', encr1)
 print('encr2: ', encr2)
@@ -81,7 +82,6 @@ print('encr2: ', encr2)
 test_add = encr1 + encr2
 test_sub = encr1 - encr2
 test_mul = encr1 * encr2
-
 
 # decrypt on the client
 decr_add = test_add.decrypt()
