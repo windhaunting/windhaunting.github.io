@@ -16,7 +16,7 @@ Fully homomorphic encryption (FHE) is a scheme to keep the encrypted data and op
 
 It is kind of complementary to the secure multiparty computation.
 
-Mathematically, We define a basic operation $$op$$ standing for "+" , "-" and "*". 
+Mathematically, We define a basic operation $$\boldsymbol{op}$$ standing for "+" , "-" and "*". 
 Assume there exist two variables $$a$$ and $$b$$, we have,
 
 $$Encrypt(a) \,op  \, Encrypt(b) = Encrypt(a  \,op \, b)$$
