@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Concise Introduction to Fully homomorphic encryption"
+title:  "A Concise Introduction to Fully Homomorphic Encryption"
 # published: false
 # mathjax: true
 date:   2021-12-24 18:30:13 -0400
