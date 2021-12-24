@@ -38,7 +38,7 @@ Computation heavy and infeaible for commercial usage.
 
 There are several  open source library now. Each library has it’s own API.
 
-Examples are [HElib](https://github.com/homenc/HElib),  Microsoft [SEAL](https://github.com/microsoft/SEAL)  and [Google FHE](https://github.com/google/fully-homomorphic-encryption)
+Examples are [HElib](https://github.com/homenc/HElib),  Microsoft [SEAL](https://github.com/microsoft/SEAL)  and [Google FHE](https://github.com/google/fully-homomorphic-encryption).
 
 #####  Test
 
