@@ -48,7 +48,7 @@ sass:
 future: true
 
 # Build settings
-  markdown: kramdown
+markdown: kramdown
 
 
 
