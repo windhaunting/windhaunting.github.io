@@ -47,11 +47,11 @@ Here I am testing the fully homomorphic encryption scheme based on Microsoft SEA
 
 After installing the tenseal library, we could use it to operate on 1D vectors, 2D tensors.
 
-Here it shows the encryption on the vector operation. 
+Here it shows the encryption and decryption on the vector operation. 
 
 {% highlight python %} 
 # !pip install tenseal
-# define FHE context 
+# define FHE context for polynomial rings parameters, public key and secret key.
 def context():
     # Create TenSEAL context
     bits_scale = 26
