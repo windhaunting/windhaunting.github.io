@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What to do when you're stuck for a coding problem"
-date:   2021-10-31 12:50:00 +0800
+date:   2021-10-31 12:50:00 -0400
 categories: default
 tags: [Coding, Interview]
 ---

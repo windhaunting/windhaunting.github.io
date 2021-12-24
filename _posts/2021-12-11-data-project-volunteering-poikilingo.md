@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First volunteering for a machine learning end-to-end project"
-date:   2021-12-10 19:30:13 +0800
+date:   2021-12-10 19:30:13 -0400
 categories: default
 tags: [Machine learning]
 ---

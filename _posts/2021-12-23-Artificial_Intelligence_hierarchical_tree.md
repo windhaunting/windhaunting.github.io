@@ -2,7 +2,7 @@
 layout: post
 title:  "Summary of Artificial_Intelligence Hierarchical Tree"
 published: false
-date:   2017-03-25 01:30:13 +0800
+date:   2017-03-25 01:30:13 -0400
 categories: default
 tags: [Artificial Intelligence, Machine learning]
 ---
