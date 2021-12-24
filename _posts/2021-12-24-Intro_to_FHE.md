@@ -48,7 +48,7 @@ After installing tenseal library, we could use it operate to encrypt 1D vector, 
 
 Here it shows the encryption on the vector operation. 
 {% highlight python %} 
-
+# !pip install tenseal
 f1 = [2.0]
 f2 = [3.0]
 encr1 = ts.ckks_vector(context, f1)
