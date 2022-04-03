@@ -2,9 +2,9 @@
 layout: post
 title:  "Summary of Computer Algorithms and Coding (Keep updated)"
 published: true
-date:   2022-04-02 13:30:13 -0400
+date:   02/04/2022 13:30:13 -0400
 categories: default
-tags: test
+tags: [[Coding, Algorithms]]
 ---
 In order to keep notes and share my understanding of computer algorithms, I have summarized them here (the specific content will be continously updated). The example codes are in Python 3.
  
