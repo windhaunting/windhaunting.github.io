@@ -2,39 +2,39 @@
 layout: post
 title:  "Summary of Computer Algorithms and Coding (Keep updated)"
 published: true
-date:   02/04/2022 13:30:13 -0400
+date:   2022-04-02 13:30:13 -0400
 categories: default
 tags: [[Coding, Algorithms]]
 ---
-In order to keep notes and share my understanding of computer algorithms, I have summarized them here (the specific content will be continously updated). The example codes are in Python 3.
+In order to keep notes and share my understanding of computer algorithms, I summarize some of them here (the specific content will be continously updated). The example codes are in Python 3.
  
 
  * ##### Binary search
-    * [<span style="color:blue;"> Binary search </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_search.md)
+     * [<span style="color:blue;"> Binary search </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_search.md)
 
  * #####  Two pointers
-      * Slow and fast pointer
+     * Slow and fast pointer
 
 
  * #####  Sliding window
 
 
  * ##### Linkedlist
-      * Linkedlist reversing
+     * Linkedlist reversing
 
  * ##### Stack/queue 
-      * Monotonic stack/queue 
+     * Monotonic stack/queue 
 
  * ##### Heap
-      * Min heap/Max heap: Using them together could solve a problem of finding the median in a streaming
+     * Min heap/Max heap: Using them together could solve a problem of finding the median in a streaming
 
  * ##### Greedy
 
 
  * ##### Tree algorithms
-    * [<span style="color:blue;"> Binary tree traversal </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/tree_traversal.md)
+     * [<span style="color:blue;"> Binary tree traversal </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/tree_traversal.md)
 
-    * [<span style="color:blue;"> Binary indexed tree</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_indexed_tree.md)
+     * [<span style="color:blue;"> Binary indexed tree</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_indexed_tree.md)
 
 
 * ##### Dynamic programming
