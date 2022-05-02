@@ -20,7 +20,7 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 
  * ##### Linkedlist
-     * [<span style="color:blue;"> Common Linkedlist problems </span>] (https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/linked_list.md)
+     * [<span style="color:blue;"> Common Linkedlist problems </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/linked_list.md)
 
 
  * ##### Stack/queue 
