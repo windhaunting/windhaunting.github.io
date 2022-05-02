@@ -8,7 +8,7 @@ tags: [[Coding, Algorithms]]
 ---
 In order to keep notes and share my understanding of computer algorithms, I summarize some of them here (the specific content will be continously updated). The example codes are in Python 3.
  
-
+ 
  * ##### Binary search
      * [<span style="color:blue;"> Binary search </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_search.md)
 
@@ -20,13 +20,17 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 
  * ##### Linkedlist
-     * Linkedlist reversing
+     * [<span style="color:blue;"> Common Linkedlist problems </span>] (https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/linked_list.md)
+
 
  * ##### Stack/queue 
      * Monotonic stack/queue 
 
  * ##### Heap
      * Min heap/Max heap: Using them together could solve a problem of finding the median in a streaming
+
+* #### Sorting
+
 
  * ##### Greedy
 
@@ -53,6 +57,10 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
   Prefix sum 
 
+* #### String search
+  Rolling hash | Rabin karp algorithm
+
+  KMP algorithm
 
 * ##### Important Problems
 
