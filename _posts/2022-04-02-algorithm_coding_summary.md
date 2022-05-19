@@ -26,10 +26,11 @@ In order to keep notes and share my understanding of computer algorithms, I summ
  * ##### Stack/queue 
      * Monotonic stack/queue 
 
- * ##### Heap
-     * Min heap/Max heap: Using them together could solve a problem of finding the median in a streaming
+ * ##### Heap (Priority Queue)
+     
+     * [<span style="color:blue;"> Min/Max heap </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/heap.md)
 
-* #### Sorting
+* ##### Sorting
 
 
  * ##### Greedy
