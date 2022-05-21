@@ -13,7 +13,7 @@ In order to keep notes and share my understanding of computer algorithms, I summ
      * [<span style="color:blue;"> Binary search summary </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_search.md)
 
  * #####  Two pointers
-     * [<span style="color:blue;"> two pointers problems </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/two_pointers.md)
+     * [<span style="color:blue;"> Two pointers problems </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/two_pointers.md)
 
  * #####  Sliding window
 
