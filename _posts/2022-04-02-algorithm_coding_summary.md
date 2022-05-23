@@ -16,7 +16,7 @@ In order to keep notes and share my understanding of computer algorithms, I summ
      * [<span style="color:blue;"> Two pointers problems </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/two_pointers.md)
 
  * #####  Sliding window
-      
+
 
  * ##### Linkedlist
      * [<span style="color:blue;"> Common Linkedlist problems </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/linked_list.md)
@@ -27,7 +27,6 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
   
  * ##### Heap (Priority Queue)
-     
      * [<span style="color:blue;"> Min/Max heap </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/heap.md)
 
 * ##### Sorting
@@ -35,13 +34,14 @@ In order to keep notes and share my understanding of computer algorithms, I summ
     QuickSort related points.
 
  * ##### Greedy
-
+    * [<span style="color:blue;"> Greedy algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/greedy.md)
 
  * ##### Tree algorithms
      * [<span style="color:blue;"> Binary tree traversal </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/tree_traversal.md)
 
      * [<span style="color:blue;"> Binary indexed tree</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_indexed_tree.md)
 
+     *  Trie
 
 * ##### Dynamic programming
 
@@ -63,6 +63,8 @@ In order to keep notes and share my understanding of computer algorithms, I summ
   Rolling hash | Rabin karp algorithm
 
   KMP algorithm
+
+
 
 * ##### Important Problems
 
