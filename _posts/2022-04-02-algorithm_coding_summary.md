@@ -27,21 +27,21 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
   
  * ##### Heap (Priority Queue)
-     * [<span style="color:blue;"> Min/Max heap </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/heap.md)
+      * [<span style="color:blue;"> Min/Max heap </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/heap.md)
 
-* ##### Sorting
+ * ##### Sorting
       * [<span style="color:blue;"> Sorting summary </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/sorting.md)
 
 
  * ##### Greedy
-    * [<span style="color:blue;"> Greedy algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/greedy.md)
+      * [<span style="color:blue;"> Greedy algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/greedy.md)
 
  * ##### Tree algorithms
-     * [<span style="color:blue;"> Binary tree traversal </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/tree_traversal.md)
+       * [<span style="color:blue;"> Binary tree traversal </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/tree_traversal.md)
 
-     * [<span style="color:blue;"> Binary indexed tree</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_indexed_tree.md)
+       * [<span style="color:blue;"> Binary indexed tree</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_indexed_tree.md)
 
-     *  Trie
+       *  Trie
 
 * ##### Dynamic programming
 
