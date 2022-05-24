@@ -45,6 +45,8 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 * ##### Dynamic programming
 
+ * [<span style="color:blue;"> Dynamic programming summary</span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/Dynamic_programming.md)
+
 
 * ##### Graph algorithms
 
@@ -64,6 +66,8 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
   KMP algorithm
 
+* #### Sampling algorithms
+    Random sampling (uniform)
 
 
 * ##### Important Problems
@@ -74,7 +78,6 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
   Merge K list/array
 
-  Random sampling (uniform)
 
   Subset/permutation problem
 
