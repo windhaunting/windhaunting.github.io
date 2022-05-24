@@ -30,8 +30,8 @@ In order to keep notes and share my understanding of computer algorithms, I summ
      * [<span style="color:blue;"> Min/Max heap </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/heap.md)
 
 * ##### Sorting
-    There are many types of sorting algorithms. Here we show the important
-    QuickSort related points.
+      * [<span style="color:blue;"> Sorting summary </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/sorting.md)
+
 
  * ##### Greedy
     * [<span style="color:blue;"> Greedy algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/greedy.md)
