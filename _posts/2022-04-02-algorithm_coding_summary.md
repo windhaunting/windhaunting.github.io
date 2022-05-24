@@ -45,7 +45,7 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 * ##### Dynamic programming
 
-    * [<span style="color:blue;"> Dynamic programming summary</span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/Dynamic_programming.md)
+     * [<span style="color:blue;"> Dynamic programming summary</span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/Dynamic_programming.md)
 
 
 * ##### Graph algorithms
