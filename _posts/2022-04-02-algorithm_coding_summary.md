@@ -37,11 +37,11 @@ In order to keep notes and share my understanding of computer algorithms, I summ
       * [<span style="color:blue;"> Greedy algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/greedy.md)
 
  * ##### Tree algorithms
-       * [<span style="color:blue;"> Binary tree traversal </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/tree_traversal.md)
+      * [<span style="color:blue;"> Binary tree traversal </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/tree_traversal.md)
 
-       * [<span style="color:blue;"> Binary indexed tree</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_indexed_tree.md)
+      * [<span style="color:blue;"> Binary indexed tree</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_indexed_tree.md)
 
-       *  Trie
+      *  Trie
 
 * ##### Dynamic programming
 
