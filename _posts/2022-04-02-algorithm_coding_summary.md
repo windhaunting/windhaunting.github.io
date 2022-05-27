@@ -52,7 +52,7 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 * ##### Graph algorithms
      * [<span style="color:blue;"> BFS/DFS</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/BFS_DFS.md)
   
-  Dijkstra
+     * Shortest path 
 
   Topological sort
 
