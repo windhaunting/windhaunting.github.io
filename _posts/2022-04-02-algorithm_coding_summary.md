@@ -16,7 +16,8 @@ In order to keep notes and share my understanding of computer algorithms, I summ
      * [<span style="color:blue;"> Two pointers problems </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/two_pointers.md)
 
  * #####  Sliding window
-     * 
+     * [<span style="color:blue;"> Two pointers problems </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/sliding_window.md)
+
 
  * ##### Linkedlist
      * [<span style="color:blue;"> Common Linkedlist problems </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/linked_list.md)
