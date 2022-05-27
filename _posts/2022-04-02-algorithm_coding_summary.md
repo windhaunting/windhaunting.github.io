@@ -16,7 +16,7 @@ In order to keep notes and share my understanding of computer algorithms, I summ
      * [<span style="color:blue;"> Two pointers problems </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/two_pointers.md)
 
  * #####  Sliding window
-     * [<span style="color:blue;"> Two pointers problems </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/sliding_window.md)
+     * [<span style="color:blue;"> Sliding window </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/sliding_window.md)
 
 
  * ##### Linkedlist
@@ -50,26 +50,27 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 
 * ##### Graph algorithms
-
-  BFS/DFS
-
+     * [<span style="color:blue;"> BFS/DFS</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/BFS_DFS.md)
+  
   Dijkstra
 
   Topological sort
 
 
-* ##### Other useful techniques
+* ###### Backtracking
 
-  Prefix sum 
 
-* #### String search
+* ##### String search
   Rolling hash | Rabin karp algorithm
 
   KMP algorithm
 
-* #### Sampling algorithms
+* ##### Sampling algorithms
     Random sampling (uniform)
 
+* ##### Other useful techniques
+
+  Prefix sum 
 
 * ##### Important Problems
 
