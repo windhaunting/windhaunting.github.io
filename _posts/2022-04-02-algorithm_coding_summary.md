@@ -40,9 +40,12 @@ In order to keep notes and share my understanding of computer algorithms, I summ
  * ##### Tree algorithms
       * [<span style="color:blue;"> Binary tree traversal </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/tree_traversal.md)
 
+      * [<span style="color:blue;"> Trie </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/trie.md)
+
+      * [<span style="color:blue;"> Segment Tree </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/segment_tree.md)
+
       * [<span style="color:blue;"> Binary indexed tree</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_indexed_tree.md)
 
-      * [<span style="color:blue;"> Trie </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/trie.md)
 
 * ##### Dynamic programming
 
