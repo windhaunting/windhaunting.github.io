@@ -54,9 +54,11 @@ In order to keep notes and share my understanding of computer algorithms, I summ
   
      * [<span style="color:blue;"> Shortest Path </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/shortest_path.md)
  
+     * [<span style="color:blue;"> Topological sort </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/topological_sort.md)
 
-  Topological sort
 
+
+* ##### Union and Find
 
 * ###### Backtracking
 
