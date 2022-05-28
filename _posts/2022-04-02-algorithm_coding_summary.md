@@ -42,7 +42,7 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
       * [<span style="color:blue;"> Trie </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/trie.md)
 
-      * [<span style="color:blue;"> Segment Tree </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/segment_tree.md)
+      * [<span style="color:blue;"> Segment tree </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/segment_tree.md)
 
       * [<span style="color:blue;"> Binary indexed tree</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_indexed_tree.md)
 
