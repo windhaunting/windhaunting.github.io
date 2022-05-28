@@ -66,7 +66,8 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 
 * ###### Backtracking
-
+     * [<span style="color:blue;"> backtracking </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/backtracking.md)
+     
 
 * ##### String search
   Rolling hash | Rabin karp algorithm
