@@ -66,11 +66,13 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 
 * ###### Backtracking
-     * [<span style="color:blue;"> backtracking </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/backtracking.md)
+     * [<span style="color:blue;"> Backtracking </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/backtracking.md)
      
 
-* ##### String search
-  Rolling hash | Rabin karp algorithm
+* ##### String match
+     * [<span style="color:blue;"> Rabin karp and KMP algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/string_match.md)
+     
+
 
   KMP algorithm
 
