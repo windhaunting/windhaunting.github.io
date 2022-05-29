@@ -73,24 +73,13 @@ In order to keep notes and share my understanding of computer algorithms, I summ
      * [<span style="color:blue;"> Rabin karp and KMP algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/string_match.md)
      
 
-
-  KMP algorithm
-
 * ##### Sampling algorithms
-    Random sampling (uniform)
+ * [<span style="color:blue;"> Rabin karp and KMP algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/string_match.md)
+
+     Reservoir Sampling and Rejection Sampling
 
 * ##### Other useful techniques
 
   Prefix sum 
 
-* ##### Important Problems
-
-  Medium number
-
-  Top-K max/min number
-
-  Merge K list/array
-
-
-  Subset/permutation problem
 
