@@ -51,6 +51,8 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
      * [<span style="color:blue;"> Dynamic programming summary</span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/Dynamic_programming.md)
 
+* #### Divide and Conquer
+
 
 * ##### Graph algorithms
      * [<span style="color:blue;"> BFS/DFS</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/BFS_DFS.md)
@@ -74,12 +76,15 @@ In order to keep notes and share my understanding of computer algorithms, I summ
      
 
 * ##### Sampling algorithms
- * [<span style="color:blue;"> Rabin karp and KMP algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/string_match.md)
+     * [<span style="color:blue;"> Reservoir Sampling and Rejection Sampling </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/sampling.md)
 
-     Reservoir Sampling and Rejection Sampling
+
+
 
 * ##### Other useful techniques
-
-  Prefix sum 
+      * [<span style="color:blue;"> Reservoir Sampling and Rejection Sampling </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/prefix_sum.md)
+  
+  
+  Bitmasking
 
 
