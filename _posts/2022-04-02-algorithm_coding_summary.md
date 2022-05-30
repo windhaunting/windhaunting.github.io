@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Summary of Computer Algorithms and Coding (Keep updated)"
+title:  "Summary of Computer Algorithms and Coding"
 published: true
 date:   2022-04-02 13:30:13 -0400
 categories: default
