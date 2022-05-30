@@ -80,7 +80,6 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 
 
-
 * ##### Other useful techniques
      * [<span style="color:blue;"> Prefix sum </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/prefix_sum.md)
   
