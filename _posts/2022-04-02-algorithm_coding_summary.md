@@ -49,10 +49,10 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 * ##### Dynamic programming
 
-     * [<span style="color:blue;"> Dynamic programming summary</span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/Dynamic_programming.md)
+     * [<span style="color:blue;"> Dynamic programming summary </span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/Dynamic_programming.md)
 
 * #### Divide and Conquer
-
+     * [<span style="color:blue;"> Divide and Conquer </span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/divideConquer.md)
 
 * ##### Graph algorithms
      * [<span style="color:blue;"> BFS/DFS</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/BFS_DFS.md)
@@ -60,7 +60,6 @@ In order to keep notes and share my understanding of computer algorithms, I summ
      * [<span style="color:blue;"> Shortest Path </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/shortest_path.md)
  
      * [<span style="color:blue;"> Topological sort </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/topological_sort.md)
-
 
 
 * ##### Union-Find
@@ -77,7 +76,6 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 * ##### Sampling algorithms
      * [<span style="color:blue;"> Reservoir Sampling and Rejection Sampling </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/sampling.md)
-
 
 
 * ##### Other useful techniques
