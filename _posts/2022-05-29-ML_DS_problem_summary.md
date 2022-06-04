@@ -13,10 +13,10 @@ One of ways to master the data science and machine learning related knowledge fo
 * #### Hypothesis testing
      * [<span style="color:blue;"> Problem_001 </span>](https://github.com/windhaunting/Machine-Learning-Deep-Learning-Codes-Practice/blob/main/data_science/data_science_interview_problems/problem002.md)
 
- * #### A/B testing
+* #### A/B testing
      * [<span style="color:blue;"> Problem_001 </span>](https://github.com/windhaunting/Machine-Learning-Deep-Learning-Codes-Practice/blob/main/data_science/data_science_interview_problems/problem001.md)
 
- * #### Maximum likelihood estimation
+* #### Maximum likelihood estimation
      * [<span style="color:blue;"> Problem_001 </span>](https://github.com/windhaunting/Machine-Learning-Deep-Learning-Codes-Practice/blob/main/data_science/data_science_interview_problems/problem003.md)
 
 * #### Conditional probability; Bayesian theorem
@@ -24,4 +24,6 @@ One of ways to master the data science and machine learning related knowledge fo
 
 * #### Probability distribution
      * [<span style="color:blue;"> Problem_001 -- Geometry distribution </span>](https://github.com/windhaunting/Machine-Learning-Deep-Learning-Codes-Practice/blob/main/data_science/data_science_interview_problems/problem005.md)
+
+     * [<span style="color:blue;"> Problem_002 -- Normal distribution </span>](https://github.com/windhaunting/Machine-Learning-Deep-Learning-Codes-Practice/blob/main/data_science/data_science_interview_problems/problem006.md)
 
