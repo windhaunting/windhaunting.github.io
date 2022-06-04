@@ -20,8 +20,6 @@ One of ways to master the data science and machine learning related knowledge fo
      * [<span style="color:blue;"> Problem_001 </span>](https://github.com/windhaunting/Machine-Learning-Deep-Learning-Codes-Practice/blob/main/data_science/data_science_interview_problems/problem003.md)
 
 
-* #### Bayesian theorem
+* #### Conditional probability; Bayesian theorem
      * [<span style="color:blue;"> Problem_001 </span>](https://github.com/windhaunting/Machine-Learning-Deep-Learning-Codes-Practice/blob/main/data_science/data_science_interview_problems/problem004.md)
-
-
 
