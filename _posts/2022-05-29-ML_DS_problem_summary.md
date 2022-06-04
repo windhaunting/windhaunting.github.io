@@ -25,5 +25,5 @@ One of ways to master the data science and machine learning related knowledge fo
 
 
 * #### Probability distribution
-     * [<span style="color:blue;"> Problem_001 </span>](https://github.com/windhaunting/Machine-Learning-Deep-Learning-Codes-Practice/blob/main/data_science/data_science_interview_problems/problem005.md)
+     * [<span style="color:blue;"> Problem_001 -- Geometry distribution </span>](https://github.com/windhaunting/Machine-Learning-Deep-Learning-Codes-Practice/blob/main/data_science/data_science_interview_problems/problem005.md)
 
