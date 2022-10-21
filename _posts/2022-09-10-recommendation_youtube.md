@@ -10,7 +10,7 @@ tags: [Homomorphic Encryption, Privacy Preserving]
 
 ### Paper introduction
 
-deep candidate generation model and then a separate deep ranking model.
+Deep candidate generation model and then a separate deep ranking model.
 Youtube recommendations have to deal with scalalibity, freshness and noises of user feedbacks.
 The two-stage of this model can get a small personalized and accurate recommendation for users from a large of millions of videos.
 
