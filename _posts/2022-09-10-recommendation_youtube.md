@@ -5,7 +5,7 @@ published: true
 mathjax: true
 date:   2022-09-10 18:30:13 -0400
 categories: default
-tags: [Homomorphic Encryption, Privacy Preserving]
+tags: [Machine Learning, Deep Neural Networks, Recommendation]
 ---
 
 
