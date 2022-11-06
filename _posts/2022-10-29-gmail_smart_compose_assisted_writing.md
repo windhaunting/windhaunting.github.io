@@ -11,20 +11,20 @@ Here we introduce the Gmail's Smart Compose which provide real-time and interact
 It is a large-scale neural language mode of sequence prediction. We use the question-answer format here.
 
 ##### Q: what is the problem?
-A: the problem is to to improve Gmail user experience by assisting users in writing mails by reducing repetitive typing, and gaining confidence in Gmail and improving user experience. <br /> <br />
+The problem is to to improve Gmail user experience by assisting users in writing mails by reducing repetitive typing, and gaining confidence in Gmail and improving user experience. <br /> <br />
 
 ##### Q: How is it related to deep learning?
 It predicts the next letter/words/phrases for while an Gmail user is writing a sentence for an email. This could be modeled to sequence prediction tasks for language model. With the development of machine and deep learning in NLP, the deep neural langauage model more accurate but heavy-weight and computationally expensive. That bring to the industry-scale problem which Smart Compse is going to address. <br /> <br />
 
 ##### Q: What is the mathematical modeling
-A: It could be modeled as sequence to sequence prediction, which is maximize the log probability of producing the correct target sequence given the input for all data samples in the training corpus. <br /> <br />
+It could be modeled as sequence to sequence prediction, which is maximize the log probability of producing the correct target sequence given the input for all data samples in the training corpus. <br /> <br />
 
 
 ##### Q: What data and features are used?
-A:  Previous e-mails;  subject of the e-mail; Date time and Locale of the user composing the e-mail. They performance preprocessing of the normalization, tokenization; removing quotation, langugage detection etc. for the data. After the pre-processing steps, there are about 8 billion English messages in our data set. We split the data set into 80% for training and 20% for test. <br /> <br />
+Previous e-mails;  subject of the e-mail; Date time and Locale of the user composing the e-mail. They performance preprocessing of the normalization, tokenization; removing quotation, langugage detection etc. for the data. After the pre-processing steps, there are about 8 billion English messages in our data set. We split the data set into 80% for training and 20% for test. <br /> <br />
 
 ##### Q: How is the model selected?
-A: This papers explored three types of deep neural lanaguage models with context-encoder or not, or sequence2sequence attention model as shown in these figures below.
+This papers explored three types of deep neural lanaguage models with context-encoder or not, or sequence2sequence attention model as shown in these figures below.
 
 <img src="/assets/images/2022-10-29/smart_compose/ModelAB.png" width="300">
 <img src="/assets/images/2022-10-29/smart_compose/ModelC.png" width="300">
@@ -38,14 +38,14 @@ In inference, they feed in necessary context fields (subject, previous e-mail bo
 
 
 ##### Q: What is the performance evaluation?
-A: Two metrics are used. Log Perplexity (similar to information entropy) and ExactMatch@N (the percentage of predicted phrase that exactly matches the first N words in the ground truth text, where N=15 here). <br /> <br />
+Two metrics are used. Log Perplexity (similar to information entropy) and ExactMatch@N (the percentage of predicted phrase that exactly matches the first N words in the ground truth text, where N=15 here). <br /> <br />
 
 
 ##### Q: What is the baseline used?
 The baseline model here used is the LSTM language model of 2 layers with 1024 hidden units for each layer without any context embeddings from subject or previous e-mail. <br /> <br />
 
 ##### Q: which model is selected for trade-off of moddel quality and inference latency?
-A: LM-A is chosen to be the most production-appropriate model taking into account of strict production latency constraint and very high request volume. The third model based on Tranformer has the highest quality, but quality gap between the the first two model and Transformer based model is less evident in the ExactMatch metric than in the log perplexity metric, and the ExactMatch metric is more important to production. <br /> <br />
+LM-A is chosen to be the most production-appropriate model taking into account of strict production latency constraint and very high request volume. The third model based on Tranformer has the highest quality, but quality gap between the the first two model and Transformer based model is less evident in the ExactMatch metric than in the log perplexity metric, and the ExactMatch metric is more important to production. <br /> <br />
 
 ##### Q: How to make the personalized recommendation?
 It develops a global model and personalized model. Then it assigns different weight on personalized model and global as the final sequence prediction to achieve the personzlied recommendation?
