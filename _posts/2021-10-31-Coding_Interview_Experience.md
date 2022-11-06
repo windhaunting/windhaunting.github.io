@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Stuck for A Coding Problem"
+title:  "How to Solve A Coding Problem in an Interview When You Are Stuck"
 date:   2021-10-31 12:50:00 -0400
 categories: default
 tags: [Coding, Interview]
@@ -12,15 +12,15 @@ According to my personal interview experience, we can not keep thinking or think
 
 #### My personal thought:
 
-when I am stuck in coming up with a solution immediately, I will start to analyze test cases to do the inference and then I can continue talking through the interview.
+when I am stuck in coming up with a solution immediately, I would start to analyze different test cases to do the inference. Then I can continue talking through the interview.
 
 It could be done with these steps:
 
-**1)** analyze a small test case with data size 1, data size 2 and try to come up with the solution
+**1)** Analyze a small test case with data size 1, data size 2 and try to come up with the solution.
 
-**2)** analyze data size 3 and more,  try to find a pattern or solution to that
+**2)** Analyze data size 3 and more,  and try to find a pattern or solution to that.
 
-**3)** then find the final solution for this problem according to previous two steps' inferences.
+**3)** Find the final solution for this problem according to previous two steps' inferences.
 
 
 I find this is quite helpful, and it is also clear to the interviewer.

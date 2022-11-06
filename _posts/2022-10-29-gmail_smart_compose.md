@@ -3,21 +3,20 @@ layout: post
 title:  "Analysis of Gmail Smart Compose: Real-Time Assisted Writing"
 published: true
 mathjax: true
-date:  2022-10-29 18:30:13 -0400
+date:  2022-10-29 17:30:13 -0400
 categories: default
 tags: [Machine Learning, Deep Neural Networks, Natural Language]
 ---
 
-
 Here we introduce Gmail's Smart Compose which provides real-time and interactive writing suggestions.
 It is a large-scale neural language mode of sequence prediction. We use the question-answer format here.
- 
+
 ##### Q: What is the problem?
 The problem is to improve Gmail user experience by assisting users in writing mails by reducing repetitive typing, gaining confidence in Gmail and improving user experience. <br /> <br />
  
 ##### Q: How is it related to deep learning?
 It predicts the next letter/words/phrases while a Gmail user is writing a sentence during an email writing process. This could be modeled to sequence prediction tasks for language models. With the development of machine and deep learning in NLP, the deep neural language model is more accurate but heavy-weight and computationally expensive. That brings to the industry-scale problem which Smart Compose is going to address. <br /> <br />
- 
+
 ##### Q: What is the mathematical modeling
 It could be modelled as sequence to sequence prediction, which maximizes the log probability of producing the correct target sequence given the input for all data samples in the training corpus. <br /> <br />
  
@@ -47,12 +46,12 @@ The baseline model here used is the LSTM language model of 2 layers with 1024 hi
 LM-A is chosen to be the most production-appropriate model taking into account strict production latency constraint and very high request volume. The third model based on Transformer has the highest quality, but quality gap between the the first two model and Transformer based model is less evident in the ExactMatch metric than in the log perplexity metric, and the ExactMatch metric is more important to production. <br /> <br />
  
 ##### Q: How to make a personalized recommendation?
-It develops a global model and personalized model. Then it assigns different weights on a personalized model and a global model as the final sequence prediction to achieve the personzlied recommendation?
+It develops a global model and personalized model. Then it assigns different weights on the personalized model and the global model as the final sequence prediction to achieve the personzlied recommendation?
 The personalzied model is a light-weight language model adapted to the user’s personal mail data.  <br /> <br />
  
 ##### Q: What is my opinion  for Smart Compose?
 It has been shown to have given some helpful predictions in some cases when I was using it. However, the response is still not accurate enough or the prediction is not coming up when I really need it. Also it seems to have some gender-bias or other privacy problem that needs to be addressed.  <br /> <br />
- 
+
  
 ##### Reference:
 Chen, M.X., Lee, B.N., Bansal, G., Cao, Y., Zhang, S., Lu, J., Tsay, J., Wang, Y., Dai, A.M., Chen, Z. and Sohn, T., 2019, July. Gmail smart compose: Real-time assisted writing. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 2287-2295).

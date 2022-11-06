@@ -9,7 +9,7 @@ tags: [Homomorphic Encryption, Privacy Preserving]
 ---
 
 Recently, I have been working on privacy preserving on machine learning. Fully homomorphic encryption is one of the promising ways to do privacy preserving.
- 
+
 ##### What is fully homomorphic encryption?
  
 Fully homomorphic encryption (FHE) is a scheme to keep the encrypted data and operate on the encrypted data without decrypting it.  Data providers might just provide encrypted data to service providers. The service providers run their services on their cloud/platform with the encrypted data all the way along and return the results to data providers.  Then data providers decrypt the result on their sides. It is useful for privacy preserving scenarios such as medical record data, personal data and other sensitive data.

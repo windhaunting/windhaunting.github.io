@@ -11,7 +11,7 @@ tags: [Machine Learning, Deep Neural Networks, Recommendation]
 
 Here we introduce a Youtube's recommendation system based on deep neural networks. It consists of a deep candidate generation model and then a separate deep ranking model. Youtube recommendations have to deal with scalability, freshness and noises of user feedbacks.
 The two-stage of this model can get a small personalized and accurate recommendation for users from a large of millions of videos.
- 
+
 <img src="/assets/images/2022_09_10/recommendation_youtube/recommendation_system_architecture.png" width="300">
  
 #### The candidate generation architecture
