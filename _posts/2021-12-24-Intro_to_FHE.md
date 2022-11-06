@@ -7,7 +7,7 @@ date:   2021-12-24 18:30:13 -0400
 categories: default
 tags: [Homomorphic Encryption, Privacy Preserving]
 ---
- 
+
 Recently, I have been working on privacy preserving on machine learning. Fully homomorphic encryption is one of the promising ways to do privacy preserving.
  
 ##### What is fully homomorphic encryption?

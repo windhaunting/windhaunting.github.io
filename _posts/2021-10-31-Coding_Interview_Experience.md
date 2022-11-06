@@ -8,7 +8,7 @@ tags: [Coding, Interview]
 
 Sometimes if we have encountered a problem and the solution is not obvious to you, what you will do at this time?
 
-According to my personal interview experience, we can not never stop thinking or thinking without talking for a long time. That is a big red flag.
+According to my personal interview experience, we can not keep thinking or thinking without talking for a long time. That is a big red flag.
 
 #### My personal thought:
 
