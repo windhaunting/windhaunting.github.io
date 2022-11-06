@@ -38,6 +38,7 @@ Return true if it is possible to pick up and drop off all passengers for all the
 
 
 #### Analysis:
+
 **1)** We could start from one data size input.
 such as.
 
@@ -80,13 +81,11 @@ trips = [[[2, 1, 5],[2,3, 7], [2, 6, 8]]  capacity = 4;   =>
 
 &ensp; &ensp; &ensp; &nbsp; [ 6 &ensp;    8 ]
 
-for first trip, used  2 passengers,  then second trip comes, the capacity become 4.  Later the first trip ends, we release 2 passengers.  Now the capacity becomes 2 again. Later for third trip, it uses 2,   the capacity become 0 until to the end  return True
+For first trip, we use 2 passengers,  then second trip comes, the capacity become 4.  Later the first trip ends, we release 2 passengers. Now the capacity becomes 2 again. Later for third trip, it uses 2,   the capacity become 0 until to the end  return True
 
 Here we can see that, we need to decide when to add the passengers, that is when a trip comes. when a old trip finishes and we decrease the passengers, that is a new trip comes and has no overlapping with the old trip. 
 
-**3)** Therefore, we could use a priority queue (min heap which tracks the end of the trip) to update the trip and decide if the new trip has no overlapping.
-
-Or we record the start, end position and use sweeping line algorithm to solve this.
+**3)** Therefore, we could use a priority queue (min heap which tracks the end of the trip) to update the trip and decide if the new trip has no overlapping. The alternative way is that, we record the start, end position and use sweeping line algorithm to solve this.
 
 ### Code:
 
