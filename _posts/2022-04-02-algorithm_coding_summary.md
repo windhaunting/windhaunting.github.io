@@ -67,7 +67,7 @@ In order to keep notes and share my understanding of computer algorithms, I summ
      * [<span style="color:blue;"> Union-Find </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/union-find.md){:target="_blank"}
 
 
-* ###### Backtracking
+* ##### Backtracking
      * [<span style="color:blue;"> Backtracking </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/backtracking.md){:target="_blank"}
      
 
