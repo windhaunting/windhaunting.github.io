@@ -48,6 +48,7 @@ online. They partition the stored offine data into training and testing and use 
 ##### Q: What features are used?:
 
 Features used in the Boosting model can be categorized into two types: contextual features and historical features.
+
 The value of contextual features depends exclusively on current information regarding the context in which an ad is to be shown, such as the device used by the users or the current page that the user is on. On the contrary, the historical features depend on previous interaction for the ad or user, for example the click through rate of the ad in last week, or the average click through rate of the user.
 
 
