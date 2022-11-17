@@ -16,7 +16,7 @@ It is to predict the click through rate (CTR) for each ad impression.
 
 ##### Q: How is it mathematically modeled?
 
-The groud truth label is $${-1, 1}$$ indicating a click or no-click. It could be modeled as binary classification problem, and we can get the probability of an ad clck.
+The groud truth label is $${-1, 1}$$ indicating a click or no-click. It could be modeled as a binary classification problem, and we can get the probability of an ad clck.
 
 
 ##### Q: What metrics is used?
