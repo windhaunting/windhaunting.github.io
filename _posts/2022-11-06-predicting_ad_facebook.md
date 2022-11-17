@@ -27,6 +27,7 @@ Calibration is the ratio of the average estimated CTR and empirical CTR, that is
 
 
 ##### Q: What ML modeled is used?
+
 It uses a hybrid model structure, the concatenation of boosted decision trees and of a probabilistic
 sparse linear classifier (logistic regression). 
 Input features are transformed by means of boosted decision trees. The output of each individual tree is treated as a
@@ -45,6 +46,7 @@ online. They partition the stored offine data into training and testing and use 
 
 
 ##### Q: What features are used?:
+
 Features used in the Boosting model can be categorized into two types: contextual features and historical features.
 The value of contextual features depends exclusively on current information regarding the context in which an ad is to be shown, such as the device used by the users or the current page that the user is on. On the contrary, the historical features depend on previous interaction for the ad or user, for example the click through rate of the ad in last week, or the average click through rate of the user.
 
