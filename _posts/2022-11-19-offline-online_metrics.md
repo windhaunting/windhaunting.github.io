@@ -26,7 +26,7 @@ A more significant problem with the offine evaluation metrics in practice is the
 Instead of using expensive and time consuming online evaluation, the performance of a model over the entire span
 of feasible operating points can be simulated using the historic online user engagement data.
 
-They implemented auction simulation using sponsored search click logs data and produced various simulated metrics. Auction simulation, first, reruns ad auctions offline for the given query and selects a set of ads based on the new model prediction scores. During the simulation, user clicks are estimated using historic user clicks of the given (query, ad) pair available in the logs.
+They implement auction simulation using sponsored search click logs data and produced various simulated metrics. Auction simulation, first, reruns ad auctions offline for the given query and selects a set of ads based on the new model prediction scores. During the simulation, user clicks are estimated using historic user clicks of the given (query, ad) pair available in the logs.
 <br />
 <br />
 
