@@ -94,3 +94,7 @@ of probabilistic linear classifiers.
 
 * Best online learning method: Linear regression with per-coordinate learning rate.
 
+
+##### Reference:
+
+He, X., Pan, J., Jin, O., Xu, T., Liu, B., Xu, T., Shi, Y., Atallah, A., Herbrich, R., Bowers, S. and Candela, J.Q., 2014, August. Practical lessons from predicting clicks on ads at facebook. In Proceedings of the eighth international workshop on data mining for online advertising (pp. 1-9).
