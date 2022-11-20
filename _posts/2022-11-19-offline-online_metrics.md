@@ -7,7 +7,7 @@ categories: default
 tags: [Machine learning, Data Science, Offline Metrics, Online Metrics, Predictive Models, Ads, CTR]
 ---
 
-Here we summarize a paper from "Predictive Model Performance: Offline and Online Evaluations" from Microsoft. It analayzed the offline and online metric discrepancy problem and the simulated metrics to simulate online performance.
+Here we summarize a paper from "Predictive Model Performance: Offline and Online Evaluations" from Microsoft. It analyzes the offline and online metric discrepancy problem, and the simulated metric for simulating online performance.
 
 ##### The Offline and online discrepancy problem:
 
@@ -15,8 +15,7 @@ One problem with the model evaluations in reality is that sometimes the improvem
 
 Online testing even under the controlled environment is highly dynamic, of course, and many factors not considered during the offline modeling play a role in the results.
 
-Another problem is comparing performance of predictive models built with different kinds of data, especially data
-with rare events.
+Another problem is to compare the performance of predictive models built with different kinds of data, especially data with rare events.
 <br />
 <br />
 
