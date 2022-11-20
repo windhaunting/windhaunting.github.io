@@ -85,7 +85,7 @@ slightly, though much less than adding a high-value feature, or picking the righ
 of probabilistic linear classifiers.
 
 
-##### Q; What else could be learned?
+##### Q: What else could be learned?
 
 * The experimental results shows that historical features provide considerably more explanatory power than contextual features. 
 
