@@ -53,8 +53,7 @@ Online metrics include model performance statistics:
 
 ##### The summary of the peformance evaluation:
 
-AUC alone is not sufficient enough to estimate the model performance
-reliably.
+AUC alone is not sufficient enough to estimate the model performance reliably.
 
 Both RIG and the AUC are highly sensitive to the class distribution of the evaluation data. (Especially for unbalanced data, the ROC AUC is not a good indicator, the PR AUC is more reliable)
 
