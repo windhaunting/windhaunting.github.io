@@ -55,7 +55,7 @@ Online metrics include model performance statistics:
 
 AUC alone is not sufficient enough to estimate the model performance reliably.
 
-Both RIG and the AUC are highly sensitive to the class distribution of the evaluation data. (Especially for unbalanced data, the ROC AUC is not a good indicator, the PR AUC is more reliable)
+Both RIG and the AUC are highly sensitive to the class distribution of the evaluation data (I also obsereved that especially for unbalanced data, the ROC AUC is not a good indicator, the PR AUC is more reliable).
 
 It is suggested to measure model performance in various quantiles, and carefully analyze how the change
 of model behavior over the range of quantiles would impact in the online environment. One may review
