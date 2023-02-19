@@ -20,6 +20,28 @@ Lifestyle-based Personalized Query in Drug Networks [<span style="color:blue;">L
 
 <br />
 <br />
+
+
+### Publication
+• Zhou, Tian, Fubao Wu, and Lixin Gao. "Profiling-free Configuration Adaptation and Latency-Aware Resource Scheduling for Video Analytics." In 2022 IEEE International Conference on Big Data (Big Data), pp. 1202-1211. IEEE, 2022.
+
+• Wu, Fubao, Lixin Gao, Tian Zhou, and Xi Wang. "MOTrack: Real-time Configuration Adaptation for Video Analytics through Movement Tracking." In 2021 IEEE Global Communications Conference (GLOBECOM), pp. 01-06. IEEE, 2021.
+
+• Wu, Fubao, Han Hee Song, Jiangtao Yin, Lixin Gao, Mario Baldi, and Narendra Anand. "NEMA: Automatic Integration of Large Network Management Databases." IEEE Transactions on Network and Service Management 18, no. 3 (2020): 3783-3797.
+
+• Wu, Fubao, and Lixin Gao. "Scalable Top-k Query on Information Networks with Hierarchical Inheritance Relations." arXiv preprint arXiv:2006.01279 (2020).
+
+• Fubao Wu, Chunhui Xie, Ke Mei. Steganalysis for MP3 based on modified Markov and joint density features.
+Computer Engineering and Applications(In Chinese).48(10) pp.115-119.2012.
+
+• Xie, Chunhui, Yimin Cheng, and Fubao Wu. ”A new detection scheme for Echo Hiding.” In Information Theory
+and Information Security (ICITIS), IEEE International Conference on, pp. 242-246. IEEE, 2010.
+
+• Jinyu Ni, Fubao Wu, Chunhui Xie. ”A steganalysis method in DCT domain for JPEG images”. Microcomputer
+and its Applications(In Chinese).30(8) pp.39-44.2011.
+
+
+
 ### Course Projects
 
 Group Fairness for Learning Representation on Coupled Variational Autoencoder [<span style="color:blue;">Link</span>](./assets/docs/COMPSCI689_project_FubaoWu.pdf)
