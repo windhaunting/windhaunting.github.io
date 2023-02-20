@@ -19,8 +19,6 @@ System Fault Detection for Multivariate Time Series [<span style="color:blue;">L
 Lifestyle-based Personalized Query in Drug Networks [<span style="color:blue;">Link</span>](./assets/docs/Lifestyle-based Personalized Query in Drug Networks.pdf)
 
 <br />
-<br />
-
 
 ### Publication
 
@@ -41,6 +39,7 @@ and Information Security (ICITIS), IEEE International Conference on, pp. 242-246
 • Jinyu Ni, Fubao Wu, Chunhui Xie. ”A steganalysis method in DCT domain for JPEG images”. Microcomputer
 and its Applications(In Chinese).30(8) pp.39-44.2011.
 
+<br />
 
 ### Course Projects
 
