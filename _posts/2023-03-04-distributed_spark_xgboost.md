@@ -10,7 +10,7 @@ tags: [Machine Learning, Distributed training, Spark, XGBoost]
 
 Recently, we have done a project with xgboost model for classification. With the increasing of large amouts of data, we need to use XGBoost distributed training to replace the current pandas XGBoost training solution in Spark.
 
-I explored the XGBoost training and test in Spark to record the framework here.
+I explored the XGBoost training and test in Spark to note down the basic framework here.
 
 (1) Add the libraries.
 from sparkxgb.xgboost import XGBoostClassifier
