@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Recap for my work in a ML/DS area"
+title:  "The difference on working on machine learning and software engineering projects"
 # published: false
 # mathjax: true
-date:   2022-08-06 18:30:13 -0400
+date:   2022-03-11 18:30:13 -0400
 categories: default
-tags: [Machine Learning, Job, Career]
+tags: [Machine Learning, Software Engineering, Job]
 ---
 
-I have been working in the machine learning and data science (ML/DS) engineering area in industry for half a year. 
+I have been working in the machine learning and data science (ML/DS) engineering area in industry for a year. 
 I had been worked in the  software engineering (SE) area before. Some of the SE experience could be shifted to ML/DS,
 but most of them are totally not transferrable.
 
