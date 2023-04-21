@@ -12,8 +12,7 @@ I have been working in the machine learning and data science (ML/DS) engineering
 I had been worked in the  software engineering (SE) area before. Some of the SE experience could be shifted to ML/DS,
 but most of them are totally not transferrable.
 
-
-More companies began to introduce ML/DS solution to their existing systems and products to replace the traditional methods. 
+More companies began to introduce ML/DS solutions to their existing systems and products to replace the traditional methods. 
 Some of the common things between SE and ML/DS engineering:
 (1) Do the objective and user requirement analysis 
 (2) Desgin the system/model
