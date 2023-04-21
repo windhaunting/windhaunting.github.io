@@ -9,8 +9,7 @@ tags: [Machine Learning, Software Engineering, Job]
 ---
 
 I have been working in the machine learning and data science (ML/DS) engineering area in industry for a year. 
-I had been worked in the  software engineering (SE) area before. Some of the SE experience could be shifted to ML/DS,
-but most of them are totally not transferrable.
+I had been worked in the software engineering (SE) area before. Some of the SE experience could be shifted to ML/DS, but most of them are totally not transferrable.
 
 More companies began to introduce ML/DS solutions to their existing systems and products to replace the traditional methods. 
 
