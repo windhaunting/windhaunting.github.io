@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Learned from supply chain ML modeling"
+published: false
+# mathjax: true
+date:   2022-08-06 18:30:13 -0400
+categories: default
+tags: [Machine Learning, Job, Career]
+---
+
+
+I have been working on ML supply chain inventory problem 
+a cycle:
+
+
+business use case requirement? problem -> data aquistion/collection/preparaton-> feature engineering-> modeling/hypotheistis/evaluation/interpretation -> deployment--> production/operations-> optimization  
+then go back circle.
+
+
+what I learned?
+
+most of the difficult part is the data aquisition,  prepration and feature engineering.
+
+not like in the academic, lots of scenarios use the data 
+
+
+which models?
+ the drawback of regression and tree-based model?
+
+which features?
+
+production problem?
+
+mlops monitoring
+
+Explanability and privacy
+
+
+most
+
