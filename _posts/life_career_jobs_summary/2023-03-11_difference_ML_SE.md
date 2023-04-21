@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The difference on working on machine learning and software engineering projects"
-# published: false
+published: true
 # mathjax: true
 date:   2022-03-11 18:30:13 -0400
 categories: default
