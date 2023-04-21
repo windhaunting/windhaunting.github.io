@@ -20,8 +20,7 @@ Some of the common things between SE and ML/DS engineering:
 (4) Maintain and monitor
 (5) Communicate and collaborate with other engineers or teams
 
-However, the ML/DS engineering has its uniqueness. The ML engineering pipeline is a circular and repetitive cycle.
-It also relies on amounts of data.
+However, the ML/DS engineering has its uniqueness. The ML engineering pipeline is a circular and repetitive cycle. It also relies on amounts of data.
 
 (1) We are working on ML/DS to replace the traditional rule-based models.
 The fancy deep and complex model is not the core.  The core is  improve the data quality for some existing ML models.
