@@ -16,9 +16,9 @@ More companies began to introduce ML/DS solutions to their existing systems and 
 Some of the common things between SE and ML/DS engineering:
 (1) Do the objective and user requirement analysis 
 (2) Desgin the system/model
-(2) Develop and test
-(3) Maintain and monitor
-(4) Communicate and collaborate with other engineers or teams
+(3) Develop and test
+(4) Maintain and monitor
+(5) Communicate and collaborate with other engineers or teams
 
 However, the ML/DS engineering has its uniqueness. The ML engineering pipeline is a circular and repetitive cycle.
 It also relies on amounts of data.
