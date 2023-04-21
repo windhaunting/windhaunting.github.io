@@ -13,11 +13,17 @@ I had been worked in the  software engineering (SE) area before. Some of the SE 
 but most of them are totally not transferrable.
 
 More companies began to introduce ML/DS solutions to their existing systems and products to replace the traditional methods. 
+
 Some of the common things between SE and ML/DS engineering:
+
 (1) Do the objective and user requirement analysis 
+
 (2) Desgin the system/model
+
 (3) Develop and test
+
 (4) Maintain and monitor
+
 (5) Communicate and collaborate with other engineers or teams
 
 However, the ML/DS engineering has its uniqueness. The ML engineering pipeline is a circular and repetitive cycle. It also relies on amounts of data.
