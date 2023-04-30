@@ -28,10 +28,8 @@ Some of the common things between SE and ML/DS engineering:
 However, the ML/DS engineering has its uniqueness. The ML engineering pipeline is a circular and repetitive cycle. It also relies on amounts of data.
 
 (1) We are working on ML/DS to replace the traditional rule-based models.
-The fancy deep and complex model is not the core.  The core is  improve the data quality for some existing ML models.
-We spent lots of time on data retrieval and preprocessing.
-There are a large amounts of data from different groups and department. There are lack of clear answer to which data might be availabe for our problem. Also the data quality is another concern. Therefore, to build an effective model,
-our team focuses lots of time on data preprocessing
+The fancy deep and complex model is not the core.  The core is  improve the data quality for some existing ML models. We spent lots of time on data retrieval and preprocessing.
+There are a large amounts of data from different groups and department. There are lack of clear answer to which data might be availabe for our problem. Also the data quality is another concern. Therefore, to build an effective model, our team focuses lots of time on data preprocessing
 
 (2) Unlike the fixed function of input and output in SE, The features as an input of ML models are not easily constructed. Feature engineering is an important part for our projects. We are currently not working projects that needs no hand-engineered features like deep neural network based vision/image. Our projects need more feature engineering work that involve trial and error.
 
