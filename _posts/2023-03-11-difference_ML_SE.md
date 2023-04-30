@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The differences on working on machine learning and software engineering projects"
+title:  "Differences on working on machine learning and software engineering projects"
 published: true
 mathjax: true
 date: 2023-03-11 17:48:16 -0400
@@ -9,9 +9,9 @@ tags: [Machine Learning, Software Engineering, Job]
 ---
 
 I have been working in the machine learning and data science (ML/DS) engineering area in industry for a year. 
-I had been worked in the software engineering (SE) area before. Some of the SE experience could be shifted to ML/DS, but most of them are totally not transferrable.
+I had been worked in the software engineering (SE) area before. Some of the SE experience could be shifted to ML/DS, but most of them are totally not transferrable. Here are my personal opinions.
 
-More companies began to introduce ML/DS solutions to their existing systems and products to replace the traditional methods. 
+More companies have began to introduce ML/DS solutions to their existing systems and products to replace the traditional methods in recent years
 
 Some of the common things between SE and ML/DS engineering:
 
