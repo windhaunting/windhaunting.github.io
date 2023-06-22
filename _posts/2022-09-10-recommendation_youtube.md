@@ -27,7 +27,7 @@ each user's YouTube activity history (IDs of video watches, search query tokens 
  
 * It models as extreme classification each video $$i$$ is a class.
  
-* It uses the implicit feedback [16] of watches to train the model, where a
+* It uses the implicit feedback of watches to train the model, where a
 user completing a video is a positive example.
  
 * It uses a user's history only to predict future watch instead of a held-out watch, which leaks future information.
@@ -43,13 +43,17 @@ our users equally in the loss function, as this prevents a small cohort of highl
 #### The Ranking architecture
 <img src="/assets/images/2022_09_10//recommendation_youtube/Deep_ranking_network_architecture.png" width="300">
  
-* Ranking uses the similar deep neural network architecture as candidate generation, which assigns an independent score to each video impression using logistic regression.
- 
+* Ranking uses the similar deep neural network architecture as candidate generation, which assigns an independent score to each video impression using weighted logistic regression.
+
+* The positive (clicked) impressions are weighted by the observed watch time on the video. Negative (unclicked) impressions all receive unit weight.
+
 * Proper normalization of continuous features was critical for convergence.
  
 * It is to predict expected watch time given training examples that are either positive (the video impression was
 clicked) or negative (the impression was not clicked).
  
+* For inference we use the exponential function ex as the final activation function to produce these odds that closely estimate expected watch time.
+
 #### Code implementation
 Youtube data is not public.
 We uses a small sampled movieLen dataset to simply implement a basic architecture.
