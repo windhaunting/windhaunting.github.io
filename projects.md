@@ -28,7 +28,7 @@ Lifestyle-based Personalized Query in Drug Networks [<span style="color:blue;">L
 
 • Wu, Fubao, Han Hee Song, Jiangtao Yin, Lixin Gao, Mario Baldi, and Narendra Anand. "NEMA: Automatic Integration of Large Network Management Databases." IEEE Transactions on Network and Service Management 18, no. 3 (2020): 3783-3797.
 
-• Wu, Fubao, and Lixin Gao. "Scalable Top-k Query on Information Networks with Hierarchical Inheritance Relations." arXiv preprint arXiv:2006.01279 (2020).
+• Wu, Fubao, and Lixin Gao. "Scalable top-k query on information networks with hierarchical inheritance relations." Distributed and Parallel Databases (2023): 1-30.
 
 • Fubao Wu, Chunhui Xie, Ke Mei. Steganalysis for MP3 based on modified Markov and joint density features.
 Computer Engineering and Applications(In Chinese).48(10) pp.115-119.2012.
