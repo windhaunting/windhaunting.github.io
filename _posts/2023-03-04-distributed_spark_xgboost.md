@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Distributed training and test in Spark XGBoost"
+title:  "Distributed Training and Test in Spark XGBoost"
 published: true
 mathjax: true
 date:   2023-03-04 18:30:13 -0400
