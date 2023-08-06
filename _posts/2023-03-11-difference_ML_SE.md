@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Differences between Working on Machine Learning and Software Engineering Projects"
+title:  "Differences Between Working on Machine Learning and Software Engineering Projects"
 published: true
 mathjax: true
 date: 2023-03-11 17:48:16 -0400
