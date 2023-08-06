@@ -14,7 +14,7 @@ As a data science practitioner eager to harness the potential of artificial inte
 
 The foundation of my exploration lay in understanding two common language models: based LLM and instruction-tuned LLM. Andrew Ng and Isa Fulford skillfully guided me through the intricacies of prompt engineering, enabling me to unleash the full potential of these language models.
 
-Principle 1: Writing Clear and Specific Instructions
+* Principle 1: Writing Clear and Specific Instructions
 
 Under the tutelage of Andrew Ng, I delved into the critical art of crafting precise and unambiguous instructions. Throughout this principle, I explored several indispensable tactics:
 
@@ -26,7 +26,7 @@ Leveraging Condition Checking: Prompting the model to evaluate specified conditi
 
 The Power of "Few-shot" Prompting: The innovative "few-shot" prompting technique empowered me to effectively leverage limited data, producing powerful results.
 
-Principle 2: Giving the Model Time to Think
+* Principle 2: Giving the Model Time to Think
 
 Isa Fulford's teachings highlighted the significance of allowing the model to think and reason autonomously. I embraced two vital tactics to elicit thoughtful responses:
 
