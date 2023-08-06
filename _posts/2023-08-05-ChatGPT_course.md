@@ -8,11 +8,11 @@ categories: default
 tags: [Machine Learning, Deep Learning, Large Language Model, OpenAI, ChatGPT]
 ---
 
-#### Introduction:
+##### Introduction:
 
 As a data science practitioner eager to harness the potential of artificial intelligence, I embarked on an enlightening journey with renowned AI expert, Andrew Ng and OpenAI techincal memeber Isa Fulford. Their courses, "ChatGPT Prompt Engineering for Developers" and "Building Systems with the ChatGPT API," offered on DeepLearning.AI, opened new horizons in the world of large language models of ChatGPT. Join me as I share my experiences and express my gratitude for the invaluable knowledge gained from these transformative courses.
 
-#### Course 1: ChatGPT Prompt Engineering for Developer
+##### Course 1: ChatGPT Prompt Engineering for Developer
 
 The foundation of my exploration lay in understanding two common language models: based LLM and instruction-tuned LLM. Andrew Ng and Isa Fulford skillfully guided me through the intricacies of prompt engineering, enabling me to unleash the full potential of these language models.
 
@@ -44,7 +44,7 @@ Iterative Prompt Refinement:
 
 One of the most invaluable lessons was the concept of iterative prompt refinement. I embraced the idea that initial responses might not always align with expectations. Through iterative development and prompt refinement, I witnessed substantial improvements in the model's performance over time.
 
-#### Course 2: Building Systems with the ChatGPT API
+##### Course 2: Building Systems with the ChatGPT API
 
 Building upon my foundation, Andrew Ng and Isa Fulford introduced me to advanced techniques in "Building Systems with the ChatGPT API," including:
 
@@ -56,7 +56,7 @@ Content Moderation: Ethical considerations took precedence as I acquired techniq
 
 Evaluating Model Outputs: Defining rubrics for output evaluation enabled me to gauge model performance accurately, ensuring robust and reliable results.
 
-#### Conclusion:
+##### Conclusion:
 
 In conclusion, I extend my heartfelt gratitude to Andrew Ng and Isa Fulford for their exceptional courses that have transformed my understanding of the powerful ChatGPT under the hood. "ChatGPT Prompt Engineering for Developers" and "Building Systems with the ChatGPT API" have empowered me to optimize language model performance, elevating my data science practice to new heights. I am eager to apply this newfound knowledge in real-world scenarios, inspired by 
 the boundless possibilities of AI large language models.
