@@ -53,6 +53,7 @@ Reasoning with Chaining of Prompts: Leveraging GPT's chaining of prompts, I harn
 Content Moderation: Ethical considerations took precedence as I acquired techniques to moderate input and output, safeguarding against harmful, hateful, or explicit content.
 
 Evaluating Model Outputs: Defining rubrics for output evaluation enabled me to gauge model performance accurately, ensuring robust and reliable results.
+<br>
 
 ##### Conclusion:
 
