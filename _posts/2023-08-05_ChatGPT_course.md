@@ -3,7 +3,7 @@ layout: post
 title:  "Unleashing the Power of OpenAI Language Models: A Journey with Deeplearning.AI course"
 published: true
 mathjax: true
-date:   2023-03-04 18:30:13 -0400
+date:   2023-08-05 18:30:13 -0400
 categories: default
 tags: [Machine Learning, Deep Learning, Large Language Model, OpenAI, ChatGPT]
 ---
