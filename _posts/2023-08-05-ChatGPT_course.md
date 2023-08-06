@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unleashing the Power of ChatGPT Language Model: A Journey with DeepLearning.AI course"
+title:  "Unleashing the Power of ChatGPT Language Model: a Journey with DeepLearning.AI course"
 published: true
 mathjax: true
 date:   2023-08-05 18:30:13 -0400
