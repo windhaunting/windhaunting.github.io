@@ -9,7 +9,7 @@ tags: [Machine Learning, Deep Learning, Large Language Model, OpenAI, ChatGPT]
 ---
 
 As a data science practitioner eager to harness the potential of artificial intelligence, I embarked on an enlightening journey with renowned AI expert, Andrew Ng and OpenAI techincal memeber Isa Fulford. Their courses, "ChatGPT Prompt Engineering for Developers" and "Building Systems with the ChatGPT API," offered on DeepLearning.AI, opened new horizons in the world of large language models of ChatGPT. Join me as I share my experiences and express my gratitude for the invaluable knowledge gained from these transformative courses.
-
+<br>
 ##### Course 1: ChatGPT Prompt Engineering for Developer
 
 The foundation of my exploration lay in understanding two common language models: based LLM and instruction-tuned LLM. Andrew Ng and Isa Fulford skillfully guided me through the intricacies of prompt engineering, enabling me to unleash the full potential of these language models.
