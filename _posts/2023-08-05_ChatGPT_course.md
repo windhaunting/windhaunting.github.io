@@ -5,7 +5,7 @@ published: true
 mathjax: true
 date:   2023-03-04 18:30:13 -0400
 categories: default
-tags: [Machine Learning, Distributed training, Spark, XGBoost]
+tags: [Machine Learning, Deep Learning, Large Language Model, OpenAI, ChatGPT]
 ---
 
 #### Introduction:
