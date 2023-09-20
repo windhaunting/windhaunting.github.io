@@ -13,7 +13,7 @@ tags: [Machine Learning, Design Pattern]
 
 Below is the summary from chapter 2.
 
-### Chapter 2: Design Patterns for Data Representation**
+### Chapter 2: Design Patterns for Data Representation
 
 **Linear Scaling**:
 
