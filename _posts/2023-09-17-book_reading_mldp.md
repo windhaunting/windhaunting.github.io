@@ -142,6 +142,7 @@ Hyperparameter Tuning involves subjecting the training loop to an optimization p
 Hyperparameters encompass any parameters within the model that a builder can control. These hyperparameters can be categorized into two groups: those related to model architecture and those related to model training. Model architecture hyperparameters govern aspects like the number of layers and neurons per layer, shaping the underlying mathematical function of the machine learning model. Meanwhile, training-related parameters, such as the number of epochs, learning rate, and batch size, control the training loop and often influence how the gradient descent optimizer operates.
 
 Methods for optimizing hyperparameters include manual tuning, grid search, random search, Bayesian optimization, and genetic algorithms. These approaches help identify the hyperparameters that yield the best model performance for a given task.
+<br />
 
 
 ### CHAPTER 5: Design Patterns for Resilient Serving
