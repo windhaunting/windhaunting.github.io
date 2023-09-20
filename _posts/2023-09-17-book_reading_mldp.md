@@ -287,7 +287,8 @@ Tools like the What-If Tool are invaluable for conducting bias analysis, providi
 
 $$
 Attention(Q, K, V) = softmax(sim(Q, K^T))*V
-sim(Q, K) = Q*K/sqrt(d_k)
+
+where sim(Q, K) = Q*K/sqrt(d_k)
 $$
 
 $Q$, $K$, $V$ dimensions are $n$ x $d$,  Attention's dimension is $n$ x $d$.
