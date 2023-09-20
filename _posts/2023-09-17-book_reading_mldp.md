@@ -11,7 +11,7 @@ tags: [Machine Learning, Design Pattern]
 
 "Machine Learning Design Patterns" authored by Valliappa Lakshmanan, Sara Robinson, and Michael Munn, from Google, is a highly recommended read for individuals engaged in machine learning and data science. This book serves as an invaluable resource, offering a comprehensive overview of best practices and design patterns for machine learning development. Within its pages, readers will discover practical solutions to the common hurdles encountered in ML projects, encompassing critical areas such as data preparation, model training, and deployment. The book's extensive coverage spans essential topics, including data preparation, model selection and training, evaluation and validation, as well as deployment and monitoring.
 
-Below is the summary from chapter 2.
+Below is the summary starting from chapter 2.
 
 ### Chapter 2: Design Patterns for Data Representation
 
@@ -69,7 +69,7 @@ The Reframing design pattern involves altering the representation of a machine l
 
 The Multilabel design pattern applies to scenarios where you can assign multiple labels to a single training example. To implement this, you utilize the sigmoid activation function in the final output layer, which results in each value in the sigmoid array ranging between 0 and 1. When working with the Multilabel design pattern, you need to use multi-hot encoding for your labels. Even in the case of binary classification, where your model has a one-element output, binary cross-entropy loss is used. Essentially, a multilabel problem with three classes is treated as three individual binary classification problems.
 
-### Design Pattern 7: Ensembles
+#### Design Pattern 7: Ensembles
 
 The Ensembles design pattern involves the use of techniques that combine multiple machine learning models and aggregate their outputs to make predictions. This approach addresses the error in an ML model, which comprises three components: irreducible error, bias error, and variance error. Ensembles aim to mitigate the bias-variance trade-off in machine learning, enhancing model performance. Some common ensemble methods include bagging, boosting, and stacking.
 
@@ -78,7 +78,7 @@ Stacking utilizes different types of models and features.
 Boosting trains weak learners sequentially to correct each other's errors.
 There are also other ensemble techniques like those incorporating Bayesian approaches or combining neural architecture search and reinforcement learning, such as Google's AdaNet and AutoML techniques.
 
-### Design Pattern 8: Cascade
+#### Design Pattern 8: Cascade
 
 The Cascade design pattern is employed when a machine learning problem can be effectively divided into a series of smaller ML problems. For instance, if you need to predict values in both typical and unusual circumstances, a single model might ignore the rare unusual events. In such cases, a cascade approach breaks the problem into four parts:
 
@@ -88,20 +88,20 @@ The Cascade design pattern is employed when a machine learning problem can be ef
 4. A model to combine the outputs of the two separate models.
 This approach ensures that both rare and common scenarios are considered. However, it's essential to avoid splitting an ML problem unnecessarily, and cascade should be reserved for situations where maintaining internal consistency among multiple models is necessary.
 
-### Design Pattern 9: Neutral Class
+#### Design Pattern 9: Neutral Class
 
 In various classification scenarios, introducing a neutral class can be beneficial. Instead of training a binary classifier, a three-class classifier can be used, with classes for "Yes," "No," and "Maybe." The "Maybe" class serves as the neutral option. A neutral class is especially useful when experts disagree, in customer satisfaction assessment, as a means to improve embeddings, or when reframing the problem.
 
-### Design Pattern 10: Rebalancing
+#### Design Pattern 10: Rebalancing
 
 The Rebalancing design pattern provides solutions for dealing with imbalanced datasets where one label dominates the majority. It addresses situations where there are few examples for specific classes. To overcome this issue, consider metrics other than accuracy, such as precision, recall, or F-measure. Average precision-recall can provide better insights for imbalanced datasets. Rebalancing methods include downsampling the majority class, applying class weights, upsampling the minority class, reframing the problem, and combining these techniques. Combining downsampling with ensemble methods is also a practical approach.
 
 Chapters 2 and 3 focus on the initial steps of structuring machine learning problems, including input data formatting, model architecture options, and output representation. The next chapter will delve into design patterns for training machine learning models, advancing in the machine learning workflow.
 
 
-## CHAPTER 4: Training Model Patterns
+### CHAPTER 4: Training Model Patterns
 
-### Design Pattern 11: Useful Overfitting
+#### Design Pattern 11: Useful Overfitting
 
 Useful Overfitting is a design pattern where we consciously avoid employing generalization techniques because we intentionally want to overfit the training dataset. This pattern is recommended in situations where overfitting can yield benefits, and it suggests conducting machine learning without regularization, dropout, or even a validation dataset for early stopping.
 
@@ -113,19 +113,19 @@ For instance, when tackling partial differential equations (PDEs) using machine 
 
 Some scenarios where Useful Overfitting is applicable include Monte Carlo methods, knowledge distillation from a larger neural network, and overfitting on a small batch as a sanity check for both the model code and data input pipeline.
 
-### Design Pattern 12: Checkpoints
+#### Design Pattern 12: Checkpoints
 
 In the Checkpoints design pattern, we periodically save the complete state of the model during training, creating snapshots of partially trained models. These partially trained models can serve as the final model (in cases of early stopping) or as starting points for further training (in cases of machine failures or fine-tuning).
 
 This pattern becomes especially valuable when training processes are lengthy, as it mitigates the risk of losing progress due to machine failures. Instead of starting from scratch in the event of an issue, we can resume training from an intermediate checkpoint.
 
-### Design Pattern 13: Transfer Learning
+#### Design Pattern 13: Transfer Learning
 
 Transfer Learning involves taking a portion of a pre-trained model, preserving its weights, and incorporating these non-trainable layers into a new model tailored to address a similar problem, often on a smaller dataset.
 
 Two common approaches to transfer learning are fine-tuning and feature extraction, each suited to specific scenarios and needs.
 
-### Design Pattern 14: Distribution Strategy
+#### Design Pattern 14: Distribution Strategy
 
 The Distribution Strategy pattern entails performing training at scale across multiple workers, often incorporating caching, hardware acceleration, and parallelization.
 
@@ -133,7 +133,7 @@ This distribution strategy is typically carried out through two primary methods:
 
 Furthermore, data parallelism can be executed either synchronously or asynchronously, depending on the specific requirements of the training process. Additionally, to improve training time, one can leverage specialized hardware such as GPUs, Google TPUs, Microsoft Azure FPGAs, address I/O limitations with high-speed interconnects, and optimize batch size, particularly in the context of synchronous data parallelism, especially when dealing with large models.
 
-### Design Pattern 15: Hyperparameter Tuning
+#### Design Pattern 15: Hyperparameter Tuning
 
 Hyperparameter Tuning involves subjecting the training loop to an optimization process to discover the ideal set of model hyperparameters.
 
@@ -142,9 +142,9 @@ Hyperparameters encompass any parameters within the model that a builder can con
 Methods for optimizing hyperparameters include manual tuning, grid search, random search, Bayesian optimization, and genetic algorithms. These approaches help identify the hyperparameters that yield the best model performance for a given task.
 
 
-## CHAPTER 5: Design Patterns for Resilient Serving
+### CHAPTER 5: Design Patterns for Resilient Serving
 
-### Design Pattern 16: Stateless Serving Function
+#### Design Pattern 16: Stateless Serving Function
 
 The Stateless Serving Function design pattern empowers a production ML system to efficiently handle thousands to millions of prediction requests per second in a synchronous manner. This system revolves around a stateless function that encapsulates the architecture and weights of a trained model.
 
@@ -152,7 +152,7 @@ Typically, servers establish a pool of stateless components, utilizing them to c
 
 Machine learning models capture significant state during training, including elements like the epoch number and learning rate. These are part of a model's state and must be retained since the learning rate commonly decreases with successive epochs. By mandating that models be exported as stateless functions, we compel model framework creators to manage these stateful variables separately, omitting them from the exported file. While the adoption of stateless functions simplifies server code and enhances scalability, it can introduce complexity into client-side code.
 
-### Design Pattern 17: Batch Serving
+#### Design Pattern 17: Batch Serving
 
 The Batch Serving design pattern leverages distributed data processing infrastructure, typically used for large-scale data analysis, to perform inference on numerous instances simultaneously.
 
@@ -164,7 +164,7 @@ Lambda architecture:
 
 A production ML system that supports both online serving and batch serving adopts a Lambda architecture. This allows ML practitioners to balance between latency, facilitated by the Stateless Serving Function pattern, and throughput, enabled by the Batch Serving pattern.
 
-### Design Pattern 18: Continued Model Evaluation
+#### Design Pattern 18: Continued Model Evaluation
 
 The Continued Model Evaluation design pattern addresses the challenge of detecting and responding when a deployed model is no longer suitable for its intended purpose.
 
