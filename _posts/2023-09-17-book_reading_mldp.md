@@ -176,7 +176,7 @@ Scheduled Retraining
 
 Determining the frequency of retraining depends on factors such as the business use case, the arrival of new data, and the cost implications of the retraining pipeline. One cost-effective tactic to gauge the impact of data and concept drift is to train a model using outdated data and assess its performance on more recent data.
 
-### Design Pattern 19: Two-Phase Predictions
+#### Design Pattern 19: Two-Phase Predictions
 
 The Two-Phase Predictions design pattern offers a solution for maintaining the performance of large, complex models when deploying them on distributed devices. It involves splitting use cases into two phases, with the simpler phase executed at the edge.
 
@@ -186,7 +186,7 @@ With the Two-Phase Predictions pattern, the problem is divided into two parts. A
 
 Another approach is to provide offline support for specific use cases, ensuring certain parts of the application remain functional for users with limited internet connectivity.
 
-### Design Pattern 20: Keyed Predictions
+#### Design Pattern 20: Keyed Predictions
 
 In typical scenarios, machine learning models are trained on a set of input features consistent with those provided during real-time deployment. However, the Keyed Predictions design pattern introduces the concept of clients supplying a key along with their input, particularly useful for scenarios where handling large input-output datasets is involved.
 
@@ -195,9 +195,9 @@ Consider a model deployed as a web service, receiving a file containing a millio
 The solution lies in using pass-through keys, where each input is associated with a key supplied by the client. Client-supplied keys prove beneficial not only in batch prediction scenarios but also in asynchronous serving and continuous evaluation situations.
 
 
-## CHAPTER 6: Design Patterns for Reproducibility
+### CHAPTER 6: Design Patterns for Reproducibility
 
-### Design Pattern 21: Transform
+#### Design Pattern 21: Transform
 
 The Transform design pattern, especially in BigQuery ML, streamlines the process of deploying an ML model into production by meticulously segregating inputs, features, and transformations.
 
