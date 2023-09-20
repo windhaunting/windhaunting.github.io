@@ -251,15 +251,15 @@ To address this challenge effectively, multiple versions of a model can be deplo
 
 
 
-## Chapter 7: Responsible AI
+### Chapter 7: Responsible AI
 
-### Design Pattern 28: Heuristic Benchmark
+#### Design Pattern 28: Heuristic Benchmark
 
 The Heuristic Benchmark pattern serves as a valuable tool for assessing the performance of an ML model by comparing it to a straightforward and easily comprehensible heuristic. This approach aids in conveying the model's performance to business decision-makers in a clear and understandable manner.
 
 However, it's important to note that the use of a heuristic benchmark is not recommended when an established operational practice is already in place. In such cases, the model should be evaluated against the existing standard, regardless of whether it employs ML techniques or not. The existing operational practice, which may not necessarily rely on ML, represents the prevailing approach used to address the problem.
 
-### Design Pattern 29: Explainable Predictions
+#### Design Pattern 29: Explainable Predictions
 
 The Explainable Predictions design pattern plays a crucial role in enhancing user trust in ML systems by providing users with insights into how and why models arrive at specific predictions. While models like decision trees inherently offer interpretability, the complex architectures of deep neural networks often make them challenging to explain. Nonetheless, understanding predictions, especially the factors and features influencing model behavior, is vital across all model types.
 
@@ -275,7 +275,7 @@ Additionally, two alternative approaches to explainability include counterfactua
 
 However, it's crucial to recognize that the relationships explained by these methods are context-bound, representative only within the framework of the training data, model, and specified baseline value.
 
-### Design Pattern 30: Fairness Lens
+#### Design Pattern 30: Fairness Lens
 
 The Fairness Lens design pattern recommends the adoption of preprocessing and postprocessing techniques to ensure that model predictions are fair and unbiased, catering to different user groups and scenarios.
 
@@ -292,7 +292,7 @@ $$
 $Q$, $K$, $V$ dimensions are $n$ x $d$,  Attention's dimension is $n$ x $d$.
 
 
-# Reference:
+## Reference:
 * Lakshmanan, Valliappa, Sara Robinson, and Michael Munn. Machine learning design patterns. O'Reilly Media, 2020.
 * https://github.com/GoogleCloudPlatform/ml-design-patterns/tree/master
 
