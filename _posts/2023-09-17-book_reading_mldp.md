@@ -9,7 +9,7 @@ tags: [Machine Learning, Design Pattern]
 ---
 
 
-"Machine Learning Design Patterns" authored by Valliappa Lakshmanan, Sara Robinson, and Michael Munn, from Google, is a highly recommended read for individuals engaged in machine learning and data science. This book serves as an invaluable resource, offering a comprehensive overview of best practices and design patterns for machine learning development. Within its pages, readers will discover practical solutions to the common hurdles encountered in ML projects, encompassing critical areas such as data preparation, model training, and deployment. The book's extensive coverage spans essential topics, including data preparation, model selection and training, evaluation and validation, as well as deployment and monitoring.
+"Machine Learning Design Patterns" authored by Valliappa Lakshmanan, Sara Robinson, and Michael Munn, from Google, is a highly recommended read for individuals engaged in machine learning and data science. This book serves as an invaluable resource, offering a comprehensive overview of best practices and design patterns for machine learning development. Within its pages, we can discover practical solutions to the common hurdles encountered in ML projects, encompassing critical areas such as data preparation, model training, and deployment. The book's extensive coverage spans essential topics, including data preparation, model selection and training, evaluation and validation, as well as deployment and monitoring.
 
 Below is the summary starting from chapter 2.
 
