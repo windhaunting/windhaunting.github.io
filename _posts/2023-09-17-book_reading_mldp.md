@@ -205,19 +205,19 @@ In cases where the chosen framework lacks inherent support for the Transform pat
 
 Alternatively, another approach to mitigate the training-serving skew problem is the utilization of the Feature Store pattern. The feature store entails a coordinated computation engine and a repository housing transformed feature data.
 
-### Design Pattern 22: Repeatable Splitting
+#### Design Pattern 22: Repeatable Splitting
 
 To ensure the repeatability and reproducibility of data sampling, it's vital to employ a well-distributed column and a deterministic hash function for partitioning available data into training, validation, and test datasets.
 
 However, there are situations where a sequential split of data is warranted, particularly when there are strong correlations between consecutive instances. For instance, in weather forecasting, consecutive days exhibit high correlations, making it inappropriate to place October 12 in the training dataset and October 13 in the testing dataset, given the possibility of significant leakage (e.g., due to a hurricane on October 12). To address this, incorporating seasonality is essential, involving the inclusion of days from all seasons in each split. For instance, the first 20 days of every month could be placed in the training dataset, followed by the next 5 days in the validation dataset, and the last 5 days in the testing dataset.
 
-### Design Pattern 23: Bridged Schema
+#### Design Pattern 23: Bridged Schema
 
 The Bridged Schema design pattern offers a mechanism to adapt training data, originally structured under an older data schema, to a newer, improved schema. This pattern proves valuable because when data providers enhance their data feeds, it often takes time to accumulate enough data in the updated schema to adequately train a new model. The Bridged Schema pattern enables the utilization of the newer data to the fullest extent possible while supplementing it with relevant older data to enhance model accuracy.
 
 Critical to this pattern's success is the comparison of the performance of the newer model, trained on bridged examples, against the older, unaltered model using an evaluation dataset.
 
-### Design Pattern 24: Windowed Inference
+#### Design Pattern 24: Windowed Inference
 
 The Windowed Inference design pattern addresses models that demand a continuous sequence of instances for conducting inference. This pattern functions by externalizing the model's state and invoking it through a stream analytics pipeline. It is particularly useful when a machine learning model relies on features computed from time-windowed aggregates. By externalizing the model state within a stream pipeline, the Windowed Inference design pattern ensures that features calculated dynamically over time windows can be consistently reproduced between training and serving, preventing training-serving skew, especially in cases involving temporal aggregate features.
 
