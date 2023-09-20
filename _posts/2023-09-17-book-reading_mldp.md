@@ -38,6 +38,7 @@ Categorical Variables:
 For handling categorical variables, we can utilize techniques such as Label Encoding and One-Hot Encoding, among others.
 
 ### Design Pattern 1: Hashed Feature
+
 The Hashed Feature design pattern addresses three prevalent challenges associated with categorical features: dealing with incomplete vocabularies, managing large model sizes due to cardinality, and handling issues related to cold starts.
 
 Feature Cross:
