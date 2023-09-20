@@ -248,7 +248,7 @@ In the Model Versioning design pattern, backward compatibility is achieved by de
 As highlighted earlier with data drift, models can become outdated over time, necessitating regular updates to align with an organization's evolving goals and changing data environments. Updating models in production impacts their behavior on new data, necessitating a solution for keeping production models current while ensuring backward compatibility for existing users.
 
 To address this challenge effectively, multiple versions of a model can be deployed concurrently, each associated with a distinct REST endpoint. This approach ensures backward compatibility, allowing users reliant on older versions to continue using the service. Versioning also facilitates granular performance monitoring and analytics tracking across model versions, enabling accurate decisions about when to retire a specific version. Moreover, this design pattern supports A/B testing for model updates with a subset of users.
-\\
+<br />
 
 
 ### Chapter 7: Responsible AI
