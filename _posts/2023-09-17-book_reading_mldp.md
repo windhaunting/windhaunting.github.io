@@ -98,6 +98,7 @@ In various classification scenarios, introducing a neutral class can be benefici
 The Rebalancing design pattern provides solutions for dealing with imbalanced datasets where one label dominates the majority. It addresses situations where there are few examples for specific classes. To overcome this issue, consider metrics other than accuracy, such as precision, recall, or F-measure. Average precision-recall can provide better insights for imbalanced datasets. Rebalancing methods include downsampling the majority class, applying class weights, upsampling the minority class, reframing the problem, and combining these techniques. Combining downsampling with ensemble methods is also a practical approach.
 
 Chapters 2 and 3 focus on the initial steps of structuring machine learning problems, including input data formatting, model architecture options, and output representation. The next chapter will delve into design patterns for training machine learning models, advancing in the machine learning workflow.
+<br />
 
 
 ### CHAPTER 4: Training Model Patterns
