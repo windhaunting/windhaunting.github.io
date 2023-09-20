@@ -57,6 +57,7 @@ Feature crosses demonstrate strong performance even when dealing with extensive 
 #### Design Pattern 4: Multimodal Input
 
 This pattern confronts the challenge of representing data that encompasses various data types or expresses the same information in complex manners. It achieves this by amalgamating all available data representations into a unified format.
+<br />
 
 
 ### CHAPTER 3: Design Patterns for Problem Representation
@@ -193,6 +194,7 @@ In typical scenarios, machine learning models are trained on a set of input feat
 Consider a model deployed as a web service, receiving a file containing a million inputs and returning a file with a million output predictions. Without client-supplied keys, it becomes challenging to match specific outputs to their corresponding inputs.
 
 The solution lies in using pass-through keys, where each input is associated with a key supplied by the client. Client-supplied keys prove beneficial not only in batch prediction scenarios but also in asynchronous serving and continuous evaluation situations.
+<br />
 
 
 ### CHAPTER 6: Design Patterns for Reproducibility
