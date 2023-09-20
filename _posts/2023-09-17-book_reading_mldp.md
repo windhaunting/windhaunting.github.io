@@ -289,6 +289,7 @@ $$
 Attention(Q, K, V) = softmax(sim(Q, K^T))*V
 sim(Q, K) = Q*K/sqrt(d_k)
 $$
+
 $Q$, $K$, $V$ dimensions are $n$ x $d$,  Attention's dimension is $n$ x $d$.
 
 
