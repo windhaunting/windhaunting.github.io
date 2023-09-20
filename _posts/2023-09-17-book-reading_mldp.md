@@ -15,7 +15,7 @@ Below is the summary from chapter 2.
 
 ## Chapter 2: Design Patterns for Data Representation**
 
-**Linear Scaling** :
+**Linear Scaling**:
 
 In the realm of data scaling, four commonly adopted techniques emerge:
 
