@@ -223,7 +223,7 @@ The Windowed Inference design pattern addresses models that demand a continuous 
 
 To handle inference for models requiring a sequence of instances, the solution lies in implementing stateful stream processing, allowing for the maintenance of the model's state over time.
 
-### Design Pattern 25: Workflow Pipeline
+#### Design Pattern 25: Workflow Pipeline
 
 The Workflow Pipeline design pattern addresses the challenge of creating an end-to-end reproducible pipeline by containerizing and orchestrating various steps within the machine learning process. Containerization can be carried out explicitly or facilitated through frameworks designed for this purpose.
 
@@ -233,7 +233,7 @@ To effectively scale machine learning processes, each step in the ML workflow ca
 
 Several tools are available for creating pipelines, including Cloud AI Platform Pipelines, TensorFlow Extended (TFX), Kubeflow Pipelines (KFP), MLflow, and Apache Airflow.
 
-### Design Pattern 26: Feature Store
+#### Design Pattern 26: Feature Store
 
 The Feature Store design pattern simplifies the management and reuse of features across projects by decoupling feature creation from model development.
 
@@ -241,7 +241,7 @@ While ad hoc feature creation may suffice for one-off model development, it beco
 
 The solution is the establishment of a shared feature store, serving as a centralized repository for feature datasets used in machine learning model construction. It acts as the bridge between data engineers responsible for feature creation pipelines and data scientists crafting models. To mitigate training-serving skew risks arising from inconsistent feature engineering, feature stores ensure that feature data is written to both an online and an offline database, separating upstream feature engineering from model serving and ensuring point-in-time correctness.
 
-### Design Pattern 27: Model Versioning
+#### Design Pattern 27: Model Versioning
 
 In the Model Versioning design pattern, backward compatibility is achieved by deploying altered models as microservices with distinct REST endpoints. This becomes a vital prerequisite for implementing many other patterns.
 
