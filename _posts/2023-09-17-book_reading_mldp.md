@@ -13,7 +13,7 @@ tags: [Machine Learning, Design Pattern]
 
 Below is the summary from chapter 2.
 
-## Chapter 2: Design Patterns for Data Representation**
+### Chapter 2: Design Patterns for Data Representation**
 
 **Linear Scaling**:
 
@@ -37,35 +37,35 @@ Picture a scenario where our data deviates from the typical uniform or bell curv
 Categorical Variables:
 For handling categorical variables, we can utilize techniques such as Label Encoding and One-Hot Encoding, among others.
 
-### Design Pattern 1: Hashed Feature
+#### Design Pattern 1: Hashed Feature
 
 The Hashed Feature design pattern addresses three prevalent challenges associated with categorical features: dealing with incomplete vocabularies, managing large model sizes due to cardinality, and handling issues related to cold starts.
 
 Feature Cross:
 A widely embraced technique in feature engineering involves creating what's known as a "feature cross." Essentially, a feature cross is a synthetic feature formed by combining two or more categorical features to capture their interactions. This approach introduces nonlinearity into the model, empowering it to make predictions that go beyond the capabilities of individual features. Feature crosses also expedite the learning of relationships between features, even in simpler models like linear ones. Consequently, employing feature crosses explicitly can expedite model training, making it more cost-effective, and reduce model complexity, thus requiring less training data.
 
-### Design Pattern 2: Embeddings
+#### Design Pattern 2: Embeddings
 
 Embeddings represent a learnable data format that transforms high-cardinality data into a lower-dimensional space while preserving the relevant information needed for the learning task. These embeddings play a central role in contemporary machine learning and manifest in various forms across the field.
 
-### Design Pattern 3: Feature Cross
+#### Design Pattern 3: Feature Cross
 
 This design pattern entails the explicit creation of separate features for every possible combination of input values. Feature crosses, formed by concatenating multiple categorical features, capture interactions between them, thereby introducing nonlinearity into the model. This enhances the model's predictive capabilities, surpassing what individual features can offer. Feature crosses expedite the model's ability to learn relationships between these features. Although more complex models like neural networks and trees can autonomously learn feature crosses, explicitly employing feature crosses allows us to rely on training just a linear model. Consequently, this expedites model training.
 
 Feature crosses demonstrate strong performance even when dealing with extensive datasets. While augmenting layers in a deep neural network could theoretically introduce sufficient nonlinearity to understand the behavior of feature pairs, it substantially prolongs the training process. In certain instances, a linear model equipped with a feature cross, as trained in BigQuery ML, delivers comparable results to a deep neural network trained without a feature cross, all while significantly reducing training time. When selecting features for a feature cross, it is imperative to avoid combining highly correlated features.
 
-### Design Pattern 4: Multimodal Input
+#### Design Pattern 4: Multimodal Input
 
 This pattern confronts the challenge of representing data that encompasses various data types or expresses the same information in complex manners. It achieves this by amalgamating all available data representations into a unified format.
 
 
-## CHAPTER 3: Design Patterns for Problem Representation
+### CHAPTER 3: Design Patterns for Problem Representation
 
-### Design Pattern 5: Reframing
+#### Design Pattern 5: Reframing
 
 The Reframing design pattern involves altering the representation of a machine learning problem's output. For instance, you can reframe a problem that appears to be a regression task into a classification task and vice versa. An example of reframing is binning the output values of a regression problem to transform it into a classification problem. Another approach is multitask learning, where both classification and regression tasks are combined into a single model using multiple prediction heads. However, when using reframing techniques, it's crucial to remain mindful of potential data limitations and the risk of introducing label bias. Multitask learning in neural networks typically involves either hard parameter sharing or soft parameter sharing.
 
-### Design Pattern 6: Multilabel
+#### Design Pattern 6: Multilabel
 
 The Multilabel design pattern applies to scenarios where you can assign multiple labels to a single training example. To implement this, you utilize the sigmoid activation function in the final output layer, which results in each value in the sigmoid array ranging between 0 and 1. When working with the Multilabel design pattern, you need to use multi-hot encoding for your labels. Even in the case of binary classification, where your model has a one-element output, binary cross-entropy loss is used. Essentially, a multilabel problem with three classes is treated as three individual binary classification problems.
 
