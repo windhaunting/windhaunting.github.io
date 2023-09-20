@@ -45,6 +45,7 @@ Feature Cross:
 A widely embraced technique in feature engineering involves creating what's known as a "feature cross." Essentially, a feature cross is a synthetic feature formed by combining two or more categorical features to capture their interactions. This approach introduces nonlinearity into the model, empowering it to make predictions that go beyond the capabilities of individual features. Feature crosses also expedite the learning of relationships between features, even in simpler models like linear ones. Consequently, employing feature crosses explicitly can expedite model training, making it more cost-effective, and reduce model complexity, thus requiring less training data.
 
 ### Design Pattern 2: Embeddings
+
 Embeddings represent a learnable data format that transforms high-cardinality data into a lower-dimensional space while preserving the relevant information needed for the learning task. These embeddings play a central role in contemporary machine learning and manifest in various forms across the field.
 
 ### Design Pattern 3: Feature Cross
@@ -53,6 +54,7 @@ This design pattern entails the explicit creation of separate features for every
 Feature crosses demonstrate strong performance even when dealing with extensive datasets. While augmenting layers in a deep neural network could theoretically introduce sufficient nonlinearity to understand the behavior of feature pairs, it substantially prolongs the training process. In certain instances, a linear model equipped with a feature cross, as trained in BigQuery ML, delivers comparable results to a deep neural network trained without a feature cross, all while significantly reducing training time. When selecting features for a feature cross, it is imperative to avoid combining highly correlated features.
 
 ### Design Pattern 4: Multimodal Input
+
 This pattern confronts the challenge of representing data that encompasses various data types or expresses the same information in complex manners. It achieves this by amalgamating all available data representations into a unified format.
 
 
