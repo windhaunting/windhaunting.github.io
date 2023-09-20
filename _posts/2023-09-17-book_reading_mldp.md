@@ -287,7 +287,7 @@ Tools like the What-If Tool are invaluable for conducting bias analysis, providi
 
 
 
-## Reference:
+### Reference:
 
 * Lakshmanan, Valliappa, Sara Robinson, and Michael Munn. Machine learning design patterns. O'Reilly Media, 2020.
 * https://github.com/GoogleCloudPlatform/ml-design-patterns/tree/master
