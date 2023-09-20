@@ -285,7 +285,12 @@ Before applying the tools outlined in this section, it's prudent to conduct a th
 
 Tools like the What-If Tool are invaluable for conducting bias analysis, providing an open-source platform for evaluating datasets and models. These tools can be effectively utilized from various Python notebook environments, aiding in the essential task of addressing bias in ML models.
 
+$`
 
+Attention(Q, K, V) = softmax(sim(Q, K^T))*V
+sim(Q, K) = Q*K/sqrt(d_k)
+`$
+$Q$, $K$, $V$ dimensions are $n$ x $d$,  Attention's dimension is $n$ x $d$.
 
 
 # Reference:
