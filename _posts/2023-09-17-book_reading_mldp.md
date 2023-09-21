@@ -175,7 +175,7 @@ Two primary reasons models degrade over time are concept drift and data drift. C
 
 To identify model deterioration, it is essential to continuously monitor the model's predictive performance over time, using the same evaluation metrics as during development.
 
-Scheduled Retraining
+Scheduled Retraining:
 
 Determining the frequency of retraining depends on factors such as the business use case, the arrival of new data, and the cost implications of the retraining pipeline. One cost-effective tactic to gauge the impact of data and concept drift is to train a model using outdated data and assess its performance on more recent data.
 
