@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Booking reading -- Machine Learning Design Patterns"
+title:  "Book Reading: Machine Learning Design Patterns"
 published: true
 mathjax: true
 date: 2023-09-17 21:12:11 -0400
