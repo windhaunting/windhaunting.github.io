@@ -35,6 +35,7 @@ The act of "centering" the data within the [-1, 1] range results in a more spher
 Picture a scenario where our data deviates from the typical uniform or bell curve distribution—it's skewed. In such instances, applying a nonlinear transformation to the input data before scaling proves advantageous. One commonly utilized technique involves taking the logarithm of the input values prior to scaling. Additionally, one should consider alternative transformations like sigmoid functions or polynomial expansions (such as square, square root, cube, cube root, and so forth). The success of a transformation can be gauged by its ability to render the distribution of transformed values more uniform or more closely resembling a normal distribution.
 
 Categorical Variables:
+
 For handling categorical variables, we can utilize techniques such as Label Encoding and One-Hot Encoding, among others.
 
 #### Design Pattern 1: Hashed Feature
