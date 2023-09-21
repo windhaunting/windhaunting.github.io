@@ -43,6 +43,7 @@ For handling categorical variables, we can utilize techniques such as Label Enco
 The Hashed Feature design pattern addresses three prevalent challenges associated with categorical features: dealing with incomplete vocabularies, managing large model sizes due to cardinality, and handling issues related to cold starts.
 
 Feature Cross:
+
 A widely embraced technique in feature engineering involves creating what's known as a "feature cross." Essentially, a feature cross is a synthetic feature formed by combining two or more categorical features to capture their interactions. This approach introduces nonlinearity into the model, empowering it to make predictions that go beyond the capabilities of individual features. Feature crosses also expedite the learning of relationships between features, even in simpler models like linear ones. Consequently, employing feature crosses explicitly can expedite model training, making it more cost-effective, and reduce model complexity, thus requiring less training data.
 
 #### Design Pattern 2: Embeddings
