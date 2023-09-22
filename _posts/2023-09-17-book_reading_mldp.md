@@ -292,7 +292,6 @@ Before applying the tools outlined in this section, it's prudent to conduct a th
 Tools like the What-If Tool are invaluable for conducting bias analysis, providing an open-source platform for evaluating datasets and models. These tools can be effectively utilized from various Python notebook environments, aiding in the essential task of addressing bias in ML models.
 
 
-
 ### Reference:
 
 * Lakshmanan, Valliappa, Sara Robinson, and Michael Munn. Machine learning design patterns. O'Reilly Media, 2020.
