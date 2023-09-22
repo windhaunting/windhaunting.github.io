@@ -25,7 +25,7 @@ In the realm of data scaling, four commonly adopted techniques emerge:
 
 3. Z-score normalization: The scaled values are determined using the equation x1_scaled = (x1 - mean_x1)/stddev_x1.
 
-4.Winsorizing**: Employing the empirical distribution in the training dataset, this technique confines the dataset within the bounds set by the 10th and 90th percentiles of the data values (or other percentiles as required). The winsorized value is subsequently subjected to min-max scaling.
+4. Winsorizing**: Employing the empirical distribution in the training dataset, this technique confines the dataset within the bounds set by the 10th and 90th percentiles of the data values (or other percentiles as required). The winsorized value is subsequently subjected to min-max scaling.
 
 The act of "centering" the data within the [-1, 1] range results in a more spherical error function. Consequently, models trained on transformed data tend to converge more rapidly, making them more time and cost-efficient to train. Additionally, the [-1, 1] range provides the highest level of floating-point precision available.
 
