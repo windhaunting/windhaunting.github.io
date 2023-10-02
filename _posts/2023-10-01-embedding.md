@@ -102,6 +102,9 @@ This example demonstrates how CBOW captures the relationships between words in a
 --  Example of skip-gram:
   Here's a simple example of how the Skip-Gram model works using a sentence:
 
+Here is the architecture of skip-gram.
+<img src="/assets/images/2023-10-01/embedding/skip-gram.png" width="300">
+
 (1) Sentence: "The quick brown fox jumps over the lazy dog."
 
 (2) Data Preparation:
