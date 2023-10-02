@@ -10,12 +10,12 @@ tags: [Machine Learning, Embedding, Natural Language Processing, Computer Vision
 
 Embeddings are the backbone of modern machine learning, serving as powerful tools that transform raw data into meaningful representations in lower-dimensional spaces. They play a pivotal role in machine learning, providing a multitude of benefits ranging from dimension reduction, feature learning, and semantic representation to generalization, transfer learning, and computational efficiency. Recently I have joined a ML study group and I gave a presentation about the introduction to embeddings and their methods. Here is the summarization.
 
-### 1. what is an embedding and what is it for?
+#### 1. what is an embedding and what is it for?
 
 It refers to a learned representation of data in a lower-dimensional space. They are vector representations of objects or data points that capture meaningful relationships and properties.
 
 
-### 2. Why embeddings are essential in machine learning?
+#### 2. Why embeddings are essential in machine learning?
 
 **Dimension Reduction:** Embeddings often have lower dimensions than the original data. Reducing the dimensionality of data can lead to more efficient computation and storage while preserving relevant information. This is especially valuable in high-dimensional spaces.
 **Feature Learning:** Embeddings can learn informative features from raw data. Instead of handcrafting features, embeddings can be trained to automatically capture relevant patterns and relationships within the data. This is particularly useful in deep learning and neural networks.
@@ -28,7 +28,7 @@ It refers to a learned representation of data in a lower-dimensional space. They
 **Interpolation and Extrapolation:** Embeddings can capture the relationships between data points in a continuous manner. This enables interpolation (predicting values between existing data points) and extrapolation (predicting values beyond the observed range) for certain tasks.
 
 
-### Embedding Areas:
+#### 3. Embedding Areas:
 
 In NLP, it's commonly to see the word embeddings.
 They represent words as vectors in a continuous, lower-dimensional space. Each word is mapped to a point in this space, where the position of the point captures semantic relationships between words. Word embeddings allow machine learning models to capture the meaning and context of words, which is crucial for tasks like sentiment analysis, language translation, and text generation.
@@ -41,10 +41,9 @@ Other Text embedding (e.g. use for user profile and product descriptions), there
 Category embedding, often referred to as categorical embedding or entity embedding, is a technique used to represent categorical variables as continuous-valued vectors in a lower-dimensional space. Categorical variables are variables that represent different categories or classes, such as gender, country, product IDs, or any other non-numeric attributes.
 
 
-## Methods:
+#### 4. Methods:
 
-## Word Embedding Methods:
-
+##### 4.1 Word Embedding Methods:
 
 * Word2Vec:
 
@@ -52,11 +51,13 @@ Developed by Google, Word2Vec is a set of techniques to create word embeddings b
 Includes CBOW (Continuous Bag of Words) and Skip-gram architectures.
 Known for capturing semantic relationships between words and their context.
 
-Example: a simple example of how Continuous Bag of Words (CBOW) works with a sentence:
+-- Example of CBOW
 
-Sentence: "The quick brown fox jumps over the lazy dog."
+A simple example of how Continuous Bag of Words (CBOW) works with a sentence:
 
-##### Data Preparation:
+(1) Sentence: "The quick brown fox jumps over the lazy dog."
+
+(2) Data Preparation:
 
 Tokenize the sentence: ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog", "."]
 Create a vocabulary: ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog", "."]
@@ -70,14 +71,15 @@ For "quick", context: ["The", "brown"]
 For "brown", context: ["quick", "fox"]
 For "fox", context: ["brown", "jumps"]
 ...
-##### Model Architecture:
+
+(3) Model Architecture:
 
 Build a CBOW model that takes the context word indices as input.
 Use an embedding layer to convert the context words to vectors.
 Average the vectors to get the context representation.
 Pass the averaged vector through a hidden layer or directly to the output layer.
 
-##### Training:
+(4) Training:
 
 Train the CBOW model using the context and target word pairs.
 The model learns to predict the target word based on its context.
@@ -88,17 +90,19 @@ Words with similar meanings will have similar vectors.
 For example, "quick" and "fast" might have similar vectors due to their similar contexts.
 Inference:
 
+(5) Inference:
+
 Now, you can use the trained word embeddings for various tasks.
 For instance, you can calculate the similarity between word vectors, or use them as input features for other machine learning models.
 This example demonstrates how CBOW captures the relationships between words in a sentence by considering their local contexts. Keep in mind that actual implementations involve more complex architectures, larger vocabularies, and training on extensive text corpora for meaningful word embeddings.
 
   
-## Example of skip-gram:
+--  Example of skip-gram:
   Here's a simple example of how the Skip-Gram model works using a sentence:
 
-##### Sentence: "The quick brown fox jumps over the lazy dog."
+(1) Sentence: "The quick brown fox jumps over the lazy dog."
 
-##### Data Preparation:
+(2) Data Preparation:
 
 Tokenize the sentence: ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog", "."]
 Create a vocabulary: ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog", "."]
@@ -112,13 +116,14 @@ For "quick", predict: ["The", "brown"]
 For "brown", predict: ["quick", "fox"]
 For "fox", predict: ["brown", "jumps"]
 ...
-##### Model Architecture:
+
+(3) Model Architecture:
 
 Build a Skip-Gram model that takes the target word index as input.
 Use an embedding layer to convert the target word to a vector.
 Predict the context words based on the target word's embedding.
 
-##### Training:
+(4) Training:
 
 Train the Skip-Gram model to predict context words for each target word.
 The model learns to generate context words that are likely to appear around the target word.
@@ -128,6 +133,8 @@ After training, the embedding vectors for each word represent their semantic mea
 Words with similar meanings will have similar vectors.
 For example, "quick" and "fast" might have similar vectors due to their similar contexts.
 Inference:
+
+(5) Infernece:
 
 Similar to CBOW, you can use the trained word embeddings for various tasks.
 Calculate the similarity between word vectors or use them as input features for machine learning models.
@@ -179,7 +186,8 @@ Learns to represent documents as vectors while considering word order.
 Flair combines forward and backward LSTM language models to generate contextualized word embeddings.
 Known for its contextual string embeddings and sentiment analysis capabilities.
 
-### Image Embedding Methods:
+
+ ##### 4.2 Image Embedding Methods:
 
 * Convolutional Neural Networks (CNNs):
 
@@ -232,7 +240,7 @@ Used for tasks like image classification and clustering.
 Attention mechanisms, popularized by transformers, can be applied to images to generate context-aware embeddings.
 Used for tasks like image captioning and image generation.
 
-### For category embedding:
+##### 4.3 Category embedding:
 
 * Label Encoding:
 
