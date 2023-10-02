@@ -315,7 +315,7 @@ Utilizes domain knowledge to create meaningful numerical representations.
 Examples include business-specific encodings based on industry expertise.
 
 
-Reference:
+#### Reference:
 * http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
 * https://analyticsindiamag.com/word2vec-vs-glove-a-comparative-guide-to-word-embedding-techniques/
 * https://medium.com/@mariamestre/fasttext-stepping-through-the-code-259996d6ebc4
