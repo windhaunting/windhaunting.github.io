@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An Introduction to Embeddings and Their Methods"
+title:  "Embeddings and Their Methods"
 published: true
 # mathjax: true
 date:   2023-10-01 21:30:13 -0400
