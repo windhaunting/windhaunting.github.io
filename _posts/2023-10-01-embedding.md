@@ -192,7 +192,7 @@ Flair combines forward and backward LSTM language models to generate contextuali
 Known for its contextual string embeddings and sentiment analysis capabilities.
 
 
- ##### 4.2 Image Embedding Methods:
+##### 4.2 Image Embedding Methods:
 
 * Convolutional Neural Networks (CNNs):
 
@@ -331,3 +331,6 @@ Reference:
 * https://www.baeldung.com/cs/image-processing-feature-descriptors
 * https://towardsdatascience.com/bag-of-visual-words-in-a-nutshell-9ceea97ce0fb
 *  https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html
+* https://towardsdatascience.com/entity-embeddings-for-ml-2387eb68e49
+* https://medium.com/flutter-community/dealing-with-categorical-features-with-high-cardinality-feature-hashing-7c406ff867cb
+* https://medium.com/@rakeshsharma.pr/why-feature-crosses-are-still-important-in-machine-learning-4ee49189a2ca
