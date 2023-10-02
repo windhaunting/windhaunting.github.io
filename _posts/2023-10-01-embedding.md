@@ -8,7 +8,7 @@ categories: default
 tags: [Machine Learning, Embedding, Natural Language Processing, Computer Vision]
 ---
 
-Embeddings are the backbone of modern machine learning, serving as powerful tools that transform raw data into meaningful representations in lower-dimensional spaces. They play a pivotal role in machine learning, providing a multitude of benefits ranging from dimension reduction, feature learning, and semantic representation to generalization, transfer learning, and computational efficiency. Recently I have joined a ML study group and I gave a presentation about the introduction to embeddings and their methods. Here are the summarization.
+Embeddings are the backbone of modern machine learning, serving as powerful tools that transform raw data into meaningful representations in lower-dimensional spaces. They play a pivotal role in machine learning, providing a multitude of benefits ranging from dimension reduction, feature learning, and semantic representation to generalization, transfer learning, and computational efficiency. Recently I have joined a ML study group and I gave a presentation about the introduction to embeddings and their methods. Here is the summarization.
 
 ### 1. what is an embedding and what is it for?
 
