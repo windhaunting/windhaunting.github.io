@@ -204,6 +204,8 @@ Pre-trained CNNs are often used as feature extractors for various tasks.
 
 Siamese networks are popular for learning similarity or dissimilarity between images.
 They generate embeddings that encode relationships between images for tasks like image similarity and face verification.
+Here is the architecture of Siamese Networks:
+<img src="/assets/images/2023-10-01/embedding/siamese-network.png" width="300">
 
 * Triplet Networks:
 
@@ -308,3 +310,9 @@ Reference:
 * https://arxiv.org/abs/1901.02860
 * https://arxiv.org/abs/1803.11175
 * https://medium.com/wisio/a-gentle-introduction-to-doc2vec-db3e8c0cce5e
+* https://medium.com/@rinkinag24/a-comprehensive-guide-to-siamese-neural-networks-3358658c0513
+* https://www.v7labs.com/blog/triplet-loss
+* https://analyticsindiamag.com/a-comparison-of-4-popular-transfer-learning-models/
+* https://www.baeldung.com/cs/image-processing-feature-descriptors
+* https://towardsdatascience.com/bag-of-visual-words-in-a-nutshell-9ceea97ce0fb
+*  https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html
