@@ -50,6 +50,8 @@ Category embedding, often referred to as categorical embedding or entity embeddi
 Developed by Google, Word2Vec is a set of techniques to create word embeddings based on predicting words in a context window.
 Includes CBOW (Continuous Bag of Words) and Skip-gram architectures.
 Known for capturing semantic relationships between words and their context.
+Here is the architecture of CBOW.
+<img src="/assets/images/2023-10-01/embedding/CBOW.png" width="300">
 
 -- Example of CBOW
 
@@ -291,3 +293,15 @@ Can capture relationships that are not evident in individual categories.
 
 Utilizes domain knowledge to create meaningful numerical representations.
 Examples include business-specific encodings based on industry expertise.
+
+
+Reference:
+* http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
+* https://analyticsindiamag.com/word2vec-vs-glove-a-comparative-guide-to-word-embedding-techniques/
+* https://medium.com/@mariamestre/fasttext-stepping-through-the-code-259996d6ebc4
+* https://www.mihaileric.com/posts/deep-contextualized-word-representations-elmo/
+* https://paperswithcode.com/method/ulmfit
+* https://arxiv.org/abs/1810.04805
+* https://arxiv.org/abs/1901.02860
+* https://arxiv.org/abs/1803.11175
+* https://medium.com/wisio/a-gentle-introduction-to-doc2vec-db3e8c0cce5e
