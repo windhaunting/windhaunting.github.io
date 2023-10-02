@@ -291,7 +291,3 @@ Can capture relationships that are not evident in individual categories.
 
 Utilizes domain knowledge to create meaningful numerical representations.
 Examples include business-specific encodings based on industry expertise.
-
-
-
-
