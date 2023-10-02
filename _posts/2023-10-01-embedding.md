@@ -204,6 +204,7 @@ Pre-trained CNNs are often used as feature extractors for various tasks.
 
 Siamese networks are popular for learning similarity or dissimilarity between images.
 They generate embeddings that encode relationships between images for tasks like image similarity and face verification.
+
 Here is the architecture of Siamese Networks:
 <img src="/assets/images/2023-10-01/embedding/siamese-network.png" width="300">
 
@@ -211,6 +212,7 @@ Here is the architecture of Siamese Networks:
 
 Triplet networks learn embeddings that ensure similar images are closer in the embedding space than dissimilar images.
 Effective for image retrieval and clustering tasks.
+
 Here is the architecture of Triplet Networks:
 <img src="/assets/images/2023-10-01/embedding/triplet-networks.png" width="300">
 
@@ -219,6 +221,7 @@ Here is the architecture of Triplet Networks:
 
 Autoencoders learn to reconstruct input images and generate embeddings in the bottleneck layer.
 Variational Autoencoders (VAEs) introduce probabilistic modeling to generate embeddings.
+
 Here is the architecture of Triplet Networks:
 <img src="/assets/images/2023-10-01/embedding/auto-encoder.png" width="300">
 
@@ -227,6 +230,7 @@ Here is the architecture of Triplet Networks:
 
 Pre-trained models like VGG, ResNet, and Inception are used as feature extractors.
 They capture high-level features from images and are fine-tuned for specific tasks.
+
 Here is the architecture of Pre-trained Networks:
 <img src="/assets/images/2023-10-01/embedding/pretrained-model.png" width="300">
 
@@ -239,6 +243,7 @@ Used for object detection, image recognition, and more.
 
 BoVW divides images into regions, quantizes local descriptors, and generates histograms of visual words.
 Used for image classification, image retrieval, and object recognition.
+
 Here is the diagram of BoVW:
 <img src="/assets/images/2023-10-01/embedding/boVw.png" width="300">
 
