@@ -207,7 +207,7 @@ It's important to note that during inference, the self-attention mechanism in th
 
 In practice, beam search is often used to explore multiple possible sequences simultaneously and improve the overall quality of generated sequences. Beam search maintains a set of the most likely partial sequences, expanding and selecting the top candidates at each step.
 
-*  Q: How is the encoder different from decoder?
+** Q: How is the encoder different from decoder?
 
 A: There are some key differences in how they are applied in the encoder and decoder:
 
