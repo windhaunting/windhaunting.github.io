@@ -145,13 +145,13 @@ Language-Dependent Pretraining: Pretrained Transformers are often language-depen
 
 ### Common Q & A:
 
-* Q: Why use  sin and cos in the positional encoding?
+** Q: Why use  sin and cos in the positional encoding?
 
 A: The use of sine and cosine functions allows the positional encoding to have a smooth and continuous representation of position. The frequency of the sine and cosine functions varies across dimensions, ensuring that different positions have distinct representations. This helps the model to learn and generalize well based on the position of tokens in the input sequence.
 
 The choice of sine and cosine functions is not unique; other functions could be used to achieve similar goals. The key is to provide the model with a way to differentiate between different positions in the input sequence. The sine and cosine functions were chosen in the original Transformer model for their smoothness and ability to capture positional information effectively.
 
-* Q: what do we need multi-head attention, not only one?
+** Q: what do we need multi-head attention, not only one?
 A:  Multi-head attention uses multiple attention heads to capture diverse patterns and relationships in input sequences simultaneously. Each attention head learns different aspects of the data, promoting increased expressiveness and improving the model's ability to generalize to various input patterns. By allowing parallelization during training, multi-head attention enhances computational efficiency. The combination of outputs from different attention heads provides the model with a richer understanding of the input sequence, reducing overfitting and aiding in the learning of diverse representations. This mechanism has proven effective in natural language processing tasks and sequence-to-sequence applications, contributing to the success of the Transformer model in capturing complex dependencies in sequential data. 
 
 
