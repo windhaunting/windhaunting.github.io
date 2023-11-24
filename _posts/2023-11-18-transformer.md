@@ -59,7 +59,7 @@ where
 
 $$sim(Q, K) = Q*K/sqrt(d_k)$$
 
-$Q$, $K$, $V$ dimensions are $n$ x $d$,  Attention's dimension is $n$ x $d$.
+$$Q$$, $$K$$, $$V$$ dimensions are $$n$$ x $$d$$,  Attention's dimension is $$n$$ x $$d$$.
 
 
 Then the extened attentions of Masked multi-head Attention and Multi-head Attention are used.
@@ -74,7 +74,7 @@ $$sim(Q, K) = (Q*K  + M)/sqrt(d_k)$$
 
 where 
 
-$M$ is a maksed matrix of $0$ or $-/infinity$, which to make the exponential of $-/infinity$ as 0, also masking before exponential makes the whole distribution prob as 1.
+$$M$$ is a maksed matrix of $$0$$ or $$-/infinity$$, which to make the exponential of $-/infinity$ as $$0$$, also masking before exponential makes the whole distribution prob as 1.
 
  Multi-head Attention shown below are calculated in parallel with $h$ attention layers.
 
@@ -90,7 +90,7 @@ $$head_i = Attention(QW_i^Q, KW_i^K, VW_i^V)$$
 ##### Layer normalization:
 Considering of large and long input and output word size, we can normalize the value to keep in a range.
 They normalize the values after positional encoding and after self attention in both the Encoder and the Decoder.
-It is to normalize each layer values to have  mean=0 and  variance=1. It can make gradient more stable and converge faster.
+It is to normalize each layer values to have  $$mean=0$$ and $$variance=1$$. It can make gradient more stable and converge faster.
 A little bit different to batch normalization, here it does the normalization at each unit of layer, and there is no need to wait for enough batch to do normalization.
 
 
