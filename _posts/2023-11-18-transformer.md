@@ -109,31 +109,31 @@ A little bit different to batch normalization, here it does the normalization at
 
 ### The advantage of the transformer model
 
-Parallelization: Transformers utilize a self-attention mechanism that allows for parallel processing of input sequences. This parallelization significantly speeds up training and inference compared to sequential models like recurrent neural networks (RNNs).
+* Parallelization: Transformers utilize a self-attention mechanism that allows for parallel processing of input sequences. This parallelization significantly speeds up training and inference compared to sequential models like recurrent neural networks (RNNs).
 
-Scalability: Transformers can scale to handle both short and very long sequences, making them suitable for a wide range of applications, from short text to entire documents or even images.
+* Scalability: Transformers can scale to handle both short and very long sequences, making them suitable for a wide range of applications, from short text to entire documents or even images.
 
-Bidirectional Context: Unlike traditional RNNs, which process sequences sequentially, Transformers are inherently bidirectional. They consider both preceding and succeeding words when encoding a word, resulting in better contextual understanding.
+* Bidirectional Context: Unlike traditional RNNs, which process sequences sequentially, Transformers are inherently bidirectional. They consider both preceding and succeeding words when encoding a word, resulting in better contextual understanding.
 
-Attention Mechanism: The self-attention mechanism allows Transformers to assign different weights to different parts of the input sequence, capturing long-range dependencies and contextual relationships effectively.
+* Attention Mechanism: The self-attention mechanism allows Transformers to assign different weights to different parts of the input sequence, capturing long-range dependencies and contextual relationships effectively.
 
-Transfer Learning: Transformers can be pretrained on large corpora and then fine-tuned for specific tasks, reducing the need for task-specific data and architectural changes. This transfer learning approach has become a standard practice in NLP and other domains.
+* Transfer Learning: Transformers can be pretrained on large corpora and then fine-tuned for specific tasks, reducing the need for task-specific data and architectural changes. This transfer learning approach has become a standard practice in NLP and other domains.
 
-Multimodal Applications: Transformers are not limited to text data and can be extended to handle multimodal inputs, such as combining text and images for tasks like image captioning or visual question answering.
+* Multimodal Applications: Transformers are not limited to text data and can be extended to handle multimodal inputs, such as combining text and images for tasks like image captioning or visual question answering.
 
-Universal Applicability: Transformers are highly versatile and have been used for a wide range of NLP tasks, including text classification, machine translation, sentiment analysis, named entity recognition, and more. They are also applied in computer vision and speech processing.
+* Universal Applicability: Transformers are highly versatile and have been used for a wide range of NLP tasks, including text classification, machine translation, sentiment analysis, named entity recognition, and more. They are also applied in computer vision and speech processing.
 
-Interpretable Attention: The attention weights in Transformers can be used to visualize and interpret which parts of the input sequence are most relevant for a given output, providing transparency and insight into the model's decision-making process.
+* Interpretable Attention: The attention weights in Transformers can be used to visualize and interpret which parts of the input sequence are most relevant for a given output, providing transparency and insight into the model's decision-making process.
 
-Language Independence: Transformers are adaptable to multiple languages and can be pretrained and fine-tuned for various language-specific tasks, facilitating cross-lingual applications.
+* Language Independence: Transformers are adaptable to multiple languages and can be pretrained and fine-tuned for various language-specific tasks, facilitating cross-lingual applications.
 
-Incorporation of Prior Knowledge: Transformers can be fine-tuned with domain-specific data or prior knowledge, making them suitable for specialized applications like scientific research, legal analysis, or medical diagnostics.
+* Incorporation of Prior Knowledge: Transformers can be fine-tuned with domain-specific data or prior knowledge, making them suitable for specialized applications like scientific research, legal analysis, or medical diagnostics.
 
-Architectural Flexibility: The Transformer architecture serves as a foundation for a wide range of models and extensions, such as BERT, GPT, and more. Researchers have developed numerous specialized Transformer-based models for various tasks and domains.
+* Architectural Flexibility: The Transformer architecture serves as a foundation for a wide range of models and extensions, such as BERT, GPT, and more. Researchers have developed numerous specialized Transformer-based models for various tasks and domains.
 
-Open-Source Implementations: There are open-source libraries and pretrained models available for Transformers, making it accessible to the research and developer communities. This has led to widespread adoption and rapid progress in NLP and machine learning.
+* Open-Source Implementations: There are open-source libraries and pretrained models available for Transformers, making it accessible to the research and developer communities. This has led to widespread adoption and rapid progress in NLP and machine learning.
 
-Continuous Advancements: The field of Transformers continues to evolve with ongoing research and developments, leading to improvements in model architectures, training techniques, and efficiency.
+* Continuous Advancements: The field of Transformers continues to evolve with ongoing research and developments, leading to improvements in model architectures, training techniques, and efficiency.
 
 ### The disadvantage of the transformer model
 
