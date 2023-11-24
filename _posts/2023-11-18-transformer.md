@@ -26,6 +26,7 @@ The Transformer overcomes certain challenges posed by CNNs and RNNs in this cont
 5. [Reference](#reference)
 
 ### The transformer architecture
+
 As shown in the figure below, 
 
 <div style="text-align:center">
@@ -102,8 +103,7 @@ Considering of large and long input and output word size, we can normalize the v
 They normalize the values after positional encoding and after self attention in both the Encoder and the Decoder.
 It is to normalize each layer values to have  $$mean=0$$ and $$variance=1$$. It can make gradient more stable and converge faster.
 A little bit different to batch normalization, here it does the normalization at each unit of layer, and there is no need to wait for enough batch to do normalization.
-
-
+<br />
 
 
 
@@ -134,6 +134,8 @@ A little bit different to batch normalization, here it does the normalization at
 * Open-Source Implementations: There are open-source libraries and pretrained models available for Transformers, making it accessible to the research and developer communities. This has led to widespread adoption and rapid progress in NLP and machine learning.
 
 * Continuous Advancements: The field of Transformers continues to evolve with ongoing research and developments, leading to improvements in model architectures, training techniques, and efficiency.
+<br />
+
 
 ### The disadvantage of the transformer model
 
@@ -162,6 +164,7 @@ A little bit different to batch normalization, here it does the normalization at
 * Storage and Deployment: Deploying large Transformer models in real-world applications can be challenging due to their size. It can strain storage and bandwidth resources, especially in scenarios where low-latency responses are required.
 
 Language-Dependent Pretraining: Pretrained Transformers are often language-dependent, meaning that a model pretrained on one language may not perform as well on others. Multilingual models are emerging to address this issue.
+<br />
 
 
 
