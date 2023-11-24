@@ -52,7 +52,9 @@ The attention 's score are calculated in the figure shown here:
 <img src="/assets/images/2023-11-15/transformer/scaled_dot_prodcut.png" width="300">
 
 $$Attention(Q, K, V) = softmax(sim(Q, K^T))*V$$
-where 
+
+where
+ 
 $$sim(Q, K) = Q*K/sqrt(d_k)$$
 
 $Q$, $K$, $V$ dimensions are $n$ x $d$,  Attention's dimension is $n$ x $d$.
@@ -66,15 +68,19 @@ It masks some values for decoding output. The output should not depend on future
 $$Attention(Q, K, V) = softmax(sim(Q, K^T))*V$$
 
 $$sim(Q, K) = (Q*K  + M)/sqrt(d_k)$$
+
 where 
+
 $M$ is a maksed matrix of $0$ or $-/infinity$, which to make the exponential of $-/infinity$ as 0, also masking before exponential makes the whole distribution prob as 1.
 
  Multi-head Attention shown below are calculated in parallel with $h$ attention layers.
- 
+
  <img src="/assets/images/2023-11-15/transformer/multi_head_attention.png" width="300">
 
 $$MultiHead(Q, K, V) = concat(head_1,...,head_h)*W^O$$
+
 where
+
 $$head_i = Attention(QW_i^Q, KW_i^K, VW_i^V)$$
 
 
