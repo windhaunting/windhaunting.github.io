@@ -76,7 +76,7 @@ $$sim(Q, K) = (Q*K  + M)/sqrt(d_k)$$
 
 where 
 
-$$M$$ is a maksed matrix of $$0$$ or $$\(-\infty\)$$, which to make the exponential of $$\(-\infty\)$$ as $$0$$, also masking before exponential makes the whole distribution prob as $$1$$.
+$$M$$ is a maksed matrix of $$0$$ or $$-\infty$$, which to make the exponential of $$-\infty$$ as $$0$$, also masking before exponential makes the whole distribution prob as $$1$$.
 
  Multi-head Attention shown below are calculated in parallel with $h$ attention layers.
 
