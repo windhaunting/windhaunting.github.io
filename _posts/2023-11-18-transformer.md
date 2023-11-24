@@ -8,27 +8,6 @@ categories: default
 tags: [Machine Learning, NLP, Transformer, Self-Attention]
 ---
 
-# Table of Contents
-
-1. [Introduction](#introduction)
-   - [Transformer Model](#transformer-model)
-2. [The Transformer Architecture](#the-transformer-architecture)
-   - [Word Embedding](#word-embedding)
-   - [Positional Embedding](#positional-embedding)
-   - [Attention Mechanism](#attention-mechanism)
-   - [Layer Normalization](#layer-normalization)
-3. [Advantages of the Transformer Model](#advantages-of-the-transformer-model)
-4. [Disadvantages of the Transformer Model](#disadvantages-of-the-transformer-model)
-5. [Common Q & A](#common-q--a)
-   - [Why Use Sin and Cos in Positional Encoding?](#why-do-we-use-sin-and-cos-in-the-positional-encoding)
-   - [Why Multi-Head Attention?](#why-do-we-need-multi-head-attention-not-only-one)
-   - [Q, K, V Representation](#q-k-v-represent-in-the-context-of-input-sentence)
-   - [Inference in the Decoder](#for-inference-do-we-have-output-token-input-for-the-decoder-part-how-to-make-an-inference-for-the-output)
-   - [Encoder vs. Decoder](#how-is-the-encoder-different-from-the-decoder)
-   - [Scaling of Dot Product Attention](#why-do-we-need-scaling-of-the-dot-product-attention-before-applying-softmax)
-   - [Use of Q, K, V in Transformer](#why-do-we-use-q-k-v-in-transformer-can-we-just-use-any-one-or-two-of-them)
-6. [Reference](#reference)
-
 
 The introduction of the Transformer model initially aimed to address the limitations of convolutional neural networks (CNNs) and recurrent neural networks (RNNs) in machine translation. The goal was to enable parallel computation and effectively handle long-range dependencies in sequences. While attention mechanisms were previously popular in computer vision for tasks like image classification and detection, the Transformer adapted them to enhance the efficiency and scalability of neural networks, especially in sequence-to-sequence tasks such as machine translation.
 
@@ -38,9 +17,24 @@ The Transformer overcomes certain challenges posed by CNNs and RNNs in this cont
 * The model learns bidirectional information simultaneously, distinguishing itself from bidirectional LSTM models that learn directions independently.
 * The Transformer excels at capturing long-range dependencies, a critical factor in tasks like machine translation.
 
+# Table of Contents
 
-It is an encoder and decoder architecure based on an attention mechanism.
-
+1. [The Transformer Architecture](#the-transformer-architecture)
+   - [Word Embedding](#word-embedding)
+   - [Positional Embedding](#positional-embedding)
+   - [Attention Mechanism](#attention-mechanism)
+   - [Layer Normalization](#layer-normalization)
+2. [Advantages of the Transformer Model](#advantages-of-the-transformer-model)
+3. [Disadvantages of the Transformer Model](#disadvantages-of-the-transformer-model)
+4. [Common Q & A](#common-q--a)
+   - [Why Use Sin and Cos in Positional Encoding?](#why-do-we-use-sin-and-cos-in-the-positional-encoding)
+   - [Why Multi-Head Attention?](#why-do-we-need-multi-head-attention-not-only-one)
+   - [Q, K, V Representation](#q-k-v-represent-in-the-context-of-input-sentence)
+   - [Inference in the Decoder](#for-inference-do-we-have-output-token-input-for-the-decoder-part-how-to-make-an-inference-for-the-output)
+   - [Encoder vs. Decoder](#how-is-the-encoder-different-from-the-decoder)
+   - [Scaling of Dot Product Attention](#why-do-we-need-scaling-of-the-dot-product-attention-before-applying-softmax)
+   - [Use of Q, K, V in Transformer](#why-do-we-use-q-k-v-in-transformer-can-we-just-use-any-one-or-two-of-them)
+5. [Reference](#reference)
 
 ### The transformer architecture
 As shown in the Figure below, 
