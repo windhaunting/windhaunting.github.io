@@ -55,7 +55,6 @@ It is noteworthy that the encoder part stacked is the basis of BERT model, and t
 
 There are four main blocks in the transformer architecture. 
 
-
 ##### Word Embedding
 
 The input is a string of word sequences. It uses a word embedding algorithm to obtain the embeddings of tokens from the word input. For example, one-hot embedding can be employed as the word embedding method.
