@@ -264,9 +264,7 @@ The inclusion of all three components enables the self-attention mechanism to co
 
 
 
-
 ### Reference: 
-
 
 Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. "Attention is all you need." Advances in neural information processing systems 30 (2017).
 
