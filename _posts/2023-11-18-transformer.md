@@ -115,6 +115,7 @@ $$head_i = Attention(QW_i^Q, KW_i^K, VW_i^V)$$
 
 
 ##### Layer normalization:
+
 Considering of large and long input and output word size, we can normalize the value to keep in a range.
 They normalize the values after positional encoding and after self attention in both the Encoder and the Decoder.
 It is to normalize each layer values to have  $$mean=0$$ and $$variance=1$$. It can make gradient more stable and converge faster.
