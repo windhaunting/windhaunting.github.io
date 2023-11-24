@@ -48,7 +48,7 @@ $$PE(pos, 2i+1) = cos(pos/10000^{2i/d_model}$$
 
 ##### Attention mechanism:
 
-It uses query $Q$, key $K$, value $V$. which simulate the query in the database with keys and values. It compare the similarity of query of each key in the keys, and find the most similar key's value.
+It uses query $$Q$$, key $$K$$, value $$V$$. which simulate the query in the database with keys and values. It compare the similarity of query of each key in the keys, and find the most similar key's value.
 The attention 's score are calculated in the figure shown here:
 
 <img src="/assets/images/2023-11-15/transformer/scaled_dot_prodcut.png" width="300">
