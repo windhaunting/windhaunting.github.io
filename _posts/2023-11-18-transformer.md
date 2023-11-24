@@ -20,10 +20,6 @@ The Transformer overcomes certain challenges posed by CNNs and RNNs in this cont
 # Table of Contents
 
 1. [The Transformer Architecture](#the-transformer-architecture)
-   - [Word Embedding](#word-embedding)
-   - [Positional Embedding](#positional-embedding)
-   - [Attention Mechanism](#attention-mechanism)
-   - [Layer Normalization](#layer-normalization)
 2. [Advantages of the Transformer Model](#advantages-of-the-transformer-model)
 3. [Disadvantages of the Transformer Model](#disadvantages-of-the-transformer-model)
 4. [Common Q & A](#common-q--a)
@@ -46,7 +42,7 @@ There are four main blocks in the transformer architecture.
 
 The input is a string of word sequences. It uses a word embedding algorithm to obtain the embeddings of tokens from the word input. For example, one-hot embedding can be employed as the word embedding method.
 
-##### Positional　Embedding：
+##### Positional Embedding
 
 This addresses the issue of word order. It encodes the position as an integer and embeds it as a vector. Positional embedding is added to the input embeddings at the bottoms of the encoder and decoder stacks. While directly concatenating it might impact positional encoding, in practice, it appears to work well.
 
