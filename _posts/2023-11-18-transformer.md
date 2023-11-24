@@ -195,7 +195,7 @@ The attention scores are used to weight the corresponding Value vectors, and the
 This process is performed independently for each token within each input sentence. The use of individual Q, K, and V vectors for each token allows the model to capture complex relationships and dependencies within the input sentence. It provides the flexibility for the model to attend to different parts of the sentence for each position in the output sequence, contributing to the effectiveness of the Transformer architecture in natural language processing and sequence-to-sequence tasks.
 
 
-**Q: For inference, we don't have output token input for the decoder part, how to make an inference for the output?**
+**Q: For inference, do we have output token input for the decoder part? how to make an inference for the output?**
 
 A: During inference in a Transformer model, where you are generating output sequences autoregressively (i.e., one token at a time), the decoding process typically involves the following steps:
 
