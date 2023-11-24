@@ -260,7 +260,7 @@ In summary, while the basic self-attention mechanism is similar, the differences
 
 A: Scaling the dot product in the self-attention mechanism of the Transformer is essential for training stability and balanced consideration of dimensions. The dot product operation can lead to exploding gradients during backpropagation, particularly in high-dimensional embedding spaces. To address this, a scaling factor, often the square root of the dimensionality ($\sqrt(d_k)$), is applied before the softmax function. This scaling prevents large gradients, stabilizing the training process.
 
-Furthermore, the scaling operation ensures a balanced contribution from different dimensions. Without it, certain dimensions could dominate attention scores, causing an imbalance in the model's focus on various aspects of the input. Dividing the dot products by $sqrt(d_k)$ normalizes the contributions, promoting a more equitable consideration of all dimensions during attention calculation.
+Furthermore, the scaling operation ensures a balanced contribution from different dimensions. Without it, certain dimensions could dominate attention scores, causing an imbalance in the model's focus on various aspects of the input. Dividing the dot products by $\sqrt(d_k)$ normalizes the contributions, promoting a more equitable consideration of all dimensions during attention calculation.
 
 **Q: Why do we use  Q, K, V in transformer, can we just use any one, or two of them?**
 
