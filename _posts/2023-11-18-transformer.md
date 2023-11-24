@@ -52,7 +52,7 @@ $$PE(pos, 2i) = sin(pos/10000^{2i/d_model}$$
 
 $$PE(pos, 2i+1) = cos(pos/10000^{2i/d_model}$$
 
-##### Attention mechanism:
+##### Attention mechanism
 
 It uses query $$Q$$, key $$K$$, value $$V$$,  simulating a query in the database with keys and values. The mechanism compares the similarity of the query to each key and finds the value corresponding to the most similar key. The attention scores are calculated as shown in the figure here:
 
@@ -77,7 +77,7 @@ It masks some values for decoding output. The output should not depend on future
 
 $$Attention(Q, K, V) = softmax(sim(Q, K^T))*V$$
 
-$$sim(Q, K) = (Q*K  + M)/sqrt(d_k)$$
+$$sim(Q, K) = (Q*K  + M)/\sqrt(d_k)$$
 
 where 
 
@@ -258,7 +258,7 @@ In summary, while the basic self-attention mechanism is similar, the differences
 **Q: Why do we need scaling of the dot product attention before applyg softmax?**
 
 
-A: Scaling the dot product in the self-attention mechanism of the Transformer is essential for training stability and balanced consideration of dimensions. The dot product operation can lead to exploding gradients during backpropagation, particularly in high-dimensional embedding spaces. To address this, a scaling factor, often the square root of the dimensionality ($sqrt(d_k)$), is applied before the softmax function. This scaling prevents large gradients, stabilizing the training process.
+A: Scaling the dot product in the self-attention mechanism of the Transformer is essential for training stability and balanced consideration of dimensions. The dot product operation can lead to exploding gradients during backpropagation, particularly in high-dimensional embedding spaces. To address this, a scaling factor, often the square root of the dimensionality ($\sqrt(d_k)$), is applied before the softmax function. This scaling prevents large gradients, stabilizing the training process.
 
 Furthermore, the scaling operation ensures a balanced contribution from different dimensions. Without it, certain dimensions could dominate attention scores, causing an imbalance in the model's focus on various aspects of the input. Dividing the dot products by $sqrt(d_k)$ normalizes the contributions, promoting a more equitable consideration of all dimensions during attention calculation.
 
