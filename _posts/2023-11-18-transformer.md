@@ -145,17 +145,18 @@ Language-Dependent Pretraining: Pretrained Transformers are often language-depen
 
 ### Common Q & A:
 
-** Q: Why use  sin and cos in the positional encoding?
+**Q: Why use  sin and cos in the positional encoding?**
 
 A: The use of sine and cosine functions allows the positional encoding to have a smooth and continuous representation of position. The frequency of the sine and cosine functions varies across dimensions, ensuring that different positions have distinct representations. This helps the model to learn and generalize well based on the position of tokens in the input sequence.
 
 The choice of sine and cosine functions is not unique; other functions could be used to achieve similar goals. The key is to provide the model with a way to differentiate between different positions in the input sequence. The sine and cosine functions were chosen in the original Transformer model for their smoothness and ability to capture positional information effectively.
 
-** Q: what do we need multi-head attention, not only one?
+**Q: what do we need multi-head attention, not only one?**
+
 A:  Multi-head attention uses multiple attention heads to capture diverse patterns and relationships in input sequences simultaneously. Each attention head learns different aspects of the data, promoting increased expressiveness and improving the model's ability to generalize to various input patterns. By allowing parallelization during training, multi-head attention enhances computational efficiency. The combination of outputs from different attention heads provides the model with a richer understanding of the input sequence, reducing overfitting and aiding in the learning of diverse representations. This mechanism has proven effective in natural language processing tasks and sequence-to-sequence applications, contributing to the success of the Transformer model in capturing complex dependencies in sequential data. 
 
 
-** Q: what Q, K, V represents in the context of input sentence?
+**Q: what Q, K, V represents in the context of input sentence?**
  
 A: in the context of the Transformer model, each token within each input sentence has its own set of associated Query (Q), Key (K), and Value (V) vectors. The self-attention mechanism in the Transformer operates at the token level, and it enables the model to consider the relationships and dependencies between all tokens in a given input sentence.
 
@@ -178,8 +179,7 @@ The attention scores are used to weight the corresponding Value vectors, and the
 This process is performed independently for each token within each input sentence. The use of individual Q, K, and V vectors for each token allows the model to capture complex relationships and dependencies within the input sentence. It provides the flexibility for the model to attend to different parts of the sentence for each position in the output sequence, contributing to the effectiveness of the Transformer architecture in natural language processing and sequence-to-sequence tasks.
 
 
-** Q: For inference, we don't have output token input for the decoder, how to inference the output?
-
+**Q: For inference, we don't have output token input for the decoder, how to inference the output?**
 
 A: During inference in a Transformer model, where you are generating output sequences autoregressively (i.e., one token at a time), the decoding process typically involves the following steps:
 
