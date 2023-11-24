@@ -21,6 +21,7 @@ It is an encoder and decoder architecure based on an attention mechanism.
 
 ### The transformer architecture
 As shown in the Figure below, 
+
 <img src="/assets/images/2023-11-15/transformer/transformer_architecture.png" width="300">
 
 The transformer model consists of encoder and decoder parts involving a multi-layer architecture. The input sequences are initially embedded into Query, Key, and Value vectors. These vectors serve as the basis for the self-attention mechanism, enabling simultaneous consideration of various sequence elements. The self-attention mechanism computes attention scores, emphasizing the importance of different elements and capturing intricate dependencies efficiently. With multiple self-attention heads, the model gains the ability to discern complex patterns. The attention-weighted vectors undergo feedforward transformations across multiple layers, refining the model's understanding of contextual relationships. During training, the model's parameters are updated through backpropagation and optimization processes, minimizing the difference between predicted and actual outputs. This comprehensive data flow, characterized by parallelizable computations and attention mechanisms, ensures the Transformer effectively learns intricate sequential dependencies, contributing to its success in various natural language processing tasks.
@@ -47,6 +48,7 @@ $$PE(pos, 2i+1) = cos(pos/10000^{2i/d_model}$$
 
 It uses query $Q$, key $K$, value $V$. which simulate the query in the database with keys and values. It compare the similarity of query of each key in the keys, and find the most similar key's value.
 The attention 's score are calculated in the figure shown here:
+
 <img src="/assets/images/2023-11-15/transformer/scaled_dot_prodcut.png" width="300">
 
 $$Attention(Q, K, V) = softmax(sim(Q, K^T))*V$$
@@ -68,6 +70,7 @@ where
 $M$ is a maksed matrix of $0$ or $-/infinity$, which to make the exponential of $-/infinity$ as 0, also masking before exponential makes the whole distribution prob as 1.
 
  Multi-head Attention shown below are calculated in parallel with $h$ attention layers.
+ 
  <img src="/assets/images/2023-11-15/transformer/multi_head_attention.png" width="300">
 
 $$MultiHead(Q, K, V) = concat(head_1,...,head_h)*W^O$$
