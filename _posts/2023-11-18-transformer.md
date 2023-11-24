@@ -17,7 +17,7 @@ The Transformer overcomes certain challenges posed by CNNs and RNNs in this cont
 * The model learns bidirectional information simultaneously, distinguishing itself from bidirectional LSTM models that learn directions independently.
 * The Transformer excels at capturing long-range dependencies, a critical factor in tasks like machine translation.
 
-## Table of Contents
+### Table of Contents
 
 1. [The Transformer Architecture](#the-transformer-architecture)
 2. [Advantages of the Transformer Model](#advantages-of-the-transformer-model)
