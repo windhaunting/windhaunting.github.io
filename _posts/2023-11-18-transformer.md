@@ -33,14 +33,13 @@ There are four main blocks in the transformer architecture.
 
 ##### Word Embedding
 
-The input is string of word sequence. It use word embedding algorithm to get the embedding of tokens from word input. e.g. We can use one-hot embedding as the word embedding method.
+The input is a string of word sequences. It uses a word embedding algorithm to obtain the embeddings of tokens from the word input. For example, one-hot embedding can be employed as the word embedding method.
 
 ##### Positional　Embedding：
 
-It is to solve the prolbem of the order of words.  It encodes the position as an integer and embedding as an vector.
-It chooses to add positional embedding to the input embeddings at the bottoms of the encoder and decoder stacks. If we concatenate it directly, it might impact the positional encoding, but it seems working well in practice.
+This addresses the issue of word order. It encodes the position as an integer and embeds it as a vector. Positional embedding is added to the input embeddings at the bottoms of the encoder and decoder stacks. While directly concatenating it might impact positional encoding, in practice, it appears to work well.
 
-The paper uses sine and cosine functions of different frequencies:
+The paper employs sine and cosine functions with different frequencies:
 
 $$PE(pos, 2i) = sin(pos/10000^{2i/d_model}$$
 
@@ -48,8 +47,7 @@ $$PE(pos, 2i+1) = cos(pos/10000^{2i/d_model}$$
 
 ##### Attention mechanism:
 
-It uses query $$Q$$, key $$K$$, value $$V$$. which simulate the query in the database with keys and values. It compare the similarity of query of each key in the keys, and find the most similar key's value.
-The attention 's score are calculated in the figure shown here:
+It uses query $$Q$$, key $$K$$, value $$V$$,  simulating a query in the database with keys and values. The mechanism compares the similarity of the query to each key and finds the value corresponding to the most similar key. The attention scores are calculated as shown in the figure here:
 
 <img src="/assets/images/2023-11-15/transformer/scaled_dot_prodcut.png" width="300">
 
