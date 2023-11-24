@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unlock the Transformer Model"
+title:  "Unlocking the Transformer Model"
 published: true
 mathjax: true
 date: 2023-11-18 17:48:16-0400
