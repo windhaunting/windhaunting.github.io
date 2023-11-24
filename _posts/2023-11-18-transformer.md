@@ -27,13 +27,6 @@ The Transformer overcomes certain challenges posed by CNNs and RNNs in this cont
 2. [Advantages of the Transformer Model](#advantages-of-the-transformer-model)
 3. [Disadvantages of the Transformer Model](#disadvantages-of-the-transformer-model)
 4. [Common Q & A](#common-q--a)
-   - [Why Use Sin and Cos in Positional Encoding?](#why-do-we-use-sin-and-cos-in-the-positional-encoding)
-   - [Why Multi-Head Attention?](#why-do-we-need-multi-head-attention-not-only-one)
-   - [Q, K, V Representation](#q-k-v-represent-in-the-context-of-input-sentence)
-   - [Inference in the Decoder](#for-inference-do-we-have-output-token-input-for-the-decoder-part-how-to-make-an-inference-for-the-output)
-   - [Encoder vs. Decoder](#how-is-the-encoder-different-from-the-decoder)
-   - [Scaling of Dot Product Attention](#why-do-we-need-scaling-of-the-dot-product-attention-before-applying-softmax)
-   - [Use of Q, K, V in Transformer](#why-do-we-use-q-k-v-in-transformer-can-we-just-use-any-one-or-two-of-them)
 5. [Reference](#reference)
 
 ### The transformer architecture
