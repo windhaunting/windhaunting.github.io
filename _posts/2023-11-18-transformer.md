@@ -207,7 +207,7 @@ It's important to note that during inference, the self-attention mechanism in th
 
 In practice, beam search is often used to explore multiple possible sequences simultaneously and improve the overall quality of generated sequences. Beam search maintains a set of the most likely partial sequences, expanding and selecting the top candidates at each step.
 
-** Q: How is the encoder different from decoder?
+**Q: How is the encoder different from decoder?**
 
 A: There are some key differences in how they are applied in the encoder and decoder:
 
@@ -233,14 +233,14 @@ Masked Self-Attention:
 To ensure a causal generation process during training, the self-attention mechanism in the decoder is often masked to prevent attending to future tokens. This masking ensures that the model attends only to tokens generated up to the current decoding step.
 In summary, while the basic self-attention mechanism is similar, the differences in directionality, context, and masking make the application of self-attention in the encoder and decoder distinct. The encoder focuses on capturing relationships within the input sequence, while the decoder utilizes self-attention for autoregressive generation with bidirectional context.
 
-* Q: Why do we need scaling of the dot product attention before applyg softmax?
+**Q: Why do we need scaling of the dot product attention before applyg softmax?**
 
 
 A: Scaling the dot product in the self-attention mechanism of the Transformer is essential for training stability and balanced consideration of dimensions. The dot product operation can lead to exploding gradients during backpropagation, particularly in high-dimensional embedding spaces. To address this, a scaling factor, often the square root of the dimensionality ($sqrt(d_k)$), is applied before the softmax function. This scaling prevents large gradients, stabilizing the training process.
 
 Furthermore, the scaling operation ensures a balanced contribution from different dimensions. Without it, certain dimensions could dominate attention scores, causing an imbalance in the model's focus on various aspects of the input. Dividing the dot products by $sqrt(d_k)$ normalizes the contributions, promoting a more equitable consideration of all dimensions during attention calculation.
 
-Q: Why do we use  Q, K, V in transformer, can we just use any one, or two of them ?
+**Q: Why do we use  Q, K, V in transformer, can we just use any one, or two of them?**
 
 A: The use of Q (Query), K (Key), and V (Value) in the Transformer's self-attention mechanism is a deliberate design choice that enhances the model's ability to capture intricate relationships within sequences. The Query vectors determine where the model should focus in the input sequence, allowing for position-specific attention. Keys provide the context against which Queries are compared, influencing the attention scores. Value vectors store the actual information associated with each position in the sequence.
 
