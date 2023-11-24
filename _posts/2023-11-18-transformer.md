@@ -41,7 +41,9 @@ It is to solve the prolbem of the order of words.  It encodes the position as an
 It chooses to add positional embedding to the input embeddings at the bottoms of the encoder and decoder stacks. If we concatenate it directly, it might impact the positional encoding, but it seems working well in practice.
 
 The paper uses sine and cosine functions of different frequencies:
+
 $$PE(pos, 2i) = sin(pos/10000^{2i/d_model}$$
+
 $$PE(pos, 2i+1) = cos(pos/10000^{2i/d_model}$$
 
 ##### Attention mechanism:
@@ -54,7 +56,7 @@ The attention 's score are calculated in the figure shown here:
 $$Attention(Q, K, V) = softmax(sim(Q, K^T))*V$$
 
 where
- 
+
 $$sim(Q, K) = Q*K/sqrt(d_k)$$
 
 $Q$, $K$, $V$ dimensions are $n$ x $d$,  Attention's dimension is $n$ x $d$.
@@ -65,6 +67,7 @@ Then the extened attentions of Masked multi-head Attention and Multi-head Attent
 Here is the masked Mutlti-head Atttention.
 
 It masks some values for decoding output. The output should not depend on future outputs.
+
 $$Attention(Q, K, V) = softmax(sim(Q, K^T))*V$$
 
 $$sim(Q, K) = (Q*K  + M)/sqrt(d_k)$$
