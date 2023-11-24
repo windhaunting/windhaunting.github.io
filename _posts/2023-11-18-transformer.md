@@ -187,15 +187,16 @@ Here's a summary of the process:
 (1) Embedding:
 
 Each token in the input sentence is first embedded into a high-dimensional vector.
-Linear Projections:
+
+(2) Linear Projections:
 
 Linear transformations are applied to the embedded vector of each token, resulting in separate Query (Q), Key (K), and Value (V) vectors for each token. These linear projections are parameterized by learned weight matrices.
 
-(2) Self-Attention Mechanism:
+(3) Self-Attention Mechanism:
 
 The self-attention mechanism computes attention scores between the Query vectors and the Key vectors for all tokens in the sentence. These attention scores determine the importance of each token with respect to the others.
 
-(3) Weighted Sum:
+(4) Weighted Sum:
 
 The attention scores are used to weight the corresponding Value vectors, and the weighted values are summed to obtain the output representation for each token in the sentence.
 This process is performed independently for each token within each input sentence. The use of individual Q, K, and V vectors for each token allows the model to capture complex relationships and dependencies within the input sentence. It provides the flexibility for the model to attend to different parts of the sentence for each position in the output sequence, contributing to the effectiveness of the Transformer architecture in natural language processing and sequence-to-sequence tasks.
