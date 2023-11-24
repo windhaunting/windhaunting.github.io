@@ -8,26 +8,26 @@ categories: default
 tags: [Machine Learning, NLP, Transformer, Self-Attention]
 ---
 
-The transformer was introduced in the context of machine translation with the purpose to avoid recursion in order to allow parallel computation. Attention in computer vision is widely used to highlight the important part of an image for image classification and detection, etc. It is designd to improve the efficiency and scalability of neural network models for sequence-to-sequence tasks, e.g. machine translation. It overcomes the problem of recurrent neural networks (RNNs) or convolutional neural networks (CNNs) in these areas:
- 
-* Reduce the sequential operations compared to RNN.
+The introduction of the Transformer model initially aimed to address the limitations of convolutional neural networks (CNNs) and recurrent neural networks (RNNs) in machine translation. The goal was to enable parallel computation and effectively handle long-range dependencies in sequences. While attention mechanisms were previously popular in computer vision for tasks like image classification and detection, the Transformer adapted them to enhance the efficiency and scalability of neural networks, especially in sequence-to-sequence tasks such as machine translation.
 
-* Learn bidirectional simultaneously, compared to bidirectional LSTM which learning directions separately.
+The Transformer overcomes certain challenges posed by CNNs and RNNs in this context:
 
- * Facilate long range dependencies.
+* It reduces sequential operations compared to RNNs, improving computational efficiency.
+* The model learns bidirectional information simultaneously, distinguishing itself from bidirectional LSTM models that learn directions independently.
+* The Transformer excels at capturing long-range dependencies, a critical factor in tasks like machine translation.
 
 
 It is an encoder and decoder architecure based on an attention mechanism.
 
 ### The transformer architecture
+As shown in the Figure below, 
 <img src="/assets/images/2023-11-15/transformer/transformer_architecture.png" width="300">
- The encoder part stacked is the basis of BERT model.
-  The decoder part stacked is the basis of GPT.
 
-The transformer model employs word embedding to transform a sequence of words into a corresponding sequence of vectors. Positional encoding serves the purpose of preserving the order of words in the sequence. Self-attention mechanisms are utilized to maintain awareness of relationships between words within both the input and output sequences. The Encoder-Decoder attention mechanism is employed to ensure that important information from the input sequence is preserved during machine translation tasks, preventing the loss of critical details. Additionally, the use of a residual connection network enables sub-units, such as self-attention, to concentrate on solving specific aspects of the problem at hand.
+The transformer model consists of encoder and decoder parts involving a multi-layer architecture. The input sequences are initially embedded into Query, Key, and Value vectors. These vectors serve as the basis for the self-attention mechanism, enabling simultaneous consideration of various sequence elements. The self-attention mechanism computes attention scores, emphasizing the importance of different elements and capturing intricate dependencies efficiently. With multiple self-attention heads, the model gains the ability to discern complex patterns. The attention-weighted vectors undergo feedforward transformations across multiple layers, refining the model's understanding of contextual relationships. During training, the model's parameters are updated through backpropagation and optimization processes, minimizing the difference between predicted and actual outputs. This comprehensive data flow, characterized by parallelizable computations and attention mechanisms, ensures the Transformer effectively learns intricate sequential dependencies, contributing to its success in various natural language processing tasks.
 
+It is noteworthy that the encoder part stacked is the basis of BERT model, and the decoder part stacked is the basis of GPT.
 
- There are four main blocks in the transformer architecture. 
+There are four main blocks in the transformer architecture. 
 
 
 ##### Word Embedding
