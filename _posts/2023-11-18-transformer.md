@@ -287,7 +287,6 @@ A: The use of Q (Query), K (Key), and V (Value) in the Transformer's self-attent
 The inclusion of all three components enables the self-attention mechanism to comprehensively capture dependencies in the data. By examining the content of Query, context from Key, and information stored in Value, the model gains a nuanced understanding of the input sequence. Using only one or two components might limit the model's capacity to grasp the full spectrum of dependencies and context in the data. This unique combination of Q, K, and V vectors in the Transformer contributes to its success in diverse tasks, allowing it to efficiently process sequential data and excel in natural language processing applications.
 
 
-
 ### Reference: 
 
 Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. "Attention is all you need." Advances in neural information processing systems 30 (2017).
