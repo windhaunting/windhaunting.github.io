@@ -279,3 +279,4 @@ Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan 
 
 Transformer code with Kera: https://www.tensorflow.org/text/tutorials/transformer#create_the_transformer
 
+https://blog.research.google/2017/08/transformer-novel-neural-network.html
