@@ -81,7 +81,7 @@ Training Data:
 For "quick", context: ["The", "brown"]
 For "brown", context: ["quick", "fox"]
 For "fox", context: ["brown", "jumps"]
-...
+
 
 (3) Model Architecture:
 
@@ -109,6 +109,7 @@ This example demonstrates how CBOW captures the relationships between words in a
 
   
 --  Example of skip-gram:
+
   Here's a simple example of how the Skip-Gram model works using a sentence:
 
 Here is the architecture of skip-gram.
@@ -120,16 +121,18 @@ Here is the architecture of skip-gram.
 
 Tokenize the sentence: ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog", "."]
 Create a vocabulary: ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog", "."]
+
 Context and Target:
 
 Consider a target word and predict its context words.
 Let's use a context window of size 2: two words before and after the target.
+
 Training Data:
 
 For "quick", predict: ["The", "brown"]
 For "brown", predict: ["quick", "fox"]
 For "fox", predict: ["brown", "jumps"]
-...
+
 
 (3) Model Architecture:
 
