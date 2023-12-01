@@ -25,7 +25,7 @@ The Transformer overcomes certain challenges posed by CNNs and RNNs in this cont
 4. [Common Q & A](#common-q--a)
 5. [Reference](#reference)
 
-### The transformer architecture
+### The Transformer Architecture
 
 As shown in the figure below, 
 
@@ -107,7 +107,7 @@ A little bit different to batch normalization, here it does the normalization at
 
 
 
-### The advantage of the transformer model
+### Advantages of the Transformer Model
 
 * Parallelization: Transformers utilize a self-attention mechanism that allows for parallel processing of input sequences. This parallelization significantly speeds up training and inference compared to sequential models like recurrent neural networks (RNNs).
 
@@ -137,7 +137,7 @@ A little bit different to batch normalization, here it does the normalization at
 <br />
 
 
-### The disadvantage of the transformer model
+### Disadvantages of the Transformer Model
 
 * Computational Intensity: Transformers are computationally intensive, especially for large models. Training and using them can require significant computational resources, including powerful GPUs or TPUs. This limits their accessibility to those without access to such resources.
 
