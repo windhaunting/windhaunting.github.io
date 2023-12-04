@@ -47,11 +47,6 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
       * [<span style="color:blue;"> Binary indexed tree</span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/binary_indexed_tree.md){:target="_blank"}
 
-
-* ##### Dynamic programming
-
-     * [<span style="color:blue;"> Dynamic programming summary </span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/Dynamic_programming.md){:target="_blank"}
-
 * ##### Divide and Conquer
      * [<span style="color:blue;"> Divide and Conquer </span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/divideConquer.md){:target="_blank"}
 
@@ -69,7 +64,12 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 * ##### Backtracking
      * [<span style="color:blue;"> Backtracking </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/backtracking.md){:target="_blank"}
-     
+
+
+* ##### Dynamic programming
+
+     * [<span style="color:blue;"> Dynamic programming summary </span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/Dynamic_programming.md){:target="_blank"}
+
 
 * ##### String match
      * [<span style="color:blue;"> Rabin karp and KMP algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/string_match.md)v
