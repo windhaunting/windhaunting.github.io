@@ -52,7 +52,7 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
      * [<span style="color:blue;"> Dynamic programming summary </span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/Dynamic_programming.md){:target="_blank"}
 
-* #### Divide and Conquer
+* ##### Divide and Conquer
      * [<span style="color:blue;"> Divide and Conquer </span>](  https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/divideConquer.md){:target="_blank"}
 
 * ##### Graph algorithms
