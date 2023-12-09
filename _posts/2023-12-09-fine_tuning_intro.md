@@ -37,7 +37,7 @@ PEFT strives to fine-tune only a small subset of the model's parameters, deliver
 
 LoRA adopts a more parameter-efficient approach, where the task-specific parameter increment ΔΦ = ΔΦ(Θ) is further encoded by a much smaller-sized set of parameters Θ.
 
-For a pre-trained weight matrix $\(W_0 \in \mathbb{R}^{d\times k}\)$, we constrain its update by representing the latter with a low-rank decomposition
+For a pre-trained weight matrix $$\(W_0 \in \mathbb{R}^{d\times k}\)$$, we constrain its update by representing the latter with a low-rank decomposition
 $$\[W_0 + \Delta W = W_0 + BA\]$$
 where $\(B \in \mathbb{R}^{d\times r}\)$, $\(A \in \mathbb{R}^{r\times k}\)$.
 
