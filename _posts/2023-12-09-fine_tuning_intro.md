@@ -12,9 +12,11 @@ With the advent of large pre-trained language models like BERT and GPT-3, fine-t
 
 Transfer learning is the practice of using a pre-trained model created for a specific task as a starting point for a related task. It entails taking advantage of the feature representations learned by the pre-trained model and applying them to a new model. This new model is then fine-tuned or trained further using a smaller, task-specific dataset. Transfer learning is particularly beneficial when working with limited data for the new task, as it allows leveraging knowledge gained from a larger dataset used in the original task.
 
+
 ### Fine-tuning:
 
 Fine-tuning, a subset of transfer learning, entails adjusting the weights of a pre-trained model on a task-specific dataset. It leverages the knowledge acquired during pre-training as a starting point but refines the model's parameters to better suit the characteristics of the new data. The degree of adjustment during fine-tuning is contingent on factors like the volume of available data and the similarity between the original and target tasks. This iterative process allows the model to adapt its learned features to the intricacies of the specific domain, optimizing performance for the task at hand. Fine-tuning strikes a balance between leveraging general knowledge from pre-training and tailoring the model to the nuances of a particular application.
+
 
 ##### Parameter efficient fine-tuning (PEFT):
 
