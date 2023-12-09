@@ -18,7 +18,7 @@ Transfer learning is the practice of using a pre-trained model created for a spe
 Fine-tuning, a subset of transfer learning, entails adjusting the weights of a pre-trained model on a task-specific dataset. It leverages the knowledge acquired during pre-training as a starting point but refines the model's parameters to better suit the characteristics of the new data. The degree of adjustment during fine-tuning is contingent on factors like the volume of available data and the similarity between the original and target tasks. This iterative process allows the model to adapt its learned features to the intricacies of the specific domain, optimizing performance for the task at hand. Fine-tuning strikes a balance between leveraging general knowledge from pre-training and tailoring the model to the nuances of a particular application.
 
 
-##### Parameter efficient fine-tuning (PEFT):
+##### Parameter Efficient Fine-tuning (PEFT):
 
 As models continue to grow in size, performing complete fine-tuning on consumer-grade hardware becomes impractical. Moreover, the cost of storing and deploying individually fine-tuned models for each downstream task is significantly high, given that these fine-tuned models have the same size as the initial pre-trained model. Parameter-Efficient Fine-tuning (PEFT) approaches aim to tackle both of these challenges.
 
@@ -65,7 +65,7 @@ It is intended to improve over LoRA. It rescales inner activations with learned 
 Fine-tuning is a dynamic field of study within active learning, with ongoing research and emerging techniques that are worth paying attention to.
 
  
-### Practical ways to fine-tuning
+### Practical Ways to Fine-tune LLM
 
 1. **Use OpenAI fine-tuning:**
 
