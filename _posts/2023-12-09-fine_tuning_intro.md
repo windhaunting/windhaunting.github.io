@@ -64,6 +64,7 @@ It is intended to improve over LoRA. It rescales inner activations with learned 
 
 Fine-tuning is a dynamic field of study within active learning, with ongoing research and emerging techniques that are worth paying attention to.
 
+ 
 ### Practical ways to fine-tuning
 
 1. **Use OpenAI fine-tuning:**
