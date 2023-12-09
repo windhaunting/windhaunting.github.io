@@ -33,7 +33,7 @@ PEFT strives to fine-tune only a small subset of the model's parameters, deliver
 - Re-parameterization: Decompose weight matrix updates into smaller-rank matrices (e.g., LoRA - low rank adaptation, Rank decomposition; IA(3), etc.).
 
 
-#### Popular FT Methods:
+#### Popular PEFT Methods:
 
 **LoRA (Low Rank Adaptation) - Rank Decomposition:**
 
