@@ -23,9 +23,13 @@ As models continue to grow in size, performing complete fine-tuning on consumer-
 PEFT focuses on optimizing model performance with limited computational resources. It involves adapting a pre-trained model to a specific task while minimizing the number of parameters. Strategies such as knowledge distillation, architecture search, and neural architecture optimization are employed to achieve optimal performance with reduced computational demands. This approach is especially valuable in scenarios where computational resources are constrained, aiming to strike a balance between model efficiency and task-specific accuracy.
 
 PEFT strives to fine-tune only a small subset of the model's parameters, delivering comparable performance to full fine-tuning but with a substantial reduction in computational demands. The common methods for PEFT are shown below:
+
 - Additive: used to add new tunable layers to the model, keeping the foundation model weights frozen and updating only the new layer weights. Examples include soft prompt (adding virtual token/vectors into an input sequence and then fine-tuning these vectors), prompt tuning (involves using a small trainable model before using the LLM to encode the text prompt and generate task-specific virtual tokens), prefix tuning (tune prefixes for every layer), and Adapter in transformer (adapters are small learned layers inserted within each layer of a pre-trained model).
+
 - Selective: update a few foundation model layers (e.g., BitFit, which only updates bias parameters; Diff Pruning, which creates task-specific diff vectors and only updates them).
+
 - Re-parameterization: Decompose weight matrix updates into smaller-rank matrices (e.g., LoRA - low rank adaptation, Rank decomposition; IA(3), etc.).
+
 
 #### Popular FT Methods:
 
@@ -49,6 +53,7 @@ This efficient fine-tuning approach utilizes 4-bit quantization and introduces i
 
 It is intended to improve over LoRA. It rescales inner activations with learned vectors.
 
+
 #### Limitations of PEFT:
 
 - Difficult to match the performance of full fine-tuning.
@@ -71,8 +76,8 @@ Fine-tuning is a dynamic field of study within active learning, with ongoing res
 
    There is a relatively high cost to use OpenAI and Google Vertex AI for fine-tuning models. Hugging Face provides lots of foundational models and a library for fine-tuning with several algorithms. For example, you could fine-tune a Transformer or llama 2 model with [LoRA algorithms through Hugging Face](https://www.philschmid.de/fine-tune-flan-t5-peft).
 
-### Reference:
 
+### Reference:
 
 - Ruder, Sebastian, Jonas Pfeiffer, and Ivan Vulić. "Modular and Parameter-Efficient Fine-Tuning for NLP Models." In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: Tutorial Abstracts, pp. 23-29. 2022.
 
