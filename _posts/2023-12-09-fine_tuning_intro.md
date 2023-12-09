@@ -66,15 +66,15 @@ Fine-tuning is a dynamic field of study within active learning, with ongoing res
 
 1. **Use OpenAI fine-tuning:**
 
-   If you have the OpenAI API subscription, you could fine-tune on the OpenAI's Fine-tuned Model of GPT-3.5 or GPT-4 (in the experimental stage so far). You could refer to the [OpenAI fine-tuning](https://platform.openai.com/docs/guides/fine-tuning) page or this [ChatGPT3.5 fine-tuning video](https://www.youtube.com/watch?v=W4Q9bKLNYiQ&ab_channel=AllAboutAI) for detailed steps.
+   If you have the OpenAI API subscription, you could fine-tune on the OpenAI's Fine-tuned Model of GPT-3.5 or GPT-4 (in the experimental stage so far). You could refer to the [OpenAI fine-tuning](https://platform.openai.com/docs/guides/fine-tuning){:target="_blank" rel="noopener noreferrer"} page or this [ChatGPT3.5 fine-tuning video](https://www.youtube.com/watch?v=W4Q9bKLNYiQ&ab_channel=AllAboutAI){:target="_blank" rel="noopener noreferrer"} for detailed steps.
 
 2. **Use Google PaLM 2 fine-tuning:**
 
-   Google Vertex AI provided the GenAI model with text, coding, chat foundation model, and you could fine-tune on it. You could refer to this [Vertex AI Fine-tuning](https://cloud.google.com/vertex-ai/docs/generative-ai/models/tune-models) with a step-by-step tutorial or use [PaLM 2 fine-tuning with Scikit-LLM](https://medium.com/@iryna230520/fine-tune-google-palm-2-with-scikit-llm-d41b0aa673a5).
+   Google Vertex AI provided the GenAI model with text, coding, chat foundation model, and you could fine-tune on it. You could refer to this [Vertex AI Fine-tuning](https://cloud.google.com/vertex-ai/docs/generative-ai/models/tune-models){:target="_blank" rel="noopener noreferrer"} with a step-by-step tutorial or use [PaLM 2 fine-tuning with Scikit-LLM](https://medium.com/@iryna230520/fine-tune-google-palm-2-with-scikit-llm-d41b0aa673a5){:target="_blank" rel="noopener noreferrer"}.
 
 3. **Other open-source ways:**
 
-   There is a relatively high cost to use OpenAI and Google Vertex AI for fine-tuning models. Hugging Face provides lots of foundational models and a library for fine-tuning with several algorithms. For example, you could fine-tune a Transformer or llama 2 model with [LoRA algorithms through Hugging Face](https://www.philschmid.de/fine-tune-flan-t5-peft).
+   There is a relatively high cost to use OpenAI and Google Vertex AI for fine-tuning models. Hugging Face provides lots of foundational models and a library for fine-tuning with several algorithms. For example, you could fine-tune a Transformer or llama 2 model with [LoRA algorithms through Hugging Face](https://www.philschmid.de/fine-tune-flan-t5-peft){:target="_blank" rel="noopener noreferrer"}.
 
 
 ### Reference:
