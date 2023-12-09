@@ -41,7 +41,7 @@ LoRA adopts a more parameter-efficient approach, where the task-specific paramet
 
 For a pre-trained weight matrix $$W_0 \in \mathbb{R}^{d\times k}$$, we constrain its update by representing the latter with a low-rank decomposition
 $$W_0 + \Delta W = W_0 + BA$$
-where $$B \in \mathbb{R}^{d\times r}$$, $$A \in \mathbb{R}^{r\times k}$$, and $$r<<min(d, k)$$.
+where $$B \in \mathbb{R}^{d\times r}$$, $$A \in \mathbb{R}^{r\times k}$$, and $$r \ll min(d, k)$$.
 
 **LoRA + int8 quantization:**
 
