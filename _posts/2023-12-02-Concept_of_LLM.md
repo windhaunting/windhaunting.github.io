@@ -9,7 +9,6 @@ tags: [Machine Learning, GenAI, Large Language Models, LLM]
 ---
 
 
-### LLMs (Large Language Models)
 Large language models (LLMs) are language models that can recognize, summarize, translate, predict, and generate content using very large datasets. They take text as input and predict what words or phrases are likely to come next. They are built using complex neural networks and trained on massive amounts of text data.
 
 ### Foundational models
