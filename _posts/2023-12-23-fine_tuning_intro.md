@@ -3,7 +3,7 @@ layout: post
 title: "Essentials of Fine-tuning LLM Models"
 published: true
 mathjax: true
-date: 2023-12-09 15:15:16 -0400
+date: 2023-12-23 15:15:16 -0400
 categories: default
 tags: [GenAI, LLM, NLP, Transfer Learning, Fine-tuning]
 ---
@@ -13,12 +13,12 @@ With the advent of large pre-trained language models like BERT and GPT-3, fine-t
 Transfer learning is the practice of using a pre-trained model created for a specific task as a starting point for a related task. It entails taking advantage of the feature representations learned by the pre-trained model and applying them to a new model. This new model is then fine-tuned or trained further using a smaller, task-specific dataset. Transfer learning is particularly beneficial when working with limited data for the new task, as it allows leveraging knowledge gained from a larger dataset used in the original task.
 
 
-### Fine-tuning:
+### Fine-tuning
 
 Fine-tuning, a subset of transfer learning, entails adjusting the weights of a pre-trained model on a task-specific dataset. It leverages the knowledge acquired during pre-training as a starting point but refines the model's parameters to better suit the characteristics of the new data. The degree of adjustment during fine-tuning is contingent on factors like the volume of available data and the similarity between the original and target tasks. This iterative process allows the model to adapt its learned features to the intricacies of the specific domain, optimizing performance for the task at hand. Fine-tuning strikes a balance between leveraging general knowledge from pre-training and tailoring the model to the nuances of a particular application.
 
 
-##### Parameter Efficient Fine-tuning (PEFT):
+##### Parameter Efficient Fine-tuning (PEFT)
 
 As models continue to grow in size, performing complete fine-tuning on consumer-grade hardware becomes impractical. Moreover, the cost of storing and deploying individually fine-tuned models for each downstream task is significantly high, given that these fine-tuned models have the same size as the initial pre-trained model. Parameter-Efficient Fine-tuning (PEFT) approaches aim to tackle both of these challenges.
 
@@ -33,7 +33,7 @@ PEFT strives to fine-tune only a small subset of the model's parameters, deliver
 - Re-parameterization: Decompose weight matrix updates into smaller-rank matrices (e.g., LoRA - low rank adaptation, Rank decomposition; IA(3), etc.).
 
 
-#### Popular PEFT Methods:
+#### Popular PEFT Methods
 
 **LoRA (Low Rank Adaptation) - Rank Decomposition:**
 
@@ -56,7 +56,7 @@ This efficient fine-tuning approach utilizes 4-bit quantization and introduces i
 It is intended to improve over LoRA. It rescales inner activations with learned vectors.
 
 
-#### Limitations of PEFT:
+#### Limitations of PEFT
 
 - Difficult to match the performance of full fine-tuning.
 - It's not always efficient for inference.
@@ -80,7 +80,7 @@ Fine-tuning is a dynamic field of study within active learning, with ongoing res
    There is a relatively high cost to use OpenAI and Google Vertex AI for fine-tuning models. Hugging Face provides lots of foundational models and a library for fine-tuning with several algorithms. For example, you could fine-tune a Transformer or llama 2 model with [LoRA algorithms through Hugging Face](https://www.philschmid.de/fine-tune-flan-t5-peft){:target="_blank" rel="noopener noreferrer"}.
 
 
-### Reference:
+### Reference
 
 - Ruder, Sebastian, Jonas Pfeiffer, and Ivan Vulić. "Modular and Parameter-Efficient Fine-Tuning for NLP Models." In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: Tutorial Abstracts, pp. 23-29. 2022.
 

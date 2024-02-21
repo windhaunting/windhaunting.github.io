@@ -72,7 +72,7 @@ In order to keep notes and share my understanding of computer algorithms, I summ
 
 
 * ##### String match
-     * [<span style="color:blue;"> Rabin karp and KMP algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/string_match.md)v
+     * [<span style="color:blue;"> Rabin karp and KMP algorithms </span>](https://github.com/windhaunting/Algorithm_Coding_Summary/blob/main/string_match.md)
      
 
 * ##### Sampling algorithms
