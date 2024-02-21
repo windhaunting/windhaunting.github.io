@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Concepts of Large Language Model"
+title:  "Concepts of Large Language Models"
 published: true
 # mathjax: true
 date:   2023-12-02 20:32:13 -0400
