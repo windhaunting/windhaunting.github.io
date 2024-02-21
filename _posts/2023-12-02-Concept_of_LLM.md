@@ -3,7 +3,7 @@ layout: post
 title:  "Concepts of Large Language Model"
 published: true
 # mathjax: true
-date:   2023-12-02 21:30:13 -0400
+date:   2023-12-02 20:32:13 -0400
 categories: default
 tags: [Machine Learning, GenAI, Large Language Models, LLM]
 ---
