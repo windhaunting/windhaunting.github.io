@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Distributed Neural Network Training"
