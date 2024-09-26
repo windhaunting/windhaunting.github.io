@@ -47,3 +47,16 @@ When working with deep learning models, the sheer volume of data and computation
 ### Conclusion
 
 As machine learning models grow in complexity and scale, distributed training is becoming an essential tool for data scientists and engineers. By leveraging frameworks like Horovod, TensorFlow, and tools like Kubernetes and Paperspace, you can optimize your deep learning pipelines for speed, reliability, and scalability.
+
+
+### References:
+
+- Distributed Training (TensorFlow, MPI, & Horovod) - AI Wiki​(
+Artificial Intelligence Wiki | AI Wiki
+)
+- Distributed Training Guide for Data Scientists - Neptune.ai​(
+neptune.ai
+)
+- Distributed Training Using TensorFlow and Horovod - Intel Gaudi​(
+Intel Gaudi Developers
+)
