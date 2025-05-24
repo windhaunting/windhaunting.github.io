@@ -259,7 +259,7 @@ Masked Self-Attention:
 To ensure a causal generation process during training, the self-attention mechanism in the decoder is often masked to prevent attending to future tokens. This masking ensures that the model attends only to tokens generated up to the current decoding step.
 In summary, while the basic self-attention mechanism is similar, the differences in directionality, context, and masking make the application of self-attention in the encoder and decoder distinct. The encoder focuses on capturing relationships within the input sequence, while the decoder utilizes self-attention for autoregressive generation with bidirectional context.
 
-**Q: Why do we need scaling of the dot product attention before applyg softmax?**
+**Q: Why do we need scaling of the dot product attention before applying softmax?**
 
 
 A: Scaling the dot product in the self-attention mechanism of the Transformer is essential for training stability and balanced consideration of dimensions. The dot product operation can lead to exploding gradients during backpropagation, particularly in high-dimensional embedding spaces. To address this, a scaling factor, often the square root of the dimensionality ($\sqrt(d_k)$), is applied before the softmax function. This scaling prevents large gradients, stabilizing the training process.
