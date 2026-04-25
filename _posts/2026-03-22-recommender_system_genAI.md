@@ -126,12 +126,8 @@ This is the most common trick. Split the ID into levels that mirror your categor
 Example for e‑commerce:
 [level1: category] → [level2: subcategory] → [level3: product type] → [level4: numeric id]
 
-text
-
 So a coffee maker might become:
 Home → Kitchen Appliances → Coffee Makers → 00472
-
-text
 
 Why this helps:  
 The model learns that “Home → Kitchen Appliances → Coffee Makers” is a common prefix. Even if it never saw product `00472` during training, it can guess the right prefix based on the query. That’s the whole point of generalization.
@@ -170,8 +166,6 @@ Some recent work (not yet a single canonical paper) suggests: don’t generate i
 
 So for a query “bluetooth speaker under $50”, the model generates:
 brand: Anker, category: Speakers, max_price: 50, color: black
-
-text
 
 Then a simple key‑value store returns the matching item.
 
