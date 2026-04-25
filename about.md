@@ -17,4 +17,4 @@ Machine Learning, Data Analytics, Graph Analytics, Video Analytics
 
 ##### My hobbies:
 
-Workout, Hiking, Reading, Playing piano/guitar.
+Tennis, Workout, Hiking, Reading, Playing piano/guitar.
