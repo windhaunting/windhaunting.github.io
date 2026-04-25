@@ -9,9 +9,10 @@ tags: [Machine Learning, Recommender system]
 ---
 
 
-Here are my notes for recommender systems.
+Recommender systems are at the core of many modern products, powering personalized experiences across e-commerce, streaming platforms, and search. From suggesting what to watch next to helping users discover relevant products in massive catalogs, these systems directly impact user engagement, conversion, and overall business outcomes. 
 
-Several types of machine learning algorithms are commonly available for building recommender systems:
+In this post, I provide a structured overview of key recommender system approaches—from classical methods like collaborative filtering and matrix factorization to modern deep learning and multi-stage production architectures. I also cover practical challenges such as cold start, long-tail distribution, and exploration vs. exploitation, along with commonly used evaluation metrics. This serves as a concise reference for both foundational concepts and real-world system design.
+
 
 ##### Collaborative Filtering:
 
