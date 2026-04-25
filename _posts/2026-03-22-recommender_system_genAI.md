@@ -8,8 +8,6 @@ tags: [generative retrieval, RecSys, LLM, RAG, DSI]
 ---
 
 
-#### Generation is the New Retrieval: A Tour of Generative Recommender Systems
-
 Recommender systems have been on a quiet but weird journey over the last few years.
 
 For ages, the recipe was simple: learn embeddings for users and items, find nearest neighbors (FAISS, Annoy, whatever), then run a heavy ranker on top. Classic.
@@ -56,11 +54,11 @@ Cool, but also a bit scary (hallucination is real).
 
 This is where things get radical. Two papers from 2021–2022 asked: *what if the model itself is the index?*
 
-#####  Differentiable Search Index (DSI) – Tay et al., Google 2022
+* Differentiable Search Index (DSI) – Tay et al., Google 2022
 
 They replaced a full search index with a Transformer. Every document gets a learned ID. The model learns to map queries → document IDs. No FAISS, no ANN. Just the weights.
 
-#####  Autoregressive Entity Retrieval (AER) – De Cao et al., 2021
+* Autoregressive Entity Retrieval (AER) – De Cao et al., 2021
 
 Similar vibe, but focused on entities (products, knowledge graph entries). You treat each entity ID as a token sequence, and generate it token‑by‑token given a query.
 
