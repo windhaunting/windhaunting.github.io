@@ -2,13 +2,13 @@
 layout: post
 title: "Generation is the New Retrieval: A Tour of Generative Recommender Systems"
 published: true
-date: 2026-03-22
+date: 2026-03-22 20:26:12 -0400
 categories: default
 tags: [generative retrieval, RecSys, LLM, RAG, DSI]
 ---
 
 
-# Generation is the New Retrieval: A Tour of Generative Recommender Systems
+#### Generation is the New Retrieval: A Tour of Generative Recommender Systems
 
 Recommender systems have been on a quiet but weird journey over the last few years.
 
@@ -22,7 +22,7 @@ Turns out, that question spawned a whole family of research—from sequential re
 
 ---
 
-## 1. Where it started: Sequential recommendation
+#####  1. Where it started: Sequential recommendation
 
 Before “generative retrieval” was a buzzword, we already had Transformers modeling user clicks. Two papers basically set the stage:
 
@@ -33,18 +33,18 @@ The key insight back then: treat item sequences like language. But both still ne
 
 ---
 
-## 2. LLMs enter the chat: From ranking to generation
+#####  2. LLMs enter the chat: From ranking to generation
 
 Once LLMs got good, researchers couldn’t help themselves. They asked: *why not just use a language model directly as a recommender?*
 
 Two broad directions emerged.
 
-### Zero‑shot ranking
+##### Zero‑shot ranking
 
 There’s a paper by Hou et al. (2023-ish) on “LLMs as Zero‑Shot Rankers”. The idea is embarrassingly simple:  
 You dump the user’s history and some candidate items into a prompt, and ask the LLM to pick the best. No training, no fine‑tuning. It actually works okay for cold‑start or semantic matches, but it’s slow and can’t scale to millions of candidates.
 
-### Generative recommendation
+##### Generative recommendation
 
 Then Bao et al. took it further. Instead of ranking existing candidates, they made the LLM **generate the next item directly**. That flips the problem: you’re not selecting from a fixed catalog anymore. The model could, in theory, invent a reasonable item it’s barely seen before.
 
@@ -52,15 +52,15 @@ Cool, but also a bit scary (hallucination is real).
 
 ---
 
-## 3. The crazy one: Removing the index entirely
+#####  3. The crazy one: Removing the index entirely
 
 This is where things get radical. Two papers from 2021–2022 asked: *what if the model itself is the index?*
 
-### Differentiable Search Index (DSI) – Tay et al., Google 2022
+#####  Differentiable Search Index (DSI) – Tay et al., Google 2022
 
 They replaced a full search index with a Transformer. Every document gets a learned ID. The model learns to map queries → document IDs. No FAISS, no ANN. Just the weights.
 
-### Autoregressive Entity Retrieval (AER) – De Cao et al., 2021
+#####  Autoregressive Entity Retrieval (AER) – De Cao et al., 2021
 
 Similar vibe, but focused on entities (products, knowledge graph entries). You treat each entity ID as a token sequence, and generate it token‑by‑token given a query.
 
@@ -73,7 +73,7 @@ In theory, this scales better with corpus size because cost depends on ID length
 
 ---
 
-## 4. The pragmatic hero: RAG
+#####  4. The pragmatic hero: RAG
 
 Let’s be real. Most of us can’t ditch our indexes overnight. That’s where **Retrieval‑Augmented Generation (RAG)** comes in (Lewis et al., 2020).
 
@@ -86,7 +86,7 @@ This is the dominant architecture in production today. You get scalability from 
 
 ---
 
-## 5. Generative ranking: A smaller step that actually works
+#####  5. Generative ranking: A smaller step that actually works
 
 Not everyone wants to throw away their retrieval pipeline. Some just want to improve the ranking stage.
 
@@ -97,7 +97,7 @@ You can do pointwise (score each item) or listwise (generate the whole ordered l
 
 ---
 
-## 6. What’s still hard
+#####  6. What’s still hard
 
 Pure generative retrieval isn’t winning production hearts (yet). Why?
 
@@ -109,7 +109,7 @@ That said, new work on **structured IDs** (hierarchical codes, tree‑based toke
 
 ---
 
-## 7. So, how do you actually design item IDs for generative retrieval?
+#####  7. So, how do you actually design item IDs for generative retrieval?
 
 I promised a follow‑up, so here it is.
 
@@ -121,7 +121,7 @@ Over the last couple of years, people have tried a few different strategies. Her
 
 ---
 
-### Approach 1: Hierarchical IDs (the safe bet)
+###### Approach 1: Hierarchical IDs (the safe bet)
 
 This is the most common trick. Split the ID into levels that mirror your category tree.
 
@@ -143,7 +143,7 @@ If your category tree is messy or changes often (hello, marketplace sellers inve
 
 ---
 
-### Approach 2: Semantic IDs from product titles or descriptions
+######  Approach 2: Semantic IDs from product titles or descriptions
 
 Instead of hand‑crafting categories, you can cluster items using a pretrained embedding (say, from a BERT model fine‑tuned on product titles). Then assign each cluster a token, and each item a cluster‑specific ID.
 
@@ -156,7 +156,7 @@ The model learns to predict the semantic cluster first, then the specific item. 
 
 ---
 
-### Approach 3: Learned IDs (the fancy but fragile one)
+######  Approach 3: Learned IDs (the fancy but fragile one)
 
 DSI tried this: treat the IDs as learnable parameters. You randomly initialize an ID sequence for each item and train the model to predict them end‑to‑end.
 
@@ -166,7 +166,7 @@ My take: skip learned IDs unless you have tons of data and a strong regularizati
 
 ---
 
-### Approach 4: Attribute‑level generation (the new hotness)
+######  Approach 4: Attribute‑level generation (the new hotness)
 
 Some recent work (not yet a single canonical paper) suggests: don’t generate item IDs at all. Generate the **attributes** that define an item, then map attributes to actual items via a lookup table.
 
@@ -187,7 +187,7 @@ The tradeoff: if two items have identical attributes, you need a fallback (like 
 
 ---
 
-## What I’d recommend for a real project
+##### What I’d recommend for a real project
 
 If you’re building a generative retrieval system tomorrow:
 
@@ -200,7 +200,7 @@ And one more thing: no matter the ID design, you still need a **fallback retriev
 
 ---
 
-## 8. Where I think we’re headed
+##### 8. Where I think we’re headed
 
 Despite the hype, I don’t see pure generative retrieval killing dense retrieval in the next year or two. But the trajectory is clear:
 
@@ -213,7 +213,7 @@ It’s messy, but it’s also the most interesting change in RecSys since the de
 
 ---
 
-## References
+##### References
 
 1. **SASRec** – Kang, W. C., & McAuley, J. (2018). Self-Attentive Sequential Recommendation. *IEEE ICDM*. [arXiv:1808.09781](https://arxiv.org/abs/1808.09781)
 
