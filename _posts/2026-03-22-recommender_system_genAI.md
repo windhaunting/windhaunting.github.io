@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generation is the New Retrieval: A Tour of Generative Recommender Systems"
-published: false
+published: true
 date: 2026-03-22
 categories: default
 tags: [generative retrieval, RecSys, LLM, RAG, DSI]
