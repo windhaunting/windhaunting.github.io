@@ -75,12 +75,12 @@ These stages include candidate retrieval, ranking and reranking. candidate retri
 business constraints with high recall. ranking stage rank with smaller set of items with high precision. sometimes, ranking stage also include two stages- light ranking and heavy ranking to balance the recall and precision. reranking stage could further consider some business constraint and diversity, etc.
 
 
-### Generative Recommender Systems
+#### Generative Recommender Systems
 with the development of Generative AI, generative recommender system are actively in research and shows promissing results. It generates item IDs directly as tokens using a sequence model which treats recommendation as a sequence generation problem. I would like to cover in the later blogs.
 
 
-### Some of the common problems in recommender systems
-#### Cold Start Problem:
+#### Some of the common problems in recommender systems
+##### Cold Start Problem:
 
 Addressing the cold start problem in recommendation systems, particularly for new items or new users, requires innovative strategies to provide meaningful suggestions to users. Here are the top five methods.
 
@@ -109,7 +109,7 @@ Dynamically adapt recommendations based on user responses.
 Enhance the system's understanding of user preferences over time
 
 
-#### Long-Tail Problem
+##### Long-Tail Problem
 Few popular items dominate interactions, Most items (long tail) are rarely seen. 
 *  Use Diversity-aware ranking
 *  Reweighting / debiasing
@@ -133,11 +133,11 @@ We could fix these with:
 * Thompson Sampling
 
 
-### Metrics
+#### Metrics
 
-#### Recommendation System Metrics
+##### Recommendation System Metrics
 
-##### Offline Metrics
+###### Offline Metrics
 When you're building a recommendation system, you start by testing it with existing data. Here's how you can see how well it's working:
 
 - **Precision**: This is about how many of the things you recommend are actually good choices. If you recommend 10 movies and your friend likes 7, you've got good precision.
@@ -156,7 +156,7 @@ When you're building a recommendation system, you start by testing it with exist
 
 - **AUC**: This measures how well your system can tell the difference between something your friend will like and something they won’t.
 
-##### Online Metrics
+###### Online Metrics
 Once your recommendation system is up and running with real users, you want to see how it's doing in the wild. Here’s what you should keep an eye on:
 
 - **Click-Through Rate (CTR)**: This is like counting how often people click on the things you recommend. A high CTR means your recommendations are catching their interest.
