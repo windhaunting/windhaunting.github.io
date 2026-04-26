@@ -109,7 +109,6 @@ That said, new work on **structured IDs** (hierarchical codes, tree‑based toke
 
 #####  7. So, how do you actually design item IDs for generative retrieval?
 
-I promised a follow‑up, so here it is.
 
 If you’ve read the papers on DSI or Autoregressive Entity Retrieval, you’ll notice they breeze over one painfully practical detail: *where do the item IDs come from?*
 
