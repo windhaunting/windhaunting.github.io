@@ -5,22 +5,9 @@ css: ["projects.css"]
 js: ["https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js", "projects.js"]
 ---
 
-<br />
-### Research Projects
+### Publications & Patents
 
-Configuration Adaptation for Video Analytics through Movement Tracking [<span style="color:blue;">Link</span>](./assets/docs/GLOBECOM_Video_Analytics.pdf)
-
-Scalable Top-k Query on Information Networks with Hierarchical Inheritance Relations [<span style="color:blue;">Link</span>](./assets/docs/Graph_query_paper.pdf)
-
-Automatic Integration of Network Management Databases [<span style="color:blue;">Link</span>](./assets/docs/NEMA.pdf)
-
-System Fault Detection for Multivariate Time Series [<span style="color:blue;">Link</span>](./assets/docs/Bentley_intern_System_fault_detection_for_multivariate_time_series.pdf)
-
-Lifestyle-based Personalized Query in Drug Networks [<span style="color:blue;">Link</span>](./assets/docs/Lifestyle-based Personalized Query in Drug Networks.pdf)
-
-<br />
-
-### Publication
+• Fubao Wu, et al. Recommendation Data for Fulfilling an Order. U.S. Patent Publication No. US 2026/0120165, published Apr. 30, 2026.
 
 • Zhou, Tian, Fubao Wu, and Lixin Gao. "Profiling-free Configuration Adaptation and Latency-Aware Resource Scheduling for Video Analytics." In 2022 IEEE International Conference on Big Data (Big Data), pp. 1202-1211. IEEE, 2022.
 
@@ -39,7 +26,24 @@ and Information Security (ICITIS), IEEE International Conference on, pp. 242-246
 • Jinyu Ni, Fubao Wu, Chunhui Xie. ”A steganalysis method in DCT domain for JPEG images”. Microcomputer
 and its Applications(In Chinese).30(8) pp.39-44.2011.
 
+
 <br />
+
+<br />
+### Research Projects
+
+Configuration Adaptation for Video Analytics through Movement Tracking [<span style="color:blue;">Link</span>](./assets/docs/GLOBECOM_Video_Analytics.pdf)
+
+Scalable Top-k Query on Information Networks with Hierarchical Inheritance Relations [<span style="color:blue;">Link</span>](./assets/docs/Graph_query_paper.pdf)
+
+Automatic Integration of Network Management Databases [<span style="color:blue;">Link</span>](./assets/docs/NEMA.pdf)
+
+System Fault Detection for Multivariate Time Series [<span style="color:blue;">Link</span>](./assets/docs/Bentley_intern_System_fault_detection_for_multivariate_time_series.pdf)
+
+Lifestyle-based Personalized Query in Drug Networks [<span style="color:blue;">Link</span>](./assets/docs/Lifestyle-based Personalized Query in Drug Networks.pdf)
+
+<br />
+
 
 ### Course Projects
 
